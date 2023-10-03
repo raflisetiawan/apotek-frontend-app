@@ -1,0 +1,9 @@
+{
+  "appId": "org.apotek.app",
+  "appName": "apotek",
+  "webDir": "www",
+  "server": {
+    "androidScheme": "https",
+    "url": "http://192.168.19.250:9500"
+  }
+}

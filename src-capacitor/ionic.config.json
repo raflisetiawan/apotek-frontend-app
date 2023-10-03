@@ -1,0 +1,7 @@
+{
+  "name": "apotek",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "custom"
+}
