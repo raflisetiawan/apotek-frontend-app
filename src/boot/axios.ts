@@ -16,7 +16,7 @@ declare module '@vue/runtime-core' {
 const api = axios.create({
   baseURL: 'http://127.0.0.1:8000/api/',
   // baseURL: 'https://apotekcuy.000webhostapp.com/api/',
-  // baseURL: 'https://1894-180-253-165-189.ngrok-free.app/api/',
+  // baseURL: 'https://1f28-180-253-165-80.ngrok-free.app/api/',
   headers: {
     'ngrok-skip-browser-warning': 'any',
   },

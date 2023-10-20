@@ -1,0 +1,50 @@
+[
+  {
+    "idTransaksi": 1808,
+    "tanggal": "2023-02-01T00:00:00.000Z",
+    "nama": "tropical fruit",
+    "harga": "Rp.40.000"
+  },
+  {
+    "idTransaksi": 2552,
+    "tanggal": "2023-02-01T00:00:00.000Z",
+    "nama": "whole milk",
+    "harga": "Rp.40.001"
+  },
+  {
+    "idTransaksi": 2300,
+    "tanggal": "2023-02-01T00:00:00.000Z",
+    "nama": "pip fruit",
+    "harga": "Rp.40.002"
+  },
+  {
+    "idTransaksi": 1187,
+    "tanggal": "2023-02-01T00:00:00.000Z",
+    "nama": "other vegetables",
+    "harga": "Rp.40.003"
+  },
+  {
+    "idTransaksi": 3037,
+    "tanggal": "2023-02-01T00:00:00.000Z",
+    "nama": "whole milk",
+    "harga": "Rp.40.004"
+  },
+  {
+    "idTransaksi": 4941,
+    "tanggal": "2023-02-01T00:00:00.000Z",
+    "nama": "rolls/buns",
+    "harga": "Rp.40.005"
+  },
+  {
+    "idTransaksi": 4501,
+    "tanggal": "2023-02-01T00:00:00.000Z",
+    "nama": "other vegetables",
+    "harga": "Rp.40.006"
+  },
+  {
+    "idTransaksi": 3803,
+    "tanggal": "2023-02-01T00:00:00.000Z",
+    "nama": "pot plants",
+    "harga": "Rp.40.007"
+  }
+]

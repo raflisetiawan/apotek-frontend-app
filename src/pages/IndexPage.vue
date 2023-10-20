@@ -18,7 +18,7 @@
       </div>
       <div class="col-4 q-mt-lg">
         <q-btn color="primary" class="q-mb-md" :to="{ name: 'TransactionPage' }">Data Transaksi</q-btn>
-        <q-btn color="primary" class="q-mb-md">Data Transaksi</q-btn>
+        <q-btn color="primary" class="q-mb-md" :to="{ name: 'ImportTransactionPage' }">Import Transaksi</q-btn>
         <q-btn color="primary" class="q-mb-md">Data Transaksi</q-btn>
       </div>
     </div>

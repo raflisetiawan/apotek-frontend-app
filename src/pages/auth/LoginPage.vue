@@ -113,6 +113,8 @@ const onSubmit = async (): Promise<void> => {
     } finally {
       loadingLogin.value = false;
     }
+  } else {
+    v$.value.$touch();
   }
 
 }

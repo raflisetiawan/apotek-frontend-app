@@ -15,6 +15,27 @@ const routes: RouteRecordRaw[] = [
         component: () => import('pages/transactions/IndexPage.vue'),
         name: 'TransactionPage',
       },
+      {
+        path: '/transaction/upload',
+        component: () => import('pages/transactions/ImportTransactionPage.vue'),
+        name: 'ImportTransactionPage',
+      },
+      {
+        path: '/oneitemset',
+        component: () => import('pages/calculations/OneItemSetsPage.vue'),
+        name: 'OneItemSetsPage',
+      },
+      {
+        path: '/oneitemsetwithminimumsupport',
+        component: () =>
+          import('pages/calculations/OneItemSetsWithMinimumSupportPage.vue'),
+        name: 'OneItemSetsWithMinimumSupportPage',
+      },
+      {
+        path: '/twoitemset',
+        component: () => import('pages/calculations/TwoItemSetsPage.vue'),
+        name: 'TwoItemSetsPage',
+      },
     ],
     meta: { requiresAuth: true },
   },

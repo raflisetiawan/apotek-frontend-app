@@ -5,6 +5,7 @@ import {
   minLength,
   helpers,
   sameAs,
+  numeric,
 } from '@vuelidate/validators';
 
 const useRequired = (): ValidationRuleWithParams => {
@@ -26,4 +27,8 @@ const useConfirmPassword = (passwordModel: string) => {
   return sameAs(passwordModel);
 };
 
-export { useRequired, useMinLength, useEmail, useConfirmPassword };
+const usePrice = (): ValidationRuleWithParams => {
+  return helpers.withMessage('Harga harus angka', numeric);
+};
+
+export { useRequired, useMinLength, useEmail, useConfirmPassword, usePrice };

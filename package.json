@@ -17,8 +17,11 @@
     "@vuelidate/core": "^2.0.3",
     "@vuelidate/validators": "^2.0.4",
     "axios": "^1.2.1",
+    "csv-string": "^4.1.1",
+    "json-2-csv": "^4.1.0",
     "pinia": "^2.0.11",
     "quasar": "^2.6.0",
+    "read-excel-file": "^5.7.1",
     "vue": "^3.0.0",
     "vue-i18n": "^9.4.1",
     "vue-router": "^4.0.0"
