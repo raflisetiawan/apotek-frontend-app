@@ -24,3 +24,8 @@ export interface TransactionRowUpdateModel {
   row: Transaction;
   index: number;
 }
+
+export interface Itemset {
+  support: number;
+  items: string[];
+}

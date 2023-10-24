@@ -36,13 +36,11 @@
 import { useCalculationStore } from 'stores/calculation';
 import { useDateMonthYear } from 'src/composables/dates';
 import { useRouter } from 'vue-router';
-import { api } from 'src/boot/axios';
-
-const { transactions } = useCalculationStore();
+import axios from 'axios';
 const router = useRouter();
 
 // Data tabel
-const { getOneItemSet } = useCalculationStore();
+const { getOneItemSet, getTransactionPerDate, /*transactions ,*/ setItemsWithSupport } = useCalculationStore();
 
 // Mengambil tanggal dari objek sebagai array kunci
 const dates = Object.keys(getOneItemSet);
@@ -51,14 +49,27 @@ const dates = Object.keys(getOneItemSet);
 const uniqueMedicines = dates.length > 0 ? Object.keys(getOneItemSet[dates[0]]) : [];
 const handleCalculate = async () => {
 
-  const response = await api.post('apriori/twoitemset', { transactions }, {
+  console.log(getTransactionPerDate);
+
+
+  const response = await axios.post('http://localhost:9100/api/apriori', { transactions: getTransactionPerDate }, {
     headers: {
-      Authorization: `Bearer ${localStorage.getItem('token')}`
+      Accept: 'application/json',
+      'Content-Type': 'application/json'
     }
   })
-  console.log(response);
 
-  // router.push({ name: 'OneItemSetsWithMinimumSupportPage' })
+  setItemsWithSupport(response.data.frequentItemsets)
+
+
+  // const response = await api.post('apriori', { transactions: getTransactionPerDate }, {
+
+  //   headers: {
+  //     Authorization: `Bearer ${qCookies.get('token')}`
+  //   }
+  // })
+  console.log(response);
+  router.push({ name: 'OneItemSetsWithMinimumSupportPage' })
 }
 </script>
 

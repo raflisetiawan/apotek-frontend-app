@@ -47,6 +47,8 @@ import { api } from 'src/boot/axios';
 import { LoginError, LoginForm } from 'src/models/auth';
 import axios from 'axios';
 import { useRouter } from 'vue-router';
+import { useQuasar } from 'quasar';
+const { cookies: qCookies } = useQuasar();
 
 const router = useRouter();
 
@@ -80,8 +82,18 @@ const onSubmit = async (): Promise<void> => {
           Accept: 'application/json',
         }
       })
-      localStorage.setItem('signedIn', 'true');
-      localStorage.setItem('token', response.data.token);
+      qCookies.set('signedIn', 'true', {
+        expires: new Date(new Date().getTime() + 7 * 24 * 60 * 60 * 1000), // Cookie berlaku selama 7 hari
+        secure: true, // Cookie hanya berlaku di mode HTTPS
+        sameSite: 'Strict',
+      });
+      qCookies.set('token', response.data.token, {
+        expires: new Date(new Date().getTime() + 7 * 24 * 60 * 60 * 1000), // Cookie berlaku selama 7 hari
+        secure: true, // Cookie hanya berlaku di mode HTTPS
+        sameSite: 'Strict',
+      });
+
+
       router.push({ name: 'HomePage' })
 
     } catch (error) {

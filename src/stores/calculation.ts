@@ -1,12 +1,35 @@
 import { defineStore } from 'pinia';
+import { Itemset } from 'src/models/transaction';
 export const useCalculationStore = defineStore('calculation', {
   state: () => ({
     oneItemSet: [] as any,
     transactions: [] as any,
     uniqueMedicines: [] as any,
+    itemsWithSupport: [] as Itemset[],
+    oneItemSetWithSupport: [] as Itemset[],
+    twoItemSetWithSupport: [] as Itemset[],
   }),
   getters: {
     getOneItemSet: (state) => state.oneItemSet,
+    getItemsWithSupport: (state) => state.itemsWithSupport,
+    getTransactionPerDate: (state) => {
+      // Membuat objek yang akan menyimpan data transaksi per tanggal
+      const transactionsByDate: Record<string, string[]> = {};
+
+      // Kelompokkan transaksi berdasarkan tanggal
+      state.transactions.forEach((transaction: any) => {
+        const date = new Date(transaction.tanggal).toDateString();
+        if (!transactionsByDate[date]) {
+          transactionsByDate[date] = [];
+        }
+        transactionsByDate[date].push(transaction.nama);
+      });
+
+      // Ubah objek menjadi array tanpa tanggal
+      const result: string[][] = Object.values(transactionsByDate);
+
+      return result;
+    },
   },
   actions: {
     setOneItemSet(data: any) {
@@ -49,6 +72,26 @@ export const useCalculationStore = defineStore('calculation', {
         });
       });
       this.oneItemSet = table;
+    },
+
+    setItemsWithSupport(items: Itemset[]) {
+      this.itemsWithSupport = items;
+
+      // Membuat objek baru untuk item dengan panjang 1
+      const itemsLength1 = this.itemsWithSupport.filter(
+        (item) => item.items.length === 1
+      );
+      this.oneItemSetWithSupport = itemsLength1;
+
+      // Membuat objek baru untuk item dengan panjang 2
+      const itemsLength2 = this.itemsWithSupport.filter(
+        (item) => item.items.length === 2
+      );
+      this.twoItemSetWithSupport = itemsLength2;
+
+      // Sekarang Anda memiliki dua objek baru: itemsLength1 dan itemsLength2
+      // itemsLength1 berisi item dengan panjang 1
+      // itemsLength2 berisi item dengan panjang 2
     },
   },
 });

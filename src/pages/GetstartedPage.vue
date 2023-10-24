@@ -18,11 +18,17 @@
 </template>
 
 <script setup lang="ts">
+import { useQuasar } from 'quasar';
 import { useRouter } from 'vue-router';
+const { cookies: qCookies } = useQuasar();
 
 const router = useRouter();
 const handleGetStarted = () => {
-  localStorage.setItem('isFirstTime', 'false');
+  qCookies.set('isFirstTime', 'false', {
+    expires: new Date(new Date().getTime() + 7 * 24 * 60 * 60 * 1000), // Cookie berlaku selama 7 hari
+    secure: true, // Cookie hanya berlaku di mode HTTPS
+    sameSite: 'Strict',
+  });
   router.push('/')
 }
 </script>

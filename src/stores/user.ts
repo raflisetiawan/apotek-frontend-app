@@ -3,6 +3,7 @@ import { User } from 'src/models/user';
 import { api } from 'src/boot/axios';
 import { Router } from 'src/router/index';
 import { useNotify } from 'src/composables/notification';
+import { Cookies } from 'quasar';
 
 export const useUserStore = defineStore('user', {
   state: (): User => ({
@@ -28,9 +29,8 @@ export const useUserStore = defineStore('user', {
       this.$state.email_verified_at = null;
       this.$state.updated_at = null;
       this.$state.created_at = '';
-
-      localStorage.removeItem('token');
-      localStorage.removeItem('signedIn');
+      Cookies.remove('token');
+      Cookies.remove('signedIn');
     },
     async logout() {
       try {

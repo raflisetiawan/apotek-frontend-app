@@ -1,50 +1,3574 @@
-[
-  {
-    "idTransaksi": 1808,
-    "tanggal": "2023-02-01T00:00:00.000Z",
-    "nama": "tropical fruit",
-    "harga": "Rp.40.000"
-  },
-  {
-    "idTransaksi": 2552,
-    "tanggal": "2023-02-01T00:00:00.000Z",
-    "nama": "whole milk",
-    "harga": "Rp.40.001"
-  },
-  {
-    "idTransaksi": 2300,
-    "tanggal": "2023-02-01T00:00:00.000Z",
-    "nama": "pip fruit",
-    "harga": "Rp.40.002"
-  },
-  {
-    "idTransaksi": 1187,
-    "tanggal": "2023-02-01T00:00:00.000Z",
-    "nama": "other vegetables",
-    "harga": "Rp.40.003"
-  },
-  {
-    "idTransaksi": 3037,
-    "tanggal": "2023-02-01T00:00:00.000Z",
-    "nama": "whole milk",
-    "harga": "Rp.40.004"
-  },
-  {
-    "idTransaksi": 4941,
-    "tanggal": "2023-02-01T00:00:00.000Z",
-    "nama": "rolls/buns",
-    "harga": "Rp.40.005"
-  },
-  {
-    "idTransaksi": 4501,
-    "tanggal": "2023-02-01T00:00:00.000Z",
-    "nama": "other vegetables",
-    "harga": "Rp.40.006"
-  },
-  {
-    "idTransaksi": 3803,
-    "tanggal": "2023-02-01T00:00:00.000Z",
-    "nama": "pot plants",
-    "harga": "Rp.40.007"
-  }
-]
+{
+  "result": [
+    {
+      "lhs": ["alpara"],
+      "rhs": ["cdr"],
+      "confidence": 1
+    },
+    {
+      "lhs": ["cdr"],
+      "rhs": ["alpara"],
+      "confidence": 0.5555555555555556
+    },
+    {
+      "lhs": ["supertetra"],
+      "rhs": ["cdr"],
+      "confidence": 1
+    },
+    {
+      "lhs": ["omeric"],
+      "rhs": ["cdr"],
+      "confidence": 1
+    },
+    {
+      "lhs": ["flamar"],
+      "rhs": ["cdr"],
+      "confidence": 1
+    },
+    {
+      "lhs": ["paracetamol"],
+      "rhs": ["cdr"],
+      "confidence": 1
+    },
+    {
+      "lhs": ["amoxcilin"],
+      "rhs": ["cdr"],
+      "confidence": 1
+    },
+    {
+      "lhs": ["gratazon"],
+      "rhs": ["cdr"],
+      "confidence": 1
+    },
+    {
+      "lhs": ["allopurinol 100"],
+      "rhs": ["cdr"],
+      "confidence": 1
+    },
+    {
+      "lhs": ["alpara", "cdr"],
+      "rhs": ["supertetra"],
+      "confidence": 1
+    },
+    {
+      "lhs": ["alpara", "supertetra"],
+      "rhs": ["cdr"],
+      "confidence": 1
+    },
+    {
+      "lhs": ["cdr", "supertetra"],
+      "rhs": ["alpara"],
+      "confidence": 0.6250000000000001
+    },
+    {
+      "lhs": ["alpara", "omeric"],
+      "rhs": ["cdr"],
+      "confidence": 1
+    },
+    {
+      "lhs": ["cdr", "omeric"],
+      "rhs": ["alpara"],
+      "confidence": 0.6666666666666666
+    },
+    {
+      "lhs": ["alpara", "flamar"],
+      "rhs": ["cdr"],
+      "confidence": 1
+    },
+    {
+      "lhs": ["cdr", "flamar"],
+      "rhs": ["alpara"],
+      "confidence": 0.5555555555555556
+    },
+    {
+      "lhs": ["alpara", "paracetamol"],
+      "rhs": ["cdr"],
+      "confidence": 1
+    },
+    {
+      "lhs": ["cdr", "paracetamol"],
+      "rhs": ["alpara"],
+      "confidence": 0.5555555555555556
+    },
+    {
+      "lhs": ["alpara", "amoxcilin"],
+      "rhs": ["cdr"],
+      "confidence": 1
+    },
+    {
+      "lhs": ["amoxcilin", "cdr"],
+      "rhs": ["alpara"],
+      "confidence": 0.5555555555555556
+    },
+    {
+      "lhs": ["alpara", "gratazon"],
+      "rhs": ["cdr"],
+      "confidence": 1
+    },
+    {
+      "lhs": ["cdr", "gratazon"],
+      "rhs": ["alpara"],
+      "confidence": 0.5555555555555556
+    },
+    {
+      "lhs": ["allopurinol 100", "alpara"],
+      "rhs": ["cdr"],
+      "confidence": 1
+    },
+    {
+      "lhs": ["allopurinol 100", "cdr"],
+      "rhs": ["alpara"],
+      "confidence": 0.5
+    },
+    {
+      "lhs": ["omeric", "supertetra"],
+      "rhs": ["cdr"],
+      "confidence": 1
+    },
+    {
+      "lhs": ["flamar", "supertetra"],
+      "rhs": ["cdr"],
+      "confidence": 1
+    },
+    {
+      "lhs": ["paracetamol", "supertetra"],
+      "rhs": ["cdr"],
+      "confidence": 1
+    },
+    {
+      "lhs": ["amoxcilin", "supertetra"],
+      "rhs": ["cdr"],
+      "confidence": 1
+    },
+    {
+      "lhs": ["gratazon", "supertetra"],
+      "rhs": ["cdr"],
+      "confidence": 1
+    },
+    {
+      "lhs": ["allopurinol 100", "supertetra"],
+      "rhs": ["cdr"],
+      "confidence": 1
+    },
+    {
+      "lhs": ["flamar", "omeric"],
+      "rhs": ["cdr"],
+      "confidence": 1
+    },
+    {
+      "lhs": ["omeric", "paracetamol"],
+      "rhs": ["cdr"],
+      "confidence": 1
+    },
+    {
+      "lhs": ["amoxcilin", "omeric"],
+      "rhs": ["cdr"],
+      "confidence": 1
+    },
+    {
+      "lhs": ["gratazon", "omeric"],
+      "rhs": ["cdr"],
+      "confidence": 1
+    },
+    {
+      "lhs": ["allopurinol 100", "omeric"],
+      "rhs": ["cdr"],
+      "confidence": 1
+    },
+    {
+      "lhs": ["flamar", "paracetamol"],
+      "rhs": ["cdr"],
+      "confidence": 1
+    },
+    {
+      "lhs": ["amoxcilin", "flamar"],
+      "rhs": ["cdr"],
+      "confidence": 1
+    },
+    {
+      "lhs": ["flamar", "gratazon"],
+      "rhs": ["cdr"],
+      "confidence": 1
+    },
+    {
+      "lhs": ["allopurinol 100", "flamar"],
+      "rhs": ["cdr"],
+      "confidence": 1
+    },
+    {
+      "lhs": ["amoxcilin", "paracetamol"],
+      "rhs": ["cdr"],
+      "confidence": 1
+    },
+    {
+      "lhs": ["gratazon", "paracetamol"],
+      "rhs": ["cdr"],
+      "confidence": 1
+    },
+    {
+      "lhs": ["allopurinol 100", "paracetamol"],
+      "rhs": ["cdr"],
+      "confidence": 1
+    },
+    {
+      "lhs": ["amoxcilin", "gratazon"],
+      "rhs": ["cdr"],
+      "confidence": 1
+    },
+    {
+      "lhs": ["allopurinol 100", "amoxcilin"],
+      "rhs": ["cdr"],
+      "confidence": 1
+    },
+    {
+      "lhs": ["allopurinol 100", "gratazon"],
+      "rhs": ["cdr"],
+      "confidence": 1
+    },
+    {
+      "lhs": ["alpara", "cdr", "omeric"],
+      "rhs": ["supertetra"],
+      "confidence": 1
+    },
+    {
+      "lhs": ["alpara", "cdr", "supertetra"],
+      "rhs": ["omeric"],
+      "confidence": 0.7999999999999999
+    },
+    {
+      "lhs": ["alpara", "omeric", "supertetra"],
+      "rhs": ["cdr"],
+      "confidence": 1
+    },
+    {
+      "lhs": ["cdr", "omeric", "supertetra"],
+      "rhs": ["alpara"],
+      "confidence": 0.7999999999999999
+    },
+    {
+      "lhs": ["alpara", "cdr", "flamar"],
+      "rhs": ["supertetra"],
+      "confidence": 1
+    },
+    {
+      "lhs": ["alpara", "flamar", "supertetra"],
+      "rhs": ["cdr"],
+      "confidence": 1
+    },
+    {
+      "lhs": ["cdr", "flamar", "supertetra"],
+      "rhs": ["alpara"],
+      "confidence": 0.6250000000000001
+    },
+    {
+      "lhs": ["alpara", "cdr", "paracetamol"],
+      "rhs": ["supertetra"],
+      "confidence": 1
+    },
+    {
+      "lhs": ["alpara", "paracetamol", "supertetra"],
+      "rhs": ["cdr"],
+      "confidence": 1
+    },
+    {
+      "lhs": ["cdr", "paracetamol", "supertetra"],
+      "rhs": ["alpara"],
+      "confidence": 0.6250000000000001
+    },
+    {
+      "lhs": ["alpara", "amoxcilin", "cdr"],
+      "rhs": ["supertetra"],
+      "confidence": 1
+    },
+    {
+      "lhs": ["alpara", "amoxcilin", "supertetra"],
+      "rhs": ["cdr"],
+      "confidence": 1
+    },
+    {
+      "lhs": ["amoxcilin", "cdr", "supertetra"],
+      "rhs": ["alpara"],
+      "confidence": 0.6250000000000001
+    },
+    {
+      "lhs": ["alpara", "cdr", "gratazon"],
+      "rhs": ["supertetra"],
+      "confidence": 1
+    },
+    {
+      "lhs": ["alpara", "gratazon", "supertetra"],
+      "rhs": ["cdr"],
+      "confidence": 1
+    },
+    {
+      "lhs": ["cdr", "gratazon", "supertetra"],
+      "rhs": ["alpara"],
+      "confidence": 0.6250000000000001
+    },
+    {
+      "lhs": ["allopurinol 100", "alpara", "cdr"],
+      "rhs": ["supertetra"],
+      "confidence": 1
+    },
+    {
+      "lhs": ["allopurinol 100", "alpara", "supertetra"],
+      "rhs": ["cdr"],
+      "confidence": 1
+    },
+    {
+      "lhs": ["allopurinol 100", "cdr", "supertetra"],
+      "rhs": ["alpara"],
+      "confidence": 0.6
+    },
+    {
+      "lhs": ["alpara", "flamar", "omeric"],
+      "rhs": ["cdr"],
+      "confidence": 1
+    },
+    {
+      "lhs": ["cdr", "flamar", "omeric"],
+      "rhs": ["alpara"],
+      "confidence": 0.6666666666666666
+    },
+    {
+      "lhs": ["alpara", "omeric", "paracetamol"],
+      "rhs": ["cdr"],
+      "confidence": 1
+    },
+    {
+      "lhs": ["cdr", "omeric", "paracetamol"],
+      "rhs": ["alpara"],
+      "confidence": 0.6666666666666666
+    },
+    {
+      "lhs": ["alpara", "amoxcilin", "omeric"],
+      "rhs": ["cdr"],
+      "confidence": 1
+    },
+    {
+      "lhs": ["amoxcilin", "cdr", "omeric"],
+      "rhs": ["alpara"],
+      "confidence": 0.6666666666666666
+    },
+    {
+      "lhs": ["alpara", "gratazon", "omeric"],
+      "rhs": ["cdr"],
+      "confidence": 1
+    },
+    {
+      "lhs": ["cdr", "gratazon", "omeric"],
+      "rhs": ["alpara"],
+      "confidence": 0.6666666666666666
+    },
+    {
+      "lhs": ["allopurinol 100", "alpara", "omeric"],
+      "rhs": ["cdr"],
+      "confidence": 1
+    },
+    {
+      "lhs": ["allopurinol 100", "cdr", "omeric"],
+      "rhs": ["alpara"],
+      "confidence": 0.6
+    },
+    {
+      "lhs": ["alpara", "flamar", "paracetamol"],
+      "rhs": ["cdr"],
+      "confidence": 1
+    },
+    {
+      "lhs": ["cdr", "flamar", "paracetamol"],
+      "rhs": ["alpara"],
+      "confidence": 0.5555555555555556
+    },
+    {
+      "lhs": ["alpara", "amoxcilin", "flamar"],
+      "rhs": ["cdr"],
+      "confidence": 1
+    },
+    {
+      "lhs": ["amoxcilin", "cdr", "flamar"],
+      "rhs": ["alpara"],
+      "confidence": 0.5555555555555556
+    },
+    {
+      "lhs": ["alpara", "flamar", "gratazon"],
+      "rhs": ["cdr"],
+      "confidence": 1
+    },
+    {
+      "lhs": ["cdr", "flamar", "gratazon"],
+      "rhs": ["alpara"],
+      "confidence": 0.5555555555555556
+    },
+    {
+      "lhs": ["allopurinol 100", "alpara", "flamar"],
+      "rhs": ["cdr"],
+      "confidence": 1
+    },
+    {
+      "lhs": ["allopurinol 100", "cdr", "flamar"],
+      "rhs": ["alpara"],
+      "confidence": 0.5
+    },
+    {
+      "lhs": ["alpara", "amoxcilin", "paracetamol"],
+      "rhs": ["cdr"],
+      "confidence": 1
+    },
+    {
+      "lhs": ["amoxcilin", "cdr", "paracetamol"],
+      "rhs": ["alpara"],
+      "confidence": 0.5555555555555556
+    },
+    {
+      "lhs": ["alpara", "gratazon", "paracetamol"],
+      "rhs": ["cdr"],
+      "confidence": 1
+    },
+    {
+      "lhs": ["cdr", "gratazon", "paracetamol"],
+      "rhs": ["alpara"],
+      "confidence": 0.5555555555555556
+    },
+    {
+      "lhs": ["allopurinol 100", "alpara", "paracetamol"],
+      "rhs": ["cdr"],
+      "confidence": 1
+    },
+    {
+      "lhs": ["allopurinol 100", "cdr", "paracetamol"],
+      "rhs": ["alpara"],
+      "confidence": 0.5
+    },
+    {
+      "lhs": ["alpara", "amoxcilin", "gratazon"],
+      "rhs": ["cdr"],
+      "confidence": 1
+    },
+    {
+      "lhs": ["amoxcilin", "cdr", "gratazon"],
+      "rhs": ["alpara"],
+      "confidence": 0.5555555555555556
+    },
+    {
+      "lhs": ["allopurinol 100", "alpara", "amoxcilin"],
+      "rhs": ["cdr"],
+      "confidence": 1
+    },
+    {
+      "lhs": ["allopurinol 100", "amoxcilin", "cdr"],
+      "rhs": ["alpara"],
+      "confidence": 0.5
+    },
+    {
+      "lhs": ["allopurinol 100", "alpara", "gratazon"],
+      "rhs": ["cdr"],
+      "confidence": 1
+    },
+    {
+      "lhs": ["allopurinol 100", "cdr", "gratazon"],
+      "rhs": ["alpara"],
+      "confidence": 0.5
+    },
+    {
+      "lhs": ["flamar", "omeric", "supertetra"],
+      "rhs": ["cdr"],
+      "confidence": 1
+    },
+    {
+      "lhs": ["omeric", "paracetamol", "supertetra"],
+      "rhs": ["cdr"],
+      "confidence": 1
+    },
+    {
+      "lhs": ["amoxcilin", "omeric", "supertetra"],
+      "rhs": ["cdr"],
+      "confidence": 1
+    },
+    {
+      "lhs": ["gratazon", "omeric", "supertetra"],
+      "rhs": ["cdr"],
+      "confidence": 1
+    },
+    {
+      "lhs": ["allopurinol 100", "omeric", "supertetra"],
+      "rhs": ["cdr"],
+      "confidence": 1
+    },
+    {
+      "lhs": ["flamar", "paracetamol", "supertetra"],
+      "rhs": ["cdr"],
+      "confidence": 1
+    },
+    {
+      "lhs": ["amoxcilin", "flamar", "supertetra"],
+      "rhs": ["cdr"],
+      "confidence": 1
+    },
+    {
+      "lhs": ["flamar", "gratazon", "supertetra"],
+      "rhs": ["cdr"],
+      "confidence": 1
+    },
+    {
+      "lhs": ["allopurinol 100", "flamar", "supertetra"],
+      "rhs": ["cdr"],
+      "confidence": 1
+    },
+    {
+      "lhs": ["amoxcilin", "paracetamol", "supertetra"],
+      "rhs": ["cdr"],
+      "confidence": 1
+    },
+    {
+      "lhs": ["gratazon", "paracetamol", "supertetra"],
+      "rhs": ["cdr"],
+      "confidence": 1
+    },
+    {
+      "lhs": ["allopurinol 100", "paracetamol", "supertetra"],
+      "rhs": ["cdr"],
+      "confidence": 1
+    },
+    {
+      "lhs": ["amoxcilin", "gratazon", "supertetra"],
+      "rhs": ["cdr"],
+      "confidence": 1
+    },
+    {
+      "lhs": ["allopurinol 100", "amoxcilin", "supertetra"],
+      "rhs": ["cdr"],
+      "confidence": 1
+    },
+    {
+      "lhs": ["allopurinol 100", "gratazon", "supertetra"],
+      "rhs": ["cdr"],
+      "confidence": 1
+    },
+    {
+      "lhs": ["flamar", "omeric", "paracetamol"],
+      "rhs": ["cdr"],
+      "confidence": 1
+    },
+    {
+      "lhs": ["amoxcilin", "flamar", "omeric"],
+      "rhs": ["cdr"],
+      "confidence": 1
+    },
+    {
+      "lhs": ["flamar", "gratazon", "omeric"],
+      "rhs": ["cdr"],
+      "confidence": 1
+    },
+    {
+      "lhs": ["allopurinol 100", "flamar", "omeric"],
+      "rhs": ["cdr"],
+      "confidence": 1
+    },
+    {
+      "lhs": ["amoxcilin", "omeric", "paracetamol"],
+      "rhs": ["cdr"],
+      "confidence": 1
+    },
+    {
+      "lhs": ["gratazon", "omeric", "paracetamol"],
+      "rhs": ["cdr"],
+      "confidence": 1
+    },
+    {
+      "lhs": ["allopurinol 100", "omeric", "paracetamol"],
+      "rhs": ["cdr"],
+      "confidence": 1
+    },
+    {
+      "lhs": ["amoxcilin", "gratazon", "omeric"],
+      "rhs": ["cdr"],
+      "confidence": 1
+    },
+    {
+      "lhs": ["allopurinol 100", "amoxcilin", "omeric"],
+      "rhs": ["cdr"],
+      "confidence": 1
+    },
+    {
+      "lhs": ["allopurinol 100", "gratazon", "omeric"],
+      "rhs": ["cdr"],
+      "confidence": 1
+    },
+    {
+      "lhs": ["amoxcilin", "flamar", "paracetamol"],
+      "rhs": ["cdr"],
+      "confidence": 1
+    },
+    {
+      "lhs": ["flamar", "gratazon", "paracetamol"],
+      "rhs": ["cdr"],
+      "confidence": 1
+    },
+    {
+      "lhs": ["allopurinol 100", "flamar", "paracetamol"],
+      "rhs": ["cdr"],
+      "confidence": 1
+    },
+    {
+      "lhs": ["amoxcilin", "flamar", "gratazon"],
+      "rhs": ["cdr"],
+      "confidence": 1
+    },
+    {
+      "lhs": ["allopurinol 100", "amoxcilin", "flamar"],
+      "rhs": ["cdr"],
+      "confidence": 1
+    },
+    {
+      "lhs": ["allopurinol 100", "flamar", "gratazon"],
+      "rhs": ["cdr"],
+      "confidence": 1
+    },
+    {
+      "lhs": ["amoxcilin", "gratazon", "paracetamol"],
+      "rhs": ["cdr"],
+      "confidence": 1
+    },
+    {
+      "lhs": ["allopurinol 100", "amoxcilin", "paracetamol"],
+      "rhs": ["cdr"],
+      "confidence": 1
+    },
+    {
+      "lhs": ["allopurinol 100", "gratazon", "paracetamol"],
+      "rhs": ["cdr"],
+      "confidence": 1
+    },
+    {
+      "lhs": ["allopurinol 100", "amoxcilin", "gratazon"],
+      "rhs": ["cdr"],
+      "confidence": 1
+    },
+    {
+      "lhs": ["alpara", "cdr", "flamar", "omeric"],
+      "rhs": ["supertetra"],
+      "confidence": 1
+    },
+    {
+      "lhs": ["alpara", "cdr", "flamar", "supertetra"],
+      "rhs": ["omeric"],
+      "confidence": 0.7999999999999999
+    },
+    {
+      "lhs": ["alpara", "cdr", "omeric", "supertetra"],
+      "rhs": ["flamar"],
+      "confidence": 1
+    },
+    {
+      "lhs": ["alpara", "flamar", "omeric", "supertetra"],
+      "rhs": ["cdr"],
+      "confidence": 1
+    },
+    {
+      "lhs": ["cdr", "flamar", "omeric", "supertetra"],
+      "rhs": ["alpara"],
+      "confidence": 0.7999999999999999
+    },
+    {
+      "lhs": ["alpara", "cdr", "omeric", "paracetamol"],
+      "rhs": ["supertetra"],
+      "confidence": 1
+    },
+    {
+      "lhs": ["alpara", "cdr", "paracetamol", "supertetra"],
+      "rhs": ["omeric"],
+      "confidence": 0.7999999999999999
+    },
+    {
+      "lhs": ["alpara", "omeric", "paracetamol", "supertetra"],
+      "rhs": ["cdr"],
+      "confidence": 1
+    },
+    {
+      "lhs": ["cdr", "omeric", "paracetamol", "supertetra"],
+      "rhs": ["alpara"],
+      "confidence": 0.7999999999999999
+    },
+    {
+      "lhs": ["alpara", "amoxcilin", "cdr", "omeric"],
+      "rhs": ["supertetra"],
+      "confidence": 1
+    },
+    {
+      "lhs": ["alpara", "amoxcilin", "cdr", "supertetra"],
+      "rhs": ["omeric"],
+      "confidence": 0.7999999999999999
+    },
+    {
+      "lhs": ["alpara", "amoxcilin", "omeric", "supertetra"],
+      "rhs": ["cdr"],
+      "confidence": 1
+    },
+    {
+      "lhs": ["amoxcilin", "cdr", "omeric", "supertetra"],
+      "rhs": ["alpara"],
+      "confidence": 0.7999999999999999
+    },
+    {
+      "lhs": ["alpara", "cdr", "gratazon", "omeric"],
+      "rhs": ["supertetra"],
+      "confidence": 1
+    },
+    {
+      "lhs": ["alpara", "cdr", "gratazon", "supertetra"],
+      "rhs": ["omeric"],
+      "confidence": 0.7999999999999999
+    },
+    {
+      "lhs": ["alpara", "gratazon", "omeric", "supertetra"],
+      "rhs": ["cdr"],
+      "confidence": 1
+    },
+    {
+      "lhs": ["cdr", "gratazon", "omeric", "supertetra"],
+      "rhs": ["alpara"],
+      "confidence": 0.7999999999999999
+    },
+    {
+      "lhs": ["allopurinol 100", "alpara", "cdr", "omeric"],
+      "rhs": ["supertetra"],
+      "confidence": 1
+    },
+    {
+      "lhs": ["allopurinol 100", "alpara", "cdr", "supertetra"],
+      "rhs": ["omeric"],
+      "confidence": 1
+    },
+    {
+      "lhs": ["allopurinol 100", "alpara", "omeric", "supertetra"],
+      "rhs": ["cdr"],
+      "confidence": 1
+    },
+    {
+      "lhs": ["allopurinol 100", "cdr", "omeric", "supertetra"],
+      "rhs": ["alpara"],
+      "confidence": 0.75
+    },
+    {
+      "lhs": ["alpara", "cdr", "flamar", "paracetamol"],
+      "rhs": ["supertetra"],
+      "confidence": 1
+    },
+    {
+      "lhs": ["alpara", "flamar", "paracetamol", "supertetra"],
+      "rhs": ["cdr"],
+      "confidence": 1
+    },
+    {
+      "lhs": ["cdr", "flamar", "paracetamol", "supertetra"],
+      "rhs": ["alpara"],
+      "confidence": 0.6250000000000001
+    },
+    {
+      "lhs": ["alpara", "amoxcilin", "cdr", "flamar"],
+      "rhs": ["supertetra"],
+      "confidence": 1
+    },
+    {
+      "lhs": ["alpara", "amoxcilin", "flamar", "supertetra"],
+      "rhs": ["cdr"],
+      "confidence": 1
+    },
+    {
+      "lhs": ["amoxcilin", "cdr", "flamar", "supertetra"],
+      "rhs": ["alpara"],
+      "confidence": 0.6250000000000001
+    },
+    {
+      "lhs": ["alpara", "cdr", "flamar", "gratazon"],
+      "rhs": ["supertetra"],
+      "confidence": 1
+    },
+    {
+      "lhs": ["alpara", "flamar", "gratazon", "supertetra"],
+      "rhs": ["cdr"],
+      "confidence": 1
+    },
+    {
+      "lhs": ["cdr", "flamar", "gratazon", "supertetra"],
+      "rhs": ["alpara"],
+      "confidence": 0.6250000000000001
+    },
+    {
+      "lhs": ["allopurinol 100", "alpara", "cdr", "flamar"],
+      "rhs": ["supertetra"],
+      "confidence": 1
+    },
+    {
+      "lhs": ["allopurinol 100", "alpara", "flamar", "supertetra"],
+      "rhs": ["cdr"],
+      "confidence": 1
+    },
+    {
+      "lhs": ["allopurinol 100", "cdr", "flamar", "supertetra"],
+      "rhs": ["alpara"],
+      "confidence": 0.6
+    },
+    {
+      "lhs": ["alpara", "amoxcilin", "cdr", "paracetamol"],
+      "rhs": ["supertetra"],
+      "confidence": 1
+    },
+    {
+      "lhs": ["alpara", "amoxcilin", "paracetamol", "supertetra"],
+      "rhs": ["cdr"],
+      "confidence": 1
+    },
+    {
+      "lhs": ["amoxcilin", "cdr", "paracetamol", "supertetra"],
+      "rhs": ["alpara"],
+      "confidence": 0.6250000000000001
+    },
+    {
+      "lhs": ["alpara", "cdr", "gratazon", "paracetamol"],
+      "rhs": ["supertetra"],
+      "confidence": 1
+    },
+    {
+      "lhs": ["alpara", "gratazon", "paracetamol", "supertetra"],
+      "rhs": ["cdr"],
+      "confidence": 1
+    },
+    {
+      "lhs": ["cdr", "gratazon", "paracetamol", "supertetra"],
+      "rhs": ["alpara"],
+      "confidence": 0.6250000000000001
+    },
+    {
+      "lhs": ["allopurinol 100", "alpara", "cdr", "paracetamol"],
+      "rhs": ["supertetra"],
+      "confidence": 1
+    },
+    {
+      "lhs": ["allopurinol 100", "alpara", "paracetamol", "supertetra"],
+      "rhs": ["cdr"],
+      "confidence": 1
+    },
+    {
+      "lhs": ["allopurinol 100", "cdr", "paracetamol", "supertetra"],
+      "rhs": ["alpara"],
+      "confidence": 0.6
+    },
+    {
+      "lhs": ["alpara", "amoxcilin", "cdr", "gratazon"],
+      "rhs": ["supertetra"],
+      "confidence": 1
+    },
+    {
+      "lhs": ["alpara", "amoxcilin", "gratazon", "supertetra"],
+      "rhs": ["cdr"],
+      "confidence": 1
+    },
+    {
+      "lhs": ["amoxcilin", "cdr", "gratazon", "supertetra"],
+      "rhs": ["alpara"],
+      "confidence": 0.6250000000000001
+    },
+    {
+      "lhs": ["allopurinol 100", "alpara", "amoxcilin", "cdr"],
+      "rhs": ["supertetra"],
+      "confidence": 1
+    },
+    {
+      "lhs": ["allopurinol 100", "alpara", "amoxcilin", "supertetra"],
+      "rhs": ["cdr"],
+      "confidence": 1
+    },
+    {
+      "lhs": ["allopurinol 100", "amoxcilin", "cdr", "supertetra"],
+      "rhs": ["alpara"],
+      "confidence": 0.6
+    },
+    {
+      "lhs": ["allopurinol 100", "alpara", "cdr", "gratazon"],
+      "rhs": ["supertetra"],
+      "confidence": 1
+    },
+    {
+      "lhs": ["allopurinol 100", "alpara", "gratazon", "supertetra"],
+      "rhs": ["cdr"],
+      "confidence": 1
+    },
+    {
+      "lhs": ["allopurinol 100", "cdr", "gratazon", "supertetra"],
+      "rhs": ["alpara"],
+      "confidence": 0.6
+    },
+    {
+      "lhs": ["alpara", "flamar", "omeric", "paracetamol"],
+      "rhs": ["cdr"],
+      "confidence": 1
+    },
+    {
+      "lhs": ["cdr", "flamar", "omeric", "paracetamol"],
+      "rhs": ["alpara"],
+      "confidence": 0.6666666666666666
+    },
+    {
+      "lhs": ["alpara", "amoxcilin", "flamar", "omeric"],
+      "rhs": ["cdr"],
+      "confidence": 1
+    },
+    {
+      "lhs": ["amoxcilin", "cdr", "flamar", "omeric"],
+      "rhs": ["alpara"],
+      "confidence": 0.6666666666666666
+    },
+    {
+      "lhs": ["alpara", "flamar", "gratazon", "omeric"],
+      "rhs": ["cdr"],
+      "confidence": 1
+    },
+    {
+      "lhs": ["cdr", "flamar", "gratazon", "omeric"],
+      "rhs": ["alpara"],
+      "confidence": 0.6666666666666666
+    },
+    {
+      "lhs": ["allopurinol 100", "alpara", "flamar", "omeric"],
+      "rhs": ["cdr"],
+      "confidence": 1
+    },
+    {
+      "lhs": ["allopurinol 100", "cdr", "flamar", "omeric"],
+      "rhs": ["alpara"],
+      "confidence": 0.6
+    },
+    {
+      "lhs": ["alpara", "amoxcilin", "omeric", "paracetamol"],
+      "rhs": ["cdr"],
+      "confidence": 1
+    },
+    {
+      "lhs": ["amoxcilin", "cdr", "omeric", "paracetamol"],
+      "rhs": ["alpara"],
+      "confidence": 0.6666666666666666
+    },
+    {
+      "lhs": ["alpara", "gratazon", "omeric", "paracetamol"],
+      "rhs": ["cdr"],
+      "confidence": 1
+    },
+    {
+      "lhs": ["cdr", "gratazon", "omeric", "paracetamol"],
+      "rhs": ["alpara"],
+      "confidence": 0.6666666666666666
+    },
+    {
+      "lhs": ["allopurinol 100", "alpara", "omeric", "paracetamol"],
+      "rhs": ["cdr"],
+      "confidence": 1
+    },
+    {
+      "lhs": ["allopurinol 100", "cdr", "omeric", "paracetamol"],
+      "rhs": ["alpara"],
+      "confidence": 0.6
+    },
+    {
+      "lhs": ["alpara", "amoxcilin", "gratazon", "omeric"],
+      "rhs": ["cdr"],
+      "confidence": 1
+    },
+    {
+      "lhs": ["amoxcilin", "cdr", "gratazon", "omeric"],
+      "rhs": ["alpara"],
+      "confidence": 0.6666666666666666
+    },
+    {
+      "lhs": ["allopurinol 100", "alpara", "amoxcilin", "omeric"],
+      "rhs": ["cdr"],
+      "confidence": 1
+    },
+    {
+      "lhs": ["allopurinol 100", "amoxcilin", "cdr", "omeric"],
+      "rhs": ["alpara"],
+      "confidence": 0.6
+    },
+    {
+      "lhs": ["allopurinol 100", "alpara", "gratazon", "omeric"],
+      "rhs": ["cdr"],
+      "confidence": 1
+    },
+    {
+      "lhs": ["allopurinol 100", "cdr", "gratazon", "omeric"],
+      "rhs": ["alpara"],
+      "confidence": 0.6
+    },
+    {
+      "lhs": ["alpara", "amoxcilin", "flamar", "paracetamol"],
+      "rhs": ["cdr"],
+      "confidence": 1
+    },
+    {
+      "lhs": ["amoxcilin", "cdr", "flamar", "paracetamol"],
+      "rhs": ["alpara"],
+      "confidence": 0.5555555555555556
+    },
+    {
+      "lhs": ["alpara", "flamar", "gratazon", "paracetamol"],
+      "rhs": ["cdr"],
+      "confidence": 1
+    },
+    {
+      "lhs": ["cdr", "flamar", "gratazon", "paracetamol"],
+      "rhs": ["alpara"],
+      "confidence": 0.5555555555555556
+    },
+    {
+      "lhs": ["allopurinol 100", "alpara", "flamar", "paracetamol"],
+      "rhs": ["cdr"],
+      "confidence": 1
+    },
+    {
+      "lhs": ["allopurinol 100", "cdr", "flamar", "paracetamol"],
+      "rhs": ["alpara"],
+      "confidence": 0.5
+    },
+    {
+      "lhs": ["alpara", "amoxcilin", "flamar", "gratazon"],
+      "rhs": ["cdr"],
+      "confidence": 1
+    },
+    {
+      "lhs": ["amoxcilin", "cdr", "flamar", "gratazon"],
+      "rhs": ["alpara"],
+      "confidence": 0.5555555555555556
+    },
+    {
+      "lhs": ["allopurinol 100", "alpara", "amoxcilin", "flamar"],
+      "rhs": ["cdr"],
+      "confidence": 1
+    },
+    {
+      "lhs": ["allopurinol 100", "amoxcilin", "cdr", "flamar"],
+      "rhs": ["alpara"],
+      "confidence": 0.5
+    },
+    {
+      "lhs": ["allopurinol 100", "alpara", "flamar", "gratazon"],
+      "rhs": ["cdr"],
+      "confidence": 1
+    },
+    {
+      "lhs": ["allopurinol 100", "cdr", "flamar", "gratazon"],
+      "rhs": ["alpara"],
+      "confidence": 0.5
+    },
+    {
+      "lhs": ["alpara", "amoxcilin", "gratazon", "paracetamol"],
+      "rhs": ["cdr"],
+      "confidence": 1
+    },
+    {
+      "lhs": ["amoxcilin", "cdr", "gratazon", "paracetamol"],
+      "rhs": ["alpara"],
+      "confidence": 0.5555555555555556
+    },
+    {
+      "lhs": ["allopurinol 100", "alpara", "amoxcilin", "paracetamol"],
+      "rhs": ["cdr"],
+      "confidence": 1
+    },
+    {
+      "lhs": ["allopurinol 100", "amoxcilin", "cdr", "paracetamol"],
+      "rhs": ["alpara"],
+      "confidence": 0.5
+    },
+    {
+      "lhs": ["allopurinol 100", "alpara", "gratazon", "paracetamol"],
+      "rhs": ["cdr"],
+      "confidence": 1
+    },
+    {
+      "lhs": ["allopurinol 100", "cdr", "gratazon", "paracetamol"],
+      "rhs": ["alpara"],
+      "confidence": 0.5
+    },
+    {
+      "lhs": ["allopurinol 100", "alpara", "amoxcilin", "gratazon"],
+      "rhs": ["cdr"],
+      "confidence": 1
+    },
+    {
+      "lhs": ["allopurinol 100", "amoxcilin", "cdr", "gratazon"],
+      "rhs": ["alpara"],
+      "confidence": 0.5
+    },
+    {
+      "lhs": ["flamar", "omeric", "paracetamol", "supertetra"],
+      "rhs": ["cdr"],
+      "confidence": 1
+    },
+    {
+      "lhs": ["amoxcilin", "flamar", "omeric", "supertetra"],
+      "rhs": ["cdr"],
+      "confidence": 1
+    },
+    {
+      "lhs": ["flamar", "gratazon", "omeric", "supertetra"],
+      "rhs": ["cdr"],
+      "confidence": 1
+    },
+    {
+      "lhs": ["allopurinol 100", "flamar", "omeric", "supertetra"],
+      "rhs": ["cdr"],
+      "confidence": 1
+    },
+    {
+      "lhs": ["amoxcilin", "omeric", "paracetamol", "supertetra"],
+      "rhs": ["cdr"],
+      "confidence": 1
+    },
+    {
+      "lhs": ["gratazon", "omeric", "paracetamol", "supertetra"],
+      "rhs": ["cdr"],
+      "confidence": 1
+    },
+    {
+      "lhs": ["allopurinol 100", "omeric", "paracetamol", "supertetra"],
+      "rhs": ["cdr"],
+      "confidence": 1
+    },
+    {
+      "lhs": ["amoxcilin", "gratazon", "omeric", "supertetra"],
+      "rhs": ["cdr"],
+      "confidence": 1
+    },
+    {
+      "lhs": ["allopurinol 100", "amoxcilin", "omeric", "supertetra"],
+      "rhs": ["cdr"],
+      "confidence": 1
+    },
+    {
+      "lhs": ["allopurinol 100", "gratazon", "omeric", "supertetra"],
+      "rhs": ["cdr"],
+      "confidence": 1
+    },
+    {
+      "lhs": ["amoxcilin", "flamar", "paracetamol", "supertetra"],
+      "rhs": ["cdr"],
+      "confidence": 1
+    },
+    {
+      "lhs": ["flamar", "gratazon", "paracetamol", "supertetra"],
+      "rhs": ["cdr"],
+      "confidence": 1
+    },
+    {
+      "lhs": ["allopurinol 100", "flamar", "paracetamol", "supertetra"],
+      "rhs": ["cdr"],
+      "confidence": 1
+    },
+    {
+      "lhs": ["amoxcilin", "flamar", "gratazon", "supertetra"],
+      "rhs": ["cdr"],
+      "confidence": 1
+    },
+    {
+      "lhs": ["allopurinol 100", "amoxcilin", "flamar", "supertetra"],
+      "rhs": ["cdr"],
+      "confidence": 1
+    },
+    {
+      "lhs": ["allopurinol 100", "flamar", "gratazon", "supertetra"],
+      "rhs": ["cdr"],
+      "confidence": 1
+    },
+    {
+      "lhs": ["amoxcilin", "gratazon", "paracetamol", "supertetra"],
+      "rhs": ["cdr"],
+      "confidence": 1
+    },
+    {
+      "lhs": ["allopurinol 100", "amoxcilin", "paracetamol", "supertetra"],
+      "rhs": ["cdr"],
+      "confidence": 1
+    },
+    {
+      "lhs": ["allopurinol 100", "gratazon", "paracetamol", "supertetra"],
+      "rhs": ["cdr"],
+      "confidence": 1
+    },
+    {
+      "lhs": ["allopurinol 100", "amoxcilin", "gratazon", "supertetra"],
+      "rhs": ["cdr"],
+      "confidence": 1
+    },
+    {
+      "lhs": ["amoxcilin", "flamar", "omeric", "paracetamol"],
+      "rhs": ["cdr"],
+      "confidence": 1
+    },
+    {
+      "lhs": ["flamar", "gratazon", "omeric", "paracetamol"],
+      "rhs": ["cdr"],
+      "confidence": 1
+    },
+    {
+      "lhs": ["allopurinol 100", "flamar", "omeric", "paracetamol"],
+      "rhs": ["cdr"],
+      "confidence": 1
+    },
+    {
+      "lhs": ["amoxcilin", "flamar", "gratazon", "omeric"],
+      "rhs": ["cdr"],
+      "confidence": 1
+    },
+    {
+      "lhs": ["allopurinol 100", "amoxcilin", "flamar", "omeric"],
+      "rhs": ["cdr"],
+      "confidence": 1
+    },
+    {
+      "lhs": ["allopurinol 100", "flamar", "gratazon", "omeric"],
+      "rhs": ["cdr"],
+      "confidence": 1
+    },
+    {
+      "lhs": ["amoxcilin", "gratazon", "omeric", "paracetamol"],
+      "rhs": ["cdr"],
+      "confidence": 1
+    },
+    {
+      "lhs": ["allopurinol 100", "amoxcilin", "omeric", "paracetamol"],
+      "rhs": ["cdr"],
+      "confidence": 1
+    },
+    {
+      "lhs": ["allopurinol 100", "gratazon", "omeric", "paracetamol"],
+      "rhs": ["cdr"],
+      "confidence": 1
+    },
+    {
+      "lhs": ["allopurinol 100", "amoxcilin", "gratazon", "omeric"],
+      "rhs": ["cdr"],
+      "confidence": 1
+    },
+    {
+      "lhs": ["amoxcilin", "flamar", "gratazon", "paracetamol"],
+      "rhs": ["cdr"],
+      "confidence": 1
+    },
+    {
+      "lhs": ["allopurinol 100", "amoxcilin", "flamar", "paracetamol"],
+      "rhs": ["cdr"],
+      "confidence": 1
+    },
+    {
+      "lhs": ["allopurinol 100", "flamar", "gratazon", "paracetamol"],
+      "rhs": ["cdr"],
+      "confidence": 1
+    },
+    {
+      "lhs": ["allopurinol 100", "amoxcilin", "flamar", "gratazon"],
+      "rhs": ["cdr"],
+      "confidence": 1
+    },
+    {
+      "lhs": ["allopurinol 100", "amoxcilin", "gratazon", "paracetamol"],
+      "rhs": ["cdr"],
+      "confidence": 1
+    },
+    {
+      "lhs": ["alpara", "cdr", "flamar", "omeric", "paracetamol"],
+      "rhs": ["supertetra"],
+      "confidence": 1
+    },
+    {
+      "lhs": ["alpara", "cdr", "flamar", "omeric", "supertetra"],
+      "rhs": ["paracetamol"],
+      "confidence": 1
+    },
+    {
+      "lhs": ["alpara", "cdr", "flamar", "paracetamol", "supertetra"],
+      "rhs": ["omeric"],
+      "confidence": 0.7999999999999999
+    },
+    {
+      "lhs": ["alpara", "cdr", "omeric", "paracetamol", "supertetra"],
+      "rhs": ["flamar"],
+      "confidence": 1
+    },
+    {
+      "lhs": ["alpara", "flamar", "omeric", "paracetamol", "supertetra"],
+      "rhs": ["cdr"],
+      "confidence": 1
+    },
+    {
+      "lhs": ["cdr", "flamar", "omeric", "paracetamol", "supertetra"],
+      "rhs": ["alpara"],
+      "confidence": 0.7999999999999999
+    },
+    {
+      "lhs": ["alpara", "amoxcilin", "cdr", "flamar", "omeric"],
+      "rhs": ["supertetra"],
+      "confidence": 1
+    },
+    {
+      "lhs": ["alpara", "amoxcilin", "cdr", "flamar", "supertetra"],
+      "rhs": ["omeric"],
+      "confidence": 0.7999999999999999
+    },
+    {
+      "lhs": ["alpara", "amoxcilin", "cdr", "omeric", "supertetra"],
+      "rhs": ["flamar"],
+      "confidence": 1
+    },
+    {
+      "lhs": ["alpara", "amoxcilin", "flamar", "omeric", "supertetra"],
+      "rhs": ["cdr"],
+      "confidence": 1
+    },
+    {
+      "lhs": ["amoxcilin", "cdr", "flamar", "omeric", "supertetra"],
+      "rhs": ["alpara"],
+      "confidence": 0.7999999999999999
+    },
+    {
+      "lhs": ["alpara", "cdr", "flamar", "gratazon", "omeric"],
+      "rhs": ["supertetra"],
+      "confidence": 1
+    },
+    {
+      "lhs": ["alpara", "cdr", "flamar", "gratazon", "supertetra"],
+      "rhs": ["omeric"],
+      "confidence": 0.7999999999999999
+    },
+    {
+      "lhs": ["alpara", "cdr", "gratazon", "omeric", "supertetra"],
+      "rhs": ["flamar"],
+      "confidence": 1
+    },
+    {
+      "lhs": ["alpara", "flamar", "gratazon", "omeric", "supertetra"],
+      "rhs": ["cdr"],
+      "confidence": 1
+    },
+    {
+      "lhs": ["cdr", "flamar", "gratazon", "omeric", "supertetra"],
+      "rhs": ["alpara"],
+      "confidence": 0.7999999999999999
+    },
+    {
+      "lhs": ["allopurinol 100", "alpara", "cdr", "flamar", "omeric"],
+      "rhs": ["supertetra"],
+      "confidence": 1
+    },
+    {
+      "lhs": ["allopurinol 100", "alpara", "cdr", "flamar", "supertetra"],
+      "rhs": ["omeric"],
+      "confidence": 1
+    },
+    {
+      "lhs": ["allopurinol 100", "alpara", "cdr", "omeric", "supertetra"],
+      "rhs": ["flamar"],
+      "confidence": 1
+    },
+    {
+      "lhs": ["allopurinol 100", "alpara", "flamar", "omeric", "supertetra"],
+      "rhs": ["cdr"],
+      "confidence": 1
+    },
+    {
+      "lhs": ["allopurinol 100", "cdr", "flamar", "omeric", "supertetra"],
+      "rhs": ["alpara"],
+      "confidence": 0.75
+    },
+    {
+      "lhs": ["alpara", "amoxcilin", "cdr", "omeric", "paracetamol"],
+      "rhs": ["supertetra"],
+      "confidence": 1
+    },
+    {
+      "lhs": ["alpara", "amoxcilin", "cdr", "paracetamol", "supertetra"],
+      "rhs": ["omeric"],
+      "confidence": 0.7999999999999999
+    },
+    {
+      "lhs": ["alpara", "amoxcilin", "omeric", "paracetamol", "supertetra"],
+      "rhs": ["cdr"],
+      "confidence": 1
+    },
+    {
+      "lhs": ["amoxcilin", "cdr", "omeric", "paracetamol", "supertetra"],
+      "rhs": ["alpara"],
+      "confidence": 0.7999999999999999
+    },
+    {
+      "lhs": ["alpara", "cdr", "gratazon", "omeric", "paracetamol"],
+      "rhs": ["supertetra"],
+      "confidence": 1
+    },
+    {
+      "lhs": ["alpara", "cdr", "gratazon", "paracetamol", "supertetra"],
+      "rhs": ["omeric"],
+      "confidence": 0.7999999999999999
+    },
+    {
+      "lhs": ["alpara", "gratazon", "omeric", "paracetamol", "supertetra"],
+      "rhs": ["cdr"],
+      "confidence": 1
+    },
+    {
+      "lhs": ["cdr", "gratazon", "omeric", "paracetamol", "supertetra"],
+      "rhs": ["alpara"],
+      "confidence": 0.7999999999999999
+    },
+    {
+      "lhs": ["allopurinol 100", "alpara", "cdr", "omeric", "paracetamol"],
+      "rhs": ["supertetra"],
+      "confidence": 1
+    },
+    {
+      "lhs": ["allopurinol 100", "alpara", "cdr", "paracetamol", "supertetra"],
+      "rhs": ["omeric"],
+      "confidence": 1
+    },
+    {
+      "lhs": [
+        "allopurinol 100",
+        "alpara",
+        "omeric",
+        "paracetamol",
+        "supertetra"
+      ],
+      "rhs": ["cdr"],
+      "confidence": 1
+    },
+    {
+      "lhs": ["allopurinol 100", "cdr", "omeric", "paracetamol", "supertetra"],
+      "rhs": ["alpara"],
+      "confidence": 0.75
+    },
+    {
+      "lhs": ["alpara", "amoxcilin", "cdr", "gratazon", "omeric"],
+      "rhs": ["supertetra"],
+      "confidence": 1
+    },
+    {
+      "lhs": ["alpara", "amoxcilin", "cdr", "gratazon", "supertetra"],
+      "rhs": ["omeric"],
+      "confidence": 0.7999999999999999
+    },
+    {
+      "lhs": ["alpara", "amoxcilin", "gratazon", "omeric", "supertetra"],
+      "rhs": ["cdr"],
+      "confidence": 1
+    },
+    {
+      "lhs": ["amoxcilin", "cdr", "gratazon", "omeric", "supertetra"],
+      "rhs": ["alpara"],
+      "confidence": 0.7999999999999999
+    },
+    {
+      "lhs": ["allopurinol 100", "alpara", "amoxcilin", "cdr", "omeric"],
+      "rhs": ["supertetra"],
+      "confidence": 1
+    },
+    {
+      "lhs": ["allopurinol 100", "alpara", "amoxcilin", "cdr", "supertetra"],
+      "rhs": ["omeric"],
+      "confidence": 1
+    },
+    {
+      "lhs": ["allopurinol 100", "alpara", "amoxcilin", "omeric", "supertetra"],
+      "rhs": ["cdr"],
+      "confidence": 1
+    },
+    {
+      "lhs": ["allopurinol 100", "amoxcilin", "cdr", "omeric", "supertetra"],
+      "rhs": ["alpara"],
+      "confidence": 0.75
+    },
+    {
+      "lhs": ["allopurinol 100", "alpara", "cdr", "gratazon", "omeric"],
+      "rhs": ["supertetra"],
+      "confidence": 1
+    },
+    {
+      "lhs": ["allopurinol 100", "alpara", "cdr", "gratazon", "supertetra"],
+      "rhs": ["omeric"],
+      "confidence": 1
+    },
+    {
+      "lhs": ["allopurinol 100", "alpara", "gratazon", "omeric", "supertetra"],
+      "rhs": ["cdr"],
+      "confidence": 1
+    },
+    {
+      "lhs": ["allopurinol 100", "cdr", "gratazon", "omeric", "supertetra"],
+      "rhs": ["alpara"],
+      "confidence": 0.75
+    },
+    {
+      "lhs": ["alpara", "amoxcilin", "cdr", "flamar", "paracetamol"],
+      "rhs": ["supertetra"],
+      "confidence": 1
+    },
+    {
+      "lhs": ["alpara", "amoxcilin", "flamar", "paracetamol", "supertetra"],
+      "rhs": ["cdr"],
+      "confidence": 1
+    },
+    {
+      "lhs": ["amoxcilin", "cdr", "flamar", "paracetamol", "supertetra"],
+      "rhs": ["alpara"],
+      "confidence": 0.6250000000000001
+    },
+    {
+      "lhs": ["alpara", "cdr", "flamar", "gratazon", "paracetamol"],
+      "rhs": ["supertetra"],
+      "confidence": 1
+    },
+    {
+      "lhs": ["alpara", "flamar", "gratazon", "paracetamol", "supertetra"],
+      "rhs": ["cdr"],
+      "confidence": 1
+    },
+    {
+      "lhs": ["cdr", "flamar", "gratazon", "paracetamol", "supertetra"],
+      "rhs": ["alpara"],
+      "confidence": 0.6250000000000001
+    },
+    {
+      "lhs": ["allopurinol 100", "alpara", "cdr", "flamar", "paracetamol"],
+      "rhs": ["supertetra"],
+      "confidence": 1
+    },
+    {
+      "lhs": [
+        "allopurinol 100",
+        "alpara",
+        "flamar",
+        "paracetamol",
+        "supertetra"
+      ],
+      "rhs": ["cdr"],
+      "confidence": 1
+    },
+    {
+      "lhs": ["allopurinol 100", "cdr", "flamar", "paracetamol", "supertetra"],
+      "rhs": ["alpara"],
+      "confidence": 0.6
+    },
+    {
+      "lhs": ["alpara", "amoxcilin", "cdr", "flamar", "gratazon"],
+      "rhs": ["supertetra"],
+      "confidence": 1
+    },
+    {
+      "lhs": ["alpara", "amoxcilin", "flamar", "gratazon", "supertetra"],
+      "rhs": ["cdr"],
+      "confidence": 1
+    },
+    {
+      "lhs": ["amoxcilin", "cdr", "flamar", "gratazon", "supertetra"],
+      "rhs": ["alpara"],
+      "confidence": 0.6250000000000001
+    },
+    {
+      "lhs": ["allopurinol 100", "alpara", "amoxcilin", "cdr", "flamar"],
+      "rhs": ["supertetra"],
+      "confidence": 1
+    },
+    {
+      "lhs": ["allopurinol 100", "alpara", "amoxcilin", "flamar", "supertetra"],
+      "rhs": ["cdr"],
+      "confidence": 1
+    },
+    {
+      "lhs": ["allopurinol 100", "amoxcilin", "cdr", "flamar", "supertetra"],
+      "rhs": ["alpara"],
+      "confidence": 0.6
+    },
+    {
+      "lhs": ["allopurinol 100", "alpara", "cdr", "flamar", "gratazon"],
+      "rhs": ["supertetra"],
+      "confidence": 1
+    },
+    {
+      "lhs": ["allopurinol 100", "alpara", "flamar", "gratazon", "supertetra"],
+      "rhs": ["cdr"],
+      "confidence": 1
+    },
+    {
+      "lhs": ["allopurinol 100", "cdr", "flamar", "gratazon", "supertetra"],
+      "rhs": ["alpara"],
+      "confidence": 0.6
+    },
+    {
+      "lhs": ["alpara", "amoxcilin", "cdr", "gratazon", "paracetamol"],
+      "rhs": ["supertetra"],
+      "confidence": 1
+    },
+    {
+      "lhs": ["alpara", "amoxcilin", "gratazon", "paracetamol", "supertetra"],
+      "rhs": ["cdr"],
+      "confidence": 1
+    },
+    {
+      "lhs": ["amoxcilin", "cdr", "gratazon", "paracetamol", "supertetra"],
+      "rhs": ["alpara"],
+      "confidence": 0.6250000000000001
+    },
+    {
+      "lhs": ["allopurinol 100", "alpara", "amoxcilin", "cdr", "paracetamol"],
+      "rhs": ["supertetra"],
+      "confidence": 1
+    },
+    {
+      "lhs": [
+        "allopurinol 100",
+        "alpara",
+        "amoxcilin",
+        "paracetamol",
+        "supertetra"
+      ],
+      "rhs": ["cdr"],
+      "confidence": 1
+    },
+    {
+      "lhs": [
+        "allopurinol 100",
+        "amoxcilin",
+        "cdr",
+        "paracetamol",
+        "supertetra"
+      ],
+      "rhs": ["alpara"],
+      "confidence": 0.6
+    },
+    {
+      "lhs": ["allopurinol 100", "alpara", "cdr", "gratazon", "paracetamol"],
+      "rhs": ["supertetra"],
+      "confidence": 1
+    },
+    {
+      "lhs": [
+        "allopurinol 100",
+        "alpara",
+        "gratazon",
+        "paracetamol",
+        "supertetra"
+      ],
+      "rhs": ["cdr"],
+      "confidence": 1
+    },
+    {
+      "lhs": [
+        "allopurinol 100",
+        "cdr",
+        "gratazon",
+        "paracetamol",
+        "supertetra"
+      ],
+      "rhs": ["alpara"],
+      "confidence": 0.6
+    },
+    {
+      "lhs": ["allopurinol 100", "alpara", "amoxcilin", "cdr", "gratazon"],
+      "rhs": ["supertetra"],
+      "confidence": 1
+    },
+    {
+      "lhs": [
+        "allopurinol 100",
+        "alpara",
+        "amoxcilin",
+        "gratazon",
+        "supertetra"
+      ],
+      "rhs": ["cdr"],
+      "confidence": 1
+    },
+    {
+      "lhs": ["allopurinol 100", "amoxcilin", "cdr", "gratazon", "supertetra"],
+      "rhs": ["alpara"],
+      "confidence": 0.6
+    },
+    {
+      "lhs": ["alpara", "amoxcilin", "flamar", "omeric", "paracetamol"],
+      "rhs": ["cdr"],
+      "confidence": 1
+    },
+    {
+      "lhs": ["amoxcilin", "cdr", "flamar", "omeric", "paracetamol"],
+      "rhs": ["alpara"],
+      "confidence": 0.6666666666666666
+    },
+    {
+      "lhs": ["alpara", "flamar", "gratazon", "omeric", "paracetamol"],
+      "rhs": ["cdr"],
+      "confidence": 1
+    },
+    {
+      "lhs": ["cdr", "flamar", "gratazon", "omeric", "paracetamol"],
+      "rhs": ["alpara"],
+      "confidence": 0.6666666666666666
+    },
+    {
+      "lhs": ["allopurinol 100", "alpara", "flamar", "omeric", "paracetamol"],
+      "rhs": ["cdr"],
+      "confidence": 1
+    },
+    {
+      "lhs": ["allopurinol 100", "cdr", "flamar", "omeric", "paracetamol"],
+      "rhs": ["alpara"],
+      "confidence": 0.6
+    },
+    {
+      "lhs": ["alpara", "amoxcilin", "flamar", "gratazon", "omeric"],
+      "rhs": ["cdr"],
+      "confidence": 1
+    },
+    {
+      "lhs": ["amoxcilin", "cdr", "flamar", "gratazon", "omeric"],
+      "rhs": ["alpara"],
+      "confidence": 0.6666666666666666
+    },
+    {
+      "lhs": ["allopurinol 100", "alpara", "amoxcilin", "flamar", "omeric"],
+      "rhs": ["cdr"],
+      "confidence": 1
+    },
+    {
+      "lhs": ["allopurinol 100", "amoxcilin", "cdr", "flamar", "omeric"],
+      "rhs": ["alpara"],
+      "confidence": 0.6
+    },
+    {
+      "lhs": ["allopurinol 100", "alpara", "flamar", "gratazon", "omeric"],
+      "rhs": ["cdr"],
+      "confidence": 1
+    },
+    {
+      "lhs": ["allopurinol 100", "cdr", "flamar", "gratazon", "omeric"],
+      "rhs": ["alpara"],
+      "confidence": 0.6
+    },
+    {
+      "lhs": ["alpara", "amoxcilin", "gratazon", "omeric", "paracetamol"],
+      "rhs": ["cdr"],
+      "confidence": 1
+    },
+    {
+      "lhs": ["amoxcilin", "cdr", "gratazon", "omeric", "paracetamol"],
+      "rhs": ["alpara"],
+      "confidence": 0.6666666666666666
+    },
+    {
+      "lhs": [
+        "allopurinol 100",
+        "alpara",
+        "amoxcilin",
+        "omeric",
+        "paracetamol"
+      ],
+      "rhs": ["cdr"],
+      "confidence": 1
+    },
+    {
+      "lhs": ["allopurinol 100", "amoxcilin", "cdr", "omeric", "paracetamol"],
+      "rhs": ["alpara"],
+      "confidence": 0.6
+    },
+    {
+      "lhs": ["allopurinol 100", "alpara", "gratazon", "omeric", "paracetamol"],
+      "rhs": ["cdr"],
+      "confidence": 1
+    },
+    {
+      "lhs": ["allopurinol 100", "cdr", "gratazon", "omeric", "paracetamol"],
+      "rhs": ["alpara"],
+      "confidence": 0.6
+    },
+    {
+      "lhs": ["allopurinol 100", "alpara", "amoxcilin", "gratazon", "omeric"],
+      "rhs": ["cdr"],
+      "confidence": 1
+    },
+    {
+      "lhs": ["allopurinol 100", "amoxcilin", "cdr", "gratazon", "omeric"],
+      "rhs": ["alpara"],
+      "confidence": 0.6
+    },
+    {
+      "lhs": ["alpara", "amoxcilin", "flamar", "gratazon", "paracetamol"],
+      "rhs": ["cdr"],
+      "confidence": 1
+    },
+    {
+      "lhs": ["amoxcilin", "cdr", "flamar", "gratazon", "paracetamol"],
+      "rhs": ["alpara"],
+      "confidence": 0.5555555555555556
+    },
+    {
+      "lhs": [
+        "allopurinol 100",
+        "alpara",
+        "amoxcilin",
+        "flamar",
+        "paracetamol"
+      ],
+      "rhs": ["cdr"],
+      "confidence": 1
+    },
+    {
+      "lhs": ["allopurinol 100", "amoxcilin", "cdr", "flamar", "paracetamol"],
+      "rhs": ["alpara"],
+      "confidence": 0.5
+    },
+    {
+      "lhs": ["allopurinol 100", "alpara", "flamar", "gratazon", "paracetamol"],
+      "rhs": ["cdr"],
+      "confidence": 1
+    },
+    {
+      "lhs": ["allopurinol 100", "cdr", "flamar", "gratazon", "paracetamol"],
+      "rhs": ["alpara"],
+      "confidence": 0.5
+    },
+    {
+      "lhs": ["allopurinol 100", "alpara", "amoxcilin", "flamar", "gratazon"],
+      "rhs": ["cdr"],
+      "confidence": 1
+    },
+    {
+      "lhs": ["allopurinol 100", "amoxcilin", "cdr", "flamar", "gratazon"],
+      "rhs": ["alpara"],
+      "confidence": 0.5
+    },
+    {
+      "lhs": [
+        "allopurinol 100",
+        "alpara",
+        "amoxcilin",
+        "gratazon",
+        "paracetamol"
+      ],
+      "rhs": ["cdr"],
+      "confidence": 1
+    },
+    {
+      "lhs": ["allopurinol 100", "amoxcilin", "cdr", "gratazon", "paracetamol"],
+      "rhs": ["alpara"],
+      "confidence": 0.5
+    },
+    {
+      "lhs": ["amoxcilin", "flamar", "omeric", "paracetamol", "supertetra"],
+      "rhs": ["cdr"],
+      "confidence": 1
+    },
+    {
+      "lhs": ["flamar", "gratazon", "omeric", "paracetamol", "supertetra"],
+      "rhs": ["cdr"],
+      "confidence": 1
+    },
+    {
+      "lhs": [
+        "allopurinol 100",
+        "flamar",
+        "omeric",
+        "paracetamol",
+        "supertetra"
+      ],
+      "rhs": ["cdr"],
+      "confidence": 1
+    },
+    {
+      "lhs": ["amoxcilin", "flamar", "gratazon", "omeric", "supertetra"],
+      "rhs": ["cdr"],
+      "confidence": 1
+    },
+    {
+      "lhs": ["allopurinol 100", "amoxcilin", "flamar", "omeric", "supertetra"],
+      "rhs": ["cdr"],
+      "confidence": 1
+    },
+    {
+      "lhs": ["allopurinol 100", "flamar", "gratazon", "omeric", "supertetra"],
+      "rhs": ["cdr"],
+      "confidence": 1
+    },
+    {
+      "lhs": ["amoxcilin", "gratazon", "omeric", "paracetamol", "supertetra"],
+      "rhs": ["cdr"],
+      "confidence": 1
+    },
+    {
+      "lhs": [
+        "allopurinol 100",
+        "amoxcilin",
+        "omeric",
+        "paracetamol",
+        "supertetra"
+      ],
+      "rhs": ["cdr"],
+      "confidence": 1
+    },
+    {
+      "lhs": [
+        "allopurinol 100",
+        "gratazon",
+        "omeric",
+        "paracetamol",
+        "supertetra"
+      ],
+      "rhs": ["cdr"],
+      "confidence": 1
+    },
+    {
+      "lhs": [
+        "allopurinol 100",
+        "amoxcilin",
+        "gratazon",
+        "omeric",
+        "supertetra"
+      ],
+      "rhs": ["cdr"],
+      "confidence": 1
+    },
+    {
+      "lhs": ["amoxcilin", "flamar", "gratazon", "paracetamol", "supertetra"],
+      "rhs": ["cdr"],
+      "confidence": 1
+    },
+    {
+      "lhs": [
+        "allopurinol 100",
+        "amoxcilin",
+        "flamar",
+        "paracetamol",
+        "supertetra"
+      ],
+      "rhs": ["cdr"],
+      "confidence": 1
+    },
+    {
+      "lhs": [
+        "allopurinol 100",
+        "flamar",
+        "gratazon",
+        "paracetamol",
+        "supertetra"
+      ],
+      "rhs": ["cdr"],
+      "confidence": 1
+    },
+    {
+      "lhs": [
+        "allopurinol 100",
+        "amoxcilin",
+        "flamar",
+        "gratazon",
+        "supertetra"
+      ],
+      "rhs": ["cdr"],
+      "confidence": 1
+    },
+    {
+      "lhs": [
+        "allopurinol 100",
+        "amoxcilin",
+        "gratazon",
+        "paracetamol",
+        "supertetra"
+      ],
+      "rhs": ["cdr"],
+      "confidence": 1
+    },
+    {
+      "lhs": ["amoxcilin", "flamar", "gratazon", "omeric", "paracetamol"],
+      "rhs": ["cdr"],
+      "confidence": 1
+    },
+    {
+      "lhs": [
+        "allopurinol 100",
+        "amoxcilin",
+        "flamar",
+        "omeric",
+        "paracetamol"
+      ],
+      "rhs": ["cdr"],
+      "confidence": 1
+    },
+    {
+      "lhs": ["allopurinol 100", "flamar", "gratazon", "omeric", "paracetamol"],
+      "rhs": ["cdr"],
+      "confidence": 1
+    },
+    {
+      "lhs": ["allopurinol 100", "amoxcilin", "flamar", "gratazon", "omeric"],
+      "rhs": ["cdr"],
+      "confidence": 1
+    },
+    {
+      "lhs": [
+        "allopurinol 100",
+        "amoxcilin",
+        "gratazon",
+        "omeric",
+        "paracetamol"
+      ],
+      "rhs": ["cdr"],
+      "confidence": 1
+    },
+    {
+      "lhs": [
+        "allopurinol 100",
+        "amoxcilin",
+        "flamar",
+        "gratazon",
+        "paracetamol"
+      ],
+      "rhs": ["cdr"],
+      "confidence": 1
+    },
+    {
+      "lhs": ["alpara", "amoxcilin", "cdr", "flamar", "omeric", "paracetamol"],
+      "rhs": ["supertetra"],
+      "confidence": 1
+    },
+    {
+      "lhs": ["alpara", "amoxcilin", "cdr", "flamar", "omeric", "supertetra"],
+      "rhs": ["paracetamol"],
+      "confidence": 1
+    },
+    {
+      "lhs": [
+        "alpara",
+        "amoxcilin",
+        "cdr",
+        "flamar",
+        "paracetamol",
+        "supertetra"
+      ],
+      "rhs": ["omeric"],
+      "confidence": 0.7999999999999999
+    },
+    {
+      "lhs": [
+        "alpara",
+        "amoxcilin",
+        "cdr",
+        "omeric",
+        "paracetamol",
+        "supertetra"
+      ],
+      "rhs": ["flamar"],
+      "confidence": 1
+    },
+    {
+      "lhs": [
+        "alpara",
+        "amoxcilin",
+        "flamar",
+        "omeric",
+        "paracetamol",
+        "supertetra"
+      ],
+      "rhs": ["cdr"],
+      "confidence": 1
+    },
+    {
+      "lhs": ["alpara", "cdr", "flamar", "omeric", "paracetamol", "supertetra"],
+      "rhs": ["amoxcilin"],
+      "confidence": 1
+    },
+    {
+      "lhs": [
+        "amoxcilin",
+        "cdr",
+        "flamar",
+        "omeric",
+        "paracetamol",
+        "supertetra"
+      ],
+      "rhs": ["alpara"],
+      "confidence": 0.7999999999999999
+    },
+    {
+      "lhs": ["alpara", "cdr", "flamar", "gratazon", "omeric", "paracetamol"],
+      "rhs": ["supertetra"],
+      "confidence": 1
+    },
+    {
+      "lhs": ["alpara", "cdr", "flamar", "gratazon", "omeric", "supertetra"],
+      "rhs": ["paracetamol"],
+      "confidence": 1
+    },
+    {
+      "lhs": [
+        "alpara",
+        "cdr",
+        "flamar",
+        "gratazon",
+        "paracetamol",
+        "supertetra"
+      ],
+      "rhs": ["omeric"],
+      "confidence": 0.7999999999999999
+    },
+    {
+      "lhs": [
+        "alpara",
+        "cdr",
+        "gratazon",
+        "omeric",
+        "paracetamol",
+        "supertetra"
+      ],
+      "rhs": ["flamar"],
+      "confidence": 1
+    },
+    {
+      "lhs": [
+        "alpara",
+        "flamar",
+        "gratazon",
+        "omeric",
+        "paracetamol",
+        "supertetra"
+      ],
+      "rhs": ["cdr"],
+      "confidence": 1
+    },
+    {
+      "lhs": [
+        "cdr",
+        "flamar",
+        "gratazon",
+        "omeric",
+        "paracetamol",
+        "supertetra"
+      ],
+      "rhs": ["alpara"],
+      "confidence": 0.7999999999999999
+    },
+    {
+      "lhs": [
+        "allopurinol 100",
+        "alpara",
+        "cdr",
+        "flamar",
+        "omeric",
+        "paracetamol"
+      ],
+      "rhs": ["supertetra"],
+      "confidence": 1
+    },
+    {
+      "lhs": [
+        "allopurinol 100",
+        "alpara",
+        "cdr",
+        "flamar",
+        "omeric",
+        "supertetra"
+      ],
+      "rhs": ["paracetamol"],
+      "confidence": 1
+    },
+    {
+      "lhs": [
+        "allopurinol 100",
+        "alpara",
+        "cdr",
+        "flamar",
+        "paracetamol",
+        "supertetra"
+      ],
+      "rhs": ["omeric"],
+      "confidence": 1
+    },
+    {
+      "lhs": [
+        "allopurinol 100",
+        "alpara",
+        "cdr",
+        "omeric",
+        "paracetamol",
+        "supertetra"
+      ],
+      "rhs": ["flamar"],
+      "confidence": 1
+    },
+    {
+      "lhs": [
+        "allopurinol 100",
+        "alpara",
+        "flamar",
+        "omeric",
+        "paracetamol",
+        "supertetra"
+      ],
+      "rhs": ["cdr"],
+      "confidence": 1
+    },
+    {
+      "lhs": [
+        "allopurinol 100",
+        "cdr",
+        "flamar",
+        "omeric",
+        "paracetamol",
+        "supertetra"
+      ],
+      "rhs": ["alpara"],
+      "confidence": 0.75
+    },
+    {
+      "lhs": ["alpara", "amoxcilin", "cdr", "flamar", "gratazon", "omeric"],
+      "rhs": ["supertetra"],
+      "confidence": 1
+    },
+    {
+      "lhs": ["alpara", "amoxcilin", "cdr", "flamar", "gratazon", "supertetra"],
+      "rhs": ["omeric"],
+      "confidence": 0.7999999999999999
+    },
+    {
+      "lhs": ["alpara", "amoxcilin", "cdr", "gratazon", "omeric", "supertetra"],
+      "rhs": ["flamar"],
+      "confidence": 1
+    },
+    {
+      "lhs": [
+        "alpara",
+        "amoxcilin",
+        "flamar",
+        "gratazon",
+        "omeric",
+        "supertetra"
+      ],
+      "rhs": ["cdr"],
+      "confidence": 1
+    },
+    {
+      "lhs": ["amoxcilin", "cdr", "flamar", "gratazon", "omeric", "supertetra"],
+      "rhs": ["alpara"],
+      "confidence": 0.7999999999999999
+    },
+    {
+      "lhs": [
+        "allopurinol 100",
+        "alpara",
+        "amoxcilin",
+        "cdr",
+        "flamar",
+        "omeric"
+      ],
+      "rhs": ["supertetra"],
+      "confidence": 1
+    },
+    {
+      "lhs": [
+        "allopurinol 100",
+        "alpara",
+        "amoxcilin",
+        "cdr",
+        "flamar",
+        "supertetra"
+      ],
+      "rhs": ["omeric"],
+      "confidence": 1
+    },
+    {
+      "lhs": [
+        "allopurinol 100",
+        "alpara",
+        "amoxcilin",
+        "cdr",
+        "omeric",
+        "supertetra"
+      ],
+      "rhs": ["flamar"],
+      "confidence": 1
+    },
+    {
+      "lhs": [
+        "allopurinol 100",
+        "alpara",
+        "amoxcilin",
+        "flamar",
+        "omeric",
+        "supertetra"
+      ],
+      "rhs": ["cdr"],
+      "confidence": 1
+    },
+    {
+      "lhs": [
+        "allopurinol 100",
+        "amoxcilin",
+        "cdr",
+        "flamar",
+        "omeric",
+        "supertetra"
+      ],
+      "rhs": ["alpara"],
+      "confidence": 0.75
+    },
+    {
+      "lhs": [
+        "allopurinol 100",
+        "alpara",
+        "cdr",
+        "flamar",
+        "gratazon",
+        "omeric"
+      ],
+      "rhs": ["supertetra"],
+      "confidence": 1
+    },
+    {
+      "lhs": [
+        "allopurinol 100",
+        "alpara",
+        "cdr",
+        "flamar",
+        "gratazon",
+        "supertetra"
+      ],
+      "rhs": ["omeric"],
+      "confidence": 1
+    },
+    {
+      "lhs": [
+        "allopurinol 100",
+        "alpara",
+        "cdr",
+        "gratazon",
+        "omeric",
+        "supertetra"
+      ],
+      "rhs": ["flamar"],
+      "confidence": 1
+    },
+    {
+      "lhs": [
+        "allopurinol 100",
+        "alpara",
+        "flamar",
+        "gratazon",
+        "omeric",
+        "supertetra"
+      ],
+      "rhs": ["cdr"],
+      "confidence": 1
+    },
+    {
+      "lhs": [
+        "allopurinol 100",
+        "cdr",
+        "flamar",
+        "gratazon",
+        "omeric",
+        "supertetra"
+      ],
+      "rhs": ["alpara"],
+      "confidence": 0.75
+    },
+    {
+      "lhs": [
+        "alpara",
+        "amoxcilin",
+        "cdr",
+        "gratazon",
+        "omeric",
+        "paracetamol"
+      ],
+      "rhs": ["supertetra"],
+      "confidence": 1
+    },
+    {
+      "lhs": [
+        "alpara",
+        "amoxcilin",
+        "cdr",
+        "gratazon",
+        "paracetamol",
+        "supertetra"
+      ],
+      "rhs": ["omeric"],
+      "confidence": 0.7999999999999999
+    },
+    {
+      "lhs": [
+        "alpara",
+        "amoxcilin",
+        "gratazon",
+        "omeric",
+        "paracetamol",
+        "supertetra"
+      ],
+      "rhs": ["cdr"],
+      "confidence": 1
+    },
+    {
+      "lhs": [
+        "amoxcilin",
+        "cdr",
+        "gratazon",
+        "omeric",
+        "paracetamol",
+        "supertetra"
+      ],
+      "rhs": ["alpara"],
+      "confidence": 0.7999999999999999
+    },
+    {
+      "lhs": [
+        "allopurinol 100",
+        "alpara",
+        "amoxcilin",
+        "cdr",
+        "omeric",
+        "paracetamol"
+      ],
+      "rhs": ["supertetra"],
+      "confidence": 1
+    },
+    {
+      "lhs": [
+        "allopurinol 100",
+        "alpara",
+        "amoxcilin",
+        "cdr",
+        "paracetamol",
+        "supertetra"
+      ],
+      "rhs": ["omeric"],
+      "confidence": 1
+    },
+    {
+      "lhs": [
+        "allopurinol 100",
+        "alpara",
+        "amoxcilin",
+        "omeric",
+        "paracetamol",
+        "supertetra"
+      ],
+      "rhs": ["cdr"],
+      "confidence": 1
+    },
+    {
+      "lhs": [
+        "allopurinol 100",
+        "amoxcilin",
+        "cdr",
+        "omeric",
+        "paracetamol",
+        "supertetra"
+      ],
+      "rhs": ["alpara"],
+      "confidence": 0.75
+    },
+    {
+      "lhs": [
+        "allopurinol 100",
+        "alpara",
+        "cdr",
+        "gratazon",
+        "omeric",
+        "paracetamol"
+      ],
+      "rhs": ["supertetra"],
+      "confidence": 1
+    },
+    {
+      "lhs": [
+        "allopurinol 100",
+        "alpara",
+        "cdr",
+        "gratazon",
+        "paracetamol",
+        "supertetra"
+      ],
+      "rhs": ["omeric"],
+      "confidence": 1
+    },
+    {
+      "lhs": [
+        "allopurinol 100",
+        "alpara",
+        "gratazon",
+        "omeric",
+        "paracetamol",
+        "supertetra"
+      ],
+      "rhs": ["cdr"],
+      "confidence": 1
+    },
+    {
+      "lhs": [
+        "allopurinol 100",
+        "cdr",
+        "gratazon",
+        "omeric",
+        "paracetamol",
+        "supertetra"
+      ],
+      "rhs": ["alpara"],
+      "confidence": 0.75
+    },
+    {
+      "lhs": [
+        "allopurinol 100",
+        "alpara",
+        "amoxcilin",
+        "cdr",
+        "gratazon",
+        "omeric"
+      ],
+      "rhs": ["supertetra"],
+      "confidence": 1
+    },
+    {
+      "lhs": [
+        "allopurinol 100",
+        "alpara",
+        "amoxcilin",
+        "cdr",
+        "gratazon",
+        "supertetra"
+      ],
+      "rhs": ["omeric"],
+      "confidence": 1
+    },
+    {
+      "lhs": [
+        "allopurinol 100",
+        "alpara",
+        "amoxcilin",
+        "gratazon",
+        "omeric",
+        "supertetra"
+      ],
+      "rhs": ["cdr"],
+      "confidence": 1
+    },
+    {
+      "lhs": [
+        "allopurinol 100",
+        "amoxcilin",
+        "cdr",
+        "gratazon",
+        "omeric",
+        "supertetra"
+      ],
+      "rhs": ["alpara"],
+      "confidence": 0.75
+    },
+    {
+      "lhs": [
+        "alpara",
+        "amoxcilin",
+        "cdr",
+        "flamar",
+        "gratazon",
+        "paracetamol"
+      ],
+      "rhs": ["supertetra"],
+      "confidence": 1
+    },
+    {
+      "lhs": [
+        "alpara",
+        "amoxcilin",
+        "flamar",
+        "gratazon",
+        "paracetamol",
+        "supertetra"
+      ],
+      "rhs": ["cdr"],
+      "confidence": 1
+    },
+    {
+      "lhs": [
+        "amoxcilin",
+        "cdr",
+        "flamar",
+        "gratazon",
+        "paracetamol",
+        "supertetra"
+      ],
+      "rhs": ["alpara"],
+      "confidence": 0.6250000000000001
+    },
+    {
+      "lhs": [
+        "allopurinol 100",
+        "alpara",
+        "amoxcilin",
+        "cdr",
+        "flamar",
+        "paracetamol"
+      ],
+      "rhs": ["supertetra"],
+      "confidence": 1
+    },
+    {
+      "lhs": [
+        "allopurinol 100",
+        "alpara",
+        "amoxcilin",
+        "flamar",
+        "paracetamol",
+        "supertetra"
+      ],
+      "rhs": ["cdr"],
+      "confidence": 1
+    },
+    {
+      "lhs": [
+        "allopurinol 100",
+        "amoxcilin",
+        "cdr",
+        "flamar",
+        "paracetamol",
+        "supertetra"
+      ],
+      "rhs": ["alpara"],
+      "confidence": 0.6
+    },
+    {
+      "lhs": [
+        "allopurinol 100",
+        "alpara",
+        "cdr",
+        "flamar",
+        "gratazon",
+        "paracetamol"
+      ],
+      "rhs": ["supertetra"],
+      "confidence": 1
+    },
+    {
+      "lhs": [
+        "allopurinol 100",
+        "alpara",
+        "flamar",
+        "gratazon",
+        "paracetamol",
+        "supertetra"
+      ],
+      "rhs": ["cdr"],
+      "confidence": 1
+    },
+    {
+      "lhs": [
+        "allopurinol 100",
+        "cdr",
+        "flamar",
+        "gratazon",
+        "paracetamol",
+        "supertetra"
+      ],
+      "rhs": ["alpara"],
+      "confidence": 0.6
+    },
+    {
+      "lhs": [
+        "allopurinol 100",
+        "alpara",
+        "amoxcilin",
+        "cdr",
+        "flamar",
+        "gratazon"
+      ],
+      "rhs": ["supertetra"],
+      "confidence": 1
+    },
+    {
+      "lhs": [
+        "allopurinol 100",
+        "alpara",
+        "amoxcilin",
+        "flamar",
+        "gratazon",
+        "supertetra"
+      ],
+      "rhs": ["cdr"],
+      "confidence": 1
+    },
+    {
+      "lhs": [
+        "allopurinol 100",
+        "amoxcilin",
+        "cdr",
+        "flamar",
+        "gratazon",
+        "supertetra"
+      ],
+      "rhs": ["alpara"],
+      "confidence": 0.6
+    },
+    {
+      "lhs": [
+        "allopurinol 100",
+        "alpara",
+        "amoxcilin",
+        "cdr",
+        "gratazon",
+        "paracetamol"
+      ],
+      "rhs": ["supertetra"],
+      "confidence": 1
+    },
+    {
+      "lhs": [
+        "allopurinol 100",
+        "alpara",
+        "amoxcilin",
+        "gratazon",
+        "paracetamol",
+        "supertetra"
+      ],
+      "rhs": ["cdr"],
+      "confidence": 1
+    },
+    {
+      "lhs": [
+        "allopurinol 100",
+        "amoxcilin",
+        "cdr",
+        "gratazon",
+        "paracetamol",
+        "supertetra"
+      ],
+      "rhs": ["alpara"],
+      "confidence": 0.6
+    },
+    {
+      "lhs": [
+        "alpara",
+        "amoxcilin",
+        "flamar",
+        "gratazon",
+        "omeric",
+        "paracetamol"
+      ],
+      "rhs": ["cdr"],
+      "confidence": 1
+    },
+    {
+      "lhs": [
+        "amoxcilin",
+        "cdr",
+        "flamar",
+        "gratazon",
+        "omeric",
+        "paracetamol"
+      ],
+      "rhs": ["alpara"],
+      "confidence": 0.6666666666666666
+    },
+    {
+      "lhs": [
+        "allopurinol 100",
+        "alpara",
+        "amoxcilin",
+        "flamar",
+        "omeric",
+        "paracetamol"
+      ],
+      "rhs": ["cdr"],
+      "confidence": 1
+    },
+    {
+      "lhs": [
+        "allopurinol 100",
+        "amoxcilin",
+        "cdr",
+        "flamar",
+        "omeric",
+        "paracetamol"
+      ],
+      "rhs": ["alpara"],
+      "confidence": 0.6
+    },
+    {
+      "lhs": [
+        "allopurinol 100",
+        "alpara",
+        "flamar",
+        "gratazon",
+        "omeric",
+        "paracetamol"
+      ],
+      "rhs": ["cdr"],
+      "confidence": 1
+    },
+    {
+      "lhs": [
+        "allopurinol 100",
+        "cdr",
+        "flamar",
+        "gratazon",
+        "omeric",
+        "paracetamol"
+      ],
+      "rhs": ["alpara"],
+      "confidence": 0.6
+    },
+    {
+      "lhs": [
+        "allopurinol 100",
+        "alpara",
+        "amoxcilin",
+        "flamar",
+        "gratazon",
+        "omeric"
+      ],
+      "rhs": ["cdr"],
+      "confidence": 1
+    },
+    {
+      "lhs": [
+        "allopurinol 100",
+        "amoxcilin",
+        "cdr",
+        "flamar",
+        "gratazon",
+        "omeric"
+      ],
+      "rhs": ["alpara"],
+      "confidence": 0.6
+    },
+    {
+      "lhs": [
+        "allopurinol 100",
+        "alpara",
+        "amoxcilin",
+        "gratazon",
+        "omeric",
+        "paracetamol"
+      ],
+      "rhs": ["cdr"],
+      "confidence": 1
+    },
+    {
+      "lhs": [
+        "allopurinol 100",
+        "amoxcilin",
+        "cdr",
+        "gratazon",
+        "omeric",
+        "paracetamol"
+      ],
+      "rhs": ["alpara"],
+      "confidence": 0.6
+    },
+    {
+      "lhs": [
+        "allopurinol 100",
+        "alpara",
+        "amoxcilin",
+        "flamar",
+        "gratazon",
+        "paracetamol"
+      ],
+      "rhs": ["cdr"],
+      "confidence": 1
+    },
+    {
+      "lhs": [
+        "allopurinol 100",
+        "amoxcilin",
+        "cdr",
+        "flamar",
+        "gratazon",
+        "paracetamol"
+      ],
+      "rhs": ["alpara"],
+      "confidence": 0.5
+    },
+    {
+      "lhs": [
+        "amoxcilin",
+        "flamar",
+        "gratazon",
+        "omeric",
+        "paracetamol",
+        "supertetra"
+      ],
+      "rhs": ["cdr"],
+      "confidence": 1
+    },
+    {
+      "lhs": [
+        "allopurinol 100",
+        "amoxcilin",
+        "flamar",
+        "omeric",
+        "paracetamol",
+        "supertetra"
+      ],
+      "rhs": ["cdr"],
+      "confidence": 1
+    },
+    {
+      "lhs": [
+        "allopurinol 100",
+        "flamar",
+        "gratazon",
+        "omeric",
+        "paracetamol",
+        "supertetra"
+      ],
+      "rhs": ["cdr"],
+      "confidence": 1
+    },
+    {
+      "lhs": [
+        "allopurinol 100",
+        "amoxcilin",
+        "flamar",
+        "gratazon",
+        "omeric",
+        "supertetra"
+      ],
+      "rhs": ["cdr"],
+      "confidence": 1
+    },
+    {
+      "lhs": [
+        "allopurinol 100",
+        "amoxcilin",
+        "gratazon",
+        "omeric",
+        "paracetamol",
+        "supertetra"
+      ],
+      "rhs": ["cdr"],
+      "confidence": 1
+    },
+    {
+      "lhs": [
+        "allopurinol 100",
+        "amoxcilin",
+        "flamar",
+        "gratazon",
+        "paracetamol",
+        "supertetra"
+      ],
+      "rhs": ["cdr"],
+      "confidence": 1
+    },
+    {
+      "lhs": [
+        "allopurinol 100",
+        "amoxcilin",
+        "flamar",
+        "gratazon",
+        "omeric",
+        "paracetamol"
+      ],
+      "rhs": ["cdr"],
+      "confidence": 1
+    },
+    {
+      "lhs": [
+        "alpara",
+        "amoxcilin",
+        "cdr",
+        "flamar",
+        "gratazon",
+        "omeric",
+        "paracetamol"
+      ],
+      "rhs": ["supertetra"],
+      "confidence": 1
+    },
+    {
+      "lhs": [
+        "alpara",
+        "amoxcilin",
+        "cdr",
+        "flamar",
+        "gratazon",
+        "omeric",
+        "supertetra"
+      ],
+      "rhs": ["paracetamol"],
+      "confidence": 1
+    },
+    {
+      "lhs": [
+        "alpara",
+        "amoxcilin",
+        "cdr",
+        "flamar",
+        "gratazon",
+        "paracetamol",
+        "supertetra"
+      ],
+      "rhs": ["omeric"],
+      "confidence": 0.7999999999999999
+    },
+    {
+      "lhs": [
+        "alpara",
+        "amoxcilin",
+        "cdr",
+        "flamar",
+        "omeric",
+        "paracetamol",
+        "supertetra"
+      ],
+      "rhs": ["gratazon"],
+      "confidence": 1
+    },
+    {
+      "lhs": [
+        "alpara",
+        "amoxcilin",
+        "cdr",
+        "gratazon",
+        "omeric",
+        "paracetamol",
+        "supertetra"
+      ],
+      "rhs": ["flamar"],
+      "confidence": 1
+    },
+    {
+      "lhs": [
+        "alpara",
+        "amoxcilin",
+        "flamar",
+        "gratazon",
+        "omeric",
+        "paracetamol",
+        "supertetra"
+      ],
+      "rhs": ["cdr"],
+      "confidence": 1
+    },
+    {
+      "lhs": [
+        "alpara",
+        "cdr",
+        "flamar",
+        "gratazon",
+        "omeric",
+        "paracetamol",
+        "supertetra"
+      ],
+      "rhs": ["amoxcilin"],
+      "confidence": 1
+    },
+    {
+      "lhs": [
+        "amoxcilin",
+        "cdr",
+        "flamar",
+        "gratazon",
+        "omeric",
+        "paracetamol",
+        "supertetra"
+      ],
+      "rhs": ["alpara"],
+      "confidence": 0.7999999999999999
+    },
+    {
+      "lhs": [
+        "allopurinol 100",
+        "alpara",
+        "amoxcilin",
+        "cdr",
+        "flamar",
+        "omeric",
+        "paracetamol"
+      ],
+      "rhs": ["supertetra"],
+      "confidence": 1
+    },
+    {
+      "lhs": [
+        "allopurinol 100",
+        "alpara",
+        "amoxcilin",
+        "cdr",
+        "flamar",
+        "omeric",
+        "supertetra"
+      ],
+      "rhs": ["paracetamol"],
+      "confidence": 1
+    },
+    {
+      "lhs": [
+        "allopurinol 100",
+        "alpara",
+        "amoxcilin",
+        "cdr",
+        "flamar",
+        "paracetamol",
+        "supertetra"
+      ],
+      "rhs": ["omeric"],
+      "confidence": 1
+    },
+    {
+      "lhs": [
+        "allopurinol 100",
+        "alpara",
+        "amoxcilin",
+        "cdr",
+        "omeric",
+        "paracetamol",
+        "supertetra"
+      ],
+      "rhs": ["flamar"],
+      "confidence": 1
+    },
+    {
+      "lhs": [
+        "allopurinol 100",
+        "alpara",
+        "amoxcilin",
+        "flamar",
+        "omeric",
+        "paracetamol",
+        "supertetra"
+      ],
+      "rhs": ["cdr"],
+      "confidence": 1
+    },
+    {
+      "lhs": [
+        "allopurinol 100",
+        "alpara",
+        "cdr",
+        "flamar",
+        "omeric",
+        "paracetamol",
+        "supertetra"
+      ],
+      "rhs": ["amoxcilin"],
+      "confidence": 1
+    },
+    {
+      "lhs": [
+        "allopurinol 100",
+        "amoxcilin",
+        "cdr",
+        "flamar",
+        "omeric",
+        "paracetamol",
+        "supertetra"
+      ],
+      "rhs": ["alpara"],
+      "confidence": 0.75
+    },
+    {
+      "lhs": [
+        "allopurinol 100",
+        "alpara",
+        "cdr",
+        "flamar",
+        "gratazon",
+        "omeric",
+        "paracetamol"
+      ],
+      "rhs": ["supertetra"],
+      "confidence": 1
+    },
+    {
+      "lhs": [
+        "allopurinol 100",
+        "alpara",
+        "cdr",
+        "flamar",
+        "gratazon",
+        "omeric",
+        "supertetra"
+      ],
+      "rhs": ["paracetamol"],
+      "confidence": 1
+    },
+    {
+      "lhs": [
+        "allopurinol 100",
+        "alpara",
+        "cdr",
+        "flamar",
+        "gratazon",
+        "paracetamol",
+        "supertetra"
+      ],
+      "rhs": ["omeric"],
+      "confidence": 1
+    },
+    {
+      "lhs": [
+        "allopurinol 100",
+        "alpara",
+        "cdr",
+        "gratazon",
+        "omeric",
+        "paracetamol",
+        "supertetra"
+      ],
+      "rhs": ["flamar"],
+      "confidence": 1
+    },
+    {
+      "lhs": [
+        "allopurinol 100",
+        "alpara",
+        "flamar",
+        "gratazon",
+        "omeric",
+        "paracetamol",
+        "supertetra"
+      ],
+      "rhs": ["cdr"],
+      "confidence": 1
+    },
+    {
+      "lhs": [
+        "allopurinol 100",
+        "cdr",
+        "flamar",
+        "gratazon",
+        "omeric",
+        "paracetamol",
+        "supertetra"
+      ],
+      "rhs": ["alpara"],
+      "confidence": 0.75
+    },
+    {
+      "lhs": [
+        "allopurinol 100",
+        "alpara",
+        "amoxcilin",
+        "cdr",
+        "flamar",
+        "gratazon",
+        "omeric"
+      ],
+      "rhs": ["supertetra"],
+      "confidence": 1
+    },
+    {
+      "lhs": [
+        "allopurinol 100",
+        "alpara",
+        "amoxcilin",
+        "cdr",
+        "flamar",
+        "gratazon",
+        "supertetra"
+      ],
+      "rhs": ["omeric"],
+      "confidence": 1
+    },
+    {
+      "lhs": [
+        "allopurinol 100",
+        "alpara",
+        "amoxcilin",
+        "cdr",
+        "gratazon",
+        "omeric",
+        "supertetra"
+      ],
+      "rhs": ["flamar"],
+      "confidence": 1
+    },
+    {
+      "lhs": [
+        "allopurinol 100",
+        "alpara",
+        "amoxcilin",
+        "flamar",
+        "gratazon",
+        "omeric",
+        "supertetra"
+      ],
+      "rhs": ["cdr"],
+      "confidence": 1
+    },
+    {
+      "lhs": [
+        "allopurinol 100",
+        "amoxcilin",
+        "cdr",
+        "flamar",
+        "gratazon",
+        "omeric",
+        "supertetra"
+      ],
+      "rhs": ["alpara"],
+      "confidence": 0.75
+    },
+    {
+      "lhs": [
+        "allopurinol 100",
+        "alpara",
+        "amoxcilin",
+        "cdr",
+        "gratazon",
+        "omeric",
+        "paracetamol"
+      ],
+      "rhs": ["supertetra"],
+      "confidence": 1
+    },
+    {
+      "lhs": [
+        "allopurinol 100",
+        "alpara",
+        "amoxcilin",
+        "cdr",
+        "gratazon",
+        "paracetamol",
+        "supertetra"
+      ],
+      "rhs": ["omeric"],
+      "confidence": 1
+    },
+    {
+      "lhs": [
+        "allopurinol 100",
+        "alpara",
+        "amoxcilin",
+        "gratazon",
+        "omeric",
+        "paracetamol",
+        "supertetra"
+      ],
+      "rhs": ["cdr"],
+      "confidence": 1
+    },
+    {
+      "lhs": [
+        "allopurinol 100",
+        "amoxcilin",
+        "cdr",
+        "gratazon",
+        "omeric",
+        "paracetamol",
+        "supertetra"
+      ],
+      "rhs": ["alpara"],
+      "confidence": 0.75
+    },
+    {
+      "lhs": [
+        "allopurinol 100",
+        "alpara",
+        "amoxcilin",
+        "cdr",
+        "flamar",
+        "gratazon",
+        "paracetamol"
+      ],
+      "rhs": ["supertetra"],
+      "confidence": 1
+    },
+    {
+      "lhs": [
+        "allopurinol 100",
+        "alpara",
+        "amoxcilin",
+        "flamar",
+        "gratazon",
+        "paracetamol",
+        "supertetra"
+      ],
+      "rhs": ["cdr"],
+      "confidence": 1
+    },
+    {
+      "lhs": [
+        "allopurinol 100",
+        "amoxcilin",
+        "cdr",
+        "flamar",
+        "gratazon",
+        "paracetamol",
+        "supertetra"
+      ],
+      "rhs": ["alpara"],
+      "confidence": 0.6
+    },
+    {
+      "lhs": [
+        "allopurinol 100",
+        "alpara",
+        "amoxcilin",
+        "flamar",
+        "gratazon",
+        "omeric",
+        "paracetamol"
+      ],
+      "rhs": ["cdr"],
+      "confidence": 1
+    },
+    {
+      "lhs": [
+        "allopurinol 100",
+        "amoxcilin",
+        "cdr",
+        "flamar",
+        "gratazon",
+        "omeric",
+        "paracetamol"
+      ],
+      "rhs": ["alpara"],
+      "confidence": 0.6
+    },
+    {
+      "lhs": [
+        "allopurinol 100",
+        "amoxcilin",
+        "flamar",
+        "gratazon",
+        "omeric",
+        "paracetamol",
+        "supertetra"
+      ],
+      "rhs": ["cdr"],
+      "confidence": 1
+    },
+    {
+      "lhs": [
+        "allopurinol 100",
+        "alpara",
+        "amoxcilin",
+        "cdr",
+        "flamar",
+        "gratazon",
+        "omeric",
+        "paracetamol"
+      ],
+      "rhs": ["supertetra"],
+      "confidence": 1
+    },
+    {
+      "lhs": [
+        "allopurinol 100",
+        "alpara",
+        "amoxcilin",
+        "cdr",
+        "flamar",
+        "gratazon",
+        "omeric",
+        "supertetra"
+      ],
+      "rhs": ["paracetamol"],
+      "confidence": 1
+    },
+    {
+      "lhs": [
+        "allopurinol 100",
+        "alpara",
+        "amoxcilin",
+        "cdr",
+        "flamar",
+        "gratazon",
+        "paracetamol",
+        "supertetra"
+      ],
+      "rhs": ["omeric"],
+      "confidence": 1
+    },
+    {
+      "lhs": [
+        "allopurinol 100",
+        "alpara",
+        "amoxcilin",
+        "cdr",
+        "flamar",
+        "omeric",
+        "paracetamol",
+        "supertetra"
+      ],
+      "rhs": ["gratazon"],
+      "confidence": 1
+    },
+    {
+      "lhs": [
+        "allopurinol 100",
+        "alpara",
+        "amoxcilin",
+        "cdr",
+        "gratazon",
+        "omeric",
+        "paracetamol",
+        "supertetra"
+      ],
+      "rhs": ["flamar"],
+      "confidence": 1
+    },
+    {
+      "lhs": [
+        "allopurinol 100",
+        "alpara",
+        "amoxcilin",
+        "flamar",
+        "gratazon",
+        "omeric",
+        "paracetamol",
+        "supertetra"
+      ],
+      "rhs": ["cdr"],
+      "confidence": 1
+    },
+    {
+      "lhs": [
+        "allopurinol 100",
+        "alpara",
+        "cdr",
+        "flamar",
+        "gratazon",
+        "omeric",
+        "paracetamol",
+        "supertetra"
+      ],
+      "rhs": ["amoxcilin"],
+      "confidence": 1
+    },
+    {
+      "lhs": [
+        "allopurinol 100",
+        "amoxcilin",
+        "cdr",
+        "flamar",
+        "gratazon",
+        "omeric",
+        "paracetamol",
+        "supertetra"
+      ],
+      "rhs": ["alpara"],
+      "confidence": 0.75
+    },
+    {
+      "lhs": [
+        "alpara",
+        "amoxcilin",
+        "cdr",
+        "flamar",
+        "gratazon",
+        "omeric",
+        "paracetamol",
+        "supertetra"
+      ],
+      "rhs": ["allopurinol 100"],
+      "confidence": 0.75
+    }
+  ]
+}
