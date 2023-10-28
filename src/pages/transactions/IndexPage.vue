@@ -1,5 +1,7 @@
 <template>
   <div class="q-pa-md">
+    <div class="text-body2">
+    </div>
     <q-table flat bordered title="Transaksi" :rows="rows" :columns="columns" row-key="idTransaksi" dense
       :visible-columns="visibleColumns" :selected-rows-label="getSelectedString" selection="multiple"
       v-model:selected="selected"
@@ -36,7 +38,7 @@
 </template>
 
 <script setup lang="ts">
-import { ref } from 'vue';
+import { ref, onMounted } from 'vue';
 import { QTableColumn } from 'quasar';
 import { useTransactionStore } from 'stores/transaction';
 import DialogEdit from 'src/components/transaction/DialogEdit.vue';
@@ -45,6 +47,11 @@ import DialogChoice from 'src/components/transaction/DialogChoice.vue';
 import { useIsDdmmyy } from 'src/composables/dates';
 import { useCalculationStore } from 'stores/calculation';
 import { useRouter } from 'vue-router';
+import { useTitleStore } from 'src/stores/title';
+const { setTitle } = useTitleStore();
+onMounted(() => {
+  setTitle('Data Transaksi');
+})
 const router = useRouter();
 
 const { getTransaction } = useTransactionStore();
@@ -141,7 +148,8 @@ const onSave = () => {
     calculateOneItemSet(rows.value);
     router.push({ name: 'OneItemSetsPage' })
   } else {
-    console.log(selected.value);
+    calculateOneItemSet(selected.value);
+    router.push({ name: 'OneItemSetsPage' })
   }
 
 }

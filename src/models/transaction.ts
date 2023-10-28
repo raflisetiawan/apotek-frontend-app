@@ -29,3 +29,9 @@ export interface Itemset {
   support: number;
   items: string[];
 }
+
+export interface AssociationRulesItems {
+  confidence: number;
+  lhs: string[];
+  rhs: string[];
+}

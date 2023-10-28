@@ -1,20 +1,22 @@
 <template>
   <div class="q-pa-md container flex">
-    <div class="text-h6 justify-start">Import Dataset</div>
+    <div class="text-h6 justify-start text-white">Import Dataset</div>
     <div class="row full-width justify-center">
       <div class="col-10">
-        <q-file outlined v-model="formFile" label="Choose file" bottom-slots counter accept=".xls,.xlsx, .csv"
-          :filter="checkFileType" @update:model-value="onUpdateModel" @rejected="onRejected" use-chips>
+        <div class="text-body1 text-center text-white">Input File</div>
+        <q-file bg-color="white" outlined v-model="formFile" label="Choose file" bottom-slots counter
+          accept=".xls,.xlsx, .csv" :filter="checkFileType" @update:model-value="onUpdateModel" @rejected="onRejected"
+          use-chips>
           <template v-slot:prepend>
-            <q-icon name="attach_file" />
+            <q-icon color="primary" name="attach_file" />
           </template>
           <template v-slot:hint v-if="!isFileUpload">
-            No File Choosen
+            <div class="text-white">No File Choosen</div>
           </template>
         </q-file>
 
         <q-page-sticky position="bottom" :offset="[8, 50]" v-if="isFileUpload">
-          <q-btn color="primary" @click="handleImport">Import</q-btn>
+          <q-btn rounded size="lg" class="full-width" color="primary" @click="handleImport">Import</q-btn>
         </q-page-sticky>
       </div>
     </div>

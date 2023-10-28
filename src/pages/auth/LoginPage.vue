@@ -2,7 +2,7 @@
   <div class="container text-center q-pa-md">
     <div class="row justify-center">
       <div class="col-12">
-        <h3>Apriori</h3>
+        <h3 class="text-white">Apriori</h3>
       </div>
     </div>
     <div class="row justify-center">
@@ -15,21 +15,30 @@
           </template>
         </q-banner>
         <q-form @submit="onSubmit" class="q-gutter-md q-mt-md">
-          <q-input v-model="loginForm.email" label="Email *" lazy-rules type="email" :error="v$.email.$error"
-            :error-message="v$.email.$errors.map((e) => e.$message).join()" @input="v$.email.$touch"
-            @blur="v$.email.$touch" />
+          <q-input rounded outlined bg-color="white" v-model="loginForm.email" label="Email *" lazy-rules type="email"
+            :error="v$.email.$error" :error-message="v$.email.$errors.map((e) => e.$message).join()"
+            @input="v$.email.$touch" @blur="v$.email.$touch" />
 
-          <q-input type="password" v-model="loginForm.password" label="Password *" :error="v$.password.$error"
-            :error-message="v$.password.$errors.map((e) => e.$message).join()" @input="v$.password.$touch"
-            @blur="v$.password.$touch" />
+          <q-input rounded outlined type="password" bg-color="white" v-model="loginForm.password" label="Password *"
+            :error="v$.password.$error" :error-message="v$.password.$errors.map((e) => e.$message).join()"
+            @input="v$.password.$touch" @blur="v$.password.$touch" />
 
-          <div>
-            <q-btn label="Login" type="submit" color="primary" :loading="loadingLogin" />
+          <div class="row justify-center">
+            <div class="col-xs-8">
+              <q-btn label="Sign In" class="full-width text-white" size="lg" type="submit"
+                style="background-color: #7AA748;" rounded :loading="loadingLogin" />
+            </div>
           </div>
           <div class="q-mt-md">
-            <div class="text-caption">Belum punya akun? <q-btn flat color="blue" :to="{ name: 'RegisterPage' }" dense
-                size="sm">
-                Daftar</q-btn>
+            <div class="row justify-center">
+              <div class="col-xs-8">
+                <q-btn label="Sign Up" class="full-width text-white" size="lg" type="submit"
+                  style="background-color: #7AA748;" rounded :disable="loadingLogin" :to="{ name: 'RegisterPage' }" />
+                <div class="text-caption text-white q-mt-xl"><q-btn flat text-color="white" :disable="loadingLogin"
+                    :to="{ name: 'RegisterPage' }" dense size="lg">
+                    Forgot Password?</q-btn>
+                </div>
+              </div>
             </div>
           </div>
         </q-form>
@@ -74,7 +83,7 @@ const onSubmit = async (): Promise<void> => {
   if (!v$.value.$invalid) {
     loadingLogin.value = true;
     try {
-      const response = await api.post('login', {
+      const response = await api.post('auth/login', {
         email: loginForm.email,
         password: loginForm.password
       }, {
@@ -82,16 +91,22 @@ const onSubmit = async (): Promise<void> => {
           Accept: 'application/json',
         }
       })
+
       qCookies.set('signedIn', 'true', {
         expires: new Date(new Date().getTime() + 7 * 24 * 60 * 60 * 1000), // Cookie berlaku selama 7 hari
-        secure: true, // Cookie hanya berlaku di mode HTTPS
+        // secure: true, // Cookie hanya berlaku di mode HTTPS
         sameSite: 'Strict',
       });
-      qCookies.set('token', response.data.token, {
+      qCookies.set('token', response.data.accessToken, {
         expires: new Date(new Date().getTime() + 7 * 24 * 60 * 60 * 1000), // Cookie berlaku selama 7 hari
-        secure: true, // Cookie hanya berlaku di mode HTTPS
+        // secure: true, // Cookie hanya berlaku di mode HTTPS
         sameSite: 'Strict',
       });
+
+      qCookies.set('refreshToken', response.data.refreshToken, {
+        expires: new Date(new Date().getTime() + 7 * 24 * 60 * 60 * 1000),
+        sameSite: 'Strict'
+      })
 
 
       router.push({ name: 'HomePage' })

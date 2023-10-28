@@ -1,10 +1,8 @@
 <template>
   <q-layout>
-    <q-header reveal elevated>
-      <q-toolbar>
-        <q-toolbar-title>Hasil perhitungan 1 itemset</q-toolbar-title>
-      </q-toolbar>
-    </q-header>
+    <div class="text-body1 text-white" style="margin-left: 79px;">
+      Hasil perhitungan 1 itemset
+    </div>
     <q-page-container>
       <div class="q-pa-md">
         <q-markup-table>
@@ -27,17 +25,25 @@
     </q-page-container>
   </q-layout>
   <q-page-sticky position="bottom-right" :offset="[18, 18]">
-    <q-btn @click="handleCalculate" label="Minimum Support" fab color="primary" />
+    <q-btn :loading="loadingSubmit" @click="handleCalculate" label="Minimum Support" fab
+      style="background-color: #7AA748;" class="text-white" />
   </q-page-sticky>
 </template>
 
 
 <script setup lang="ts">
+import { onMounted, ref } from 'vue';
 import { useCalculationStore } from 'stores/calculation';
 import { useDateMonthYear } from 'src/composables/dates';
 import { useRouter } from 'vue-router';
-import axios from 'axios';
+import { useQuasar } from 'quasar';
+import { useTitleStore } from 'src/stores/title';
+import { api } from 'boot/axios'
+const { setTitle } = useTitleStore();
+onMounted(() => setTitle('Perhitungan Apriori'))
 const router = useRouter();
+
+const { cookies: qCookies } = useQuasar();
 
 // Data tabel
 const { getOneItemSet, getTransactionPerDate, /*transactions ,*/ setItemsWithSupport } = useCalculationStore();
@@ -45,31 +51,38 @@ const { getOneItemSet, getTransactionPerDate, /*transactions ,*/ setItemsWithSup
 // Mengambil tanggal dari objek sebagai array kunci
 const dates = Object.keys(getOneItemSet);
 
+const loadingSubmit = ref(false);
 // Mengambil nama obat unik
 const uniqueMedicines = dates.length > 0 ? Object.keys(getOneItemSet[dates[0]]) : [];
 const handleCalculate = async () => {
-
-  console.log(getTransactionPerDate);
-
-
-  const response = await axios.post('http://localhost:9100/api/apriori', { transactions: getTransactionPerDate }, {
-    headers: {
-      Accept: 'application/json',
-      'Content-Type': 'application/json'
-    }
-  })
-
-  setItemsWithSupport(response.data.frequentItemsets)
+  loadingSubmit.value = true;
+  // console.log(getTransactionPerDate);
 
 
-  // const response = await api.post('apriori', { transactions: getTransactionPerDate }, {
-
+  // const response = await axios.post('http://localhost:9100/api/apriori', { transactions: getTransactionPerDate }, {
   //   headers: {
-  //     Authorization: `Bearer ${qCookies.get('token')}`
+  //     Accept: 'application/json',
+  //     'Content-Type': 'application/json'
   //   }
   // })
-  console.log(response);
-  router.push({ name: 'OneItemSetsWithMinimumSupportPage' })
+
+  // setItemsWithSupport(response.data.frequentItemsets)
+
+  try {
+    const response = await api.post('frequent/calculate-frequent', { transactions: getTransactionPerDate }, {
+
+      headers: {
+        Authorization: `Bearer ${qCookies.get('token')}`
+      }
+    })
+    setItemsWithSupport(response.data.frequentItemsets.itemsets)
+    router.push({ name: 'OneItemSetsWithMinimumSupportPage' })
+
+  } catch (error) {
+    throw error;
+  } finally {
+    loadingSubmit.value = false;
+  }
 }
 </script>
 

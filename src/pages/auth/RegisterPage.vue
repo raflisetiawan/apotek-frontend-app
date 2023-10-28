@@ -2,7 +2,8 @@
   <div class="container text-center q-pa-md">
     <div class="row justify-center">
       <div class="col-12">
-        <h3>Apriori</h3>
+        <h3 class="text-white">Apriori</h3>
+        <p class="text-text-body1 text-white">Create an account to get started</p>
       </div>
     </div>
     <div class="row justify-center">
@@ -15,26 +16,33 @@
           </template>
         </q-banner>
         <q-form @submit="onSubmit" class="q-gutter-md q-mt-md">
-          <q-input v-model="registerForm.email" label="Email *" lazy-rules type="email" :error="v$.email.$error"
-            :error-message="v$.email.$errors.map((e) => e.$message).join()" @input="v$.email.$touch"
-            @blur="v$.email.$touch" />
+          <q-input rounded outlined bg-color="white" v-model="registerForm.email" label="Email *" lazy-rules type="email"
+            :error="v$.email.$error" :error-message="v$.email.$errors.map((e) => e.$message).join()"
+            @input="v$.email.$touch" @blur="v$.email.$touch" />
 
-          <q-input v-model="registerForm.username" label="Username *" lazy-rules type="text" :error="v$.username.$error"
-            :error-message="v$.username.$errors.map((e) => e.$message).join()" @input="v$.username.$touch"
-            @blur="v$.username.$touch" />
+          <q-input rounded outlined bg-color="white" v-model="registerForm.username" label="Username *" lazy-rules
+            type="text" :error="v$.username.$error" :error-message="v$.username.$errors.map((e) => e.$message).join()"
+            @input="v$.username.$touch" @blur="v$.username.$touch" />
 
-          <q-input type="password" v-model="registerForm.password" label="Password *" :error="v$.password.$error"
-            :error-message="v$.password.$errors.map((e) => e.$message).join()" @input="v$.password.$touch"
-            @blur="v$.password.$touch" />
-          <q-input type="password" v-model="registerForm.passwordConfirmation" label="Konfirmasi Password *" />
-
+          <q-input rounded outlined bg-color="white" type="password" v-model="registerForm.password" label="Password *"
+            :error="v$.password.$error" :error-message="v$.password.$errors.map((e) => e.$message).join()"
+            @input="v$.password.$touch" @blur="v$.password.$touch" />
+          <q-input rounded outlined bg-color="white" type="password" v-model="registerForm.passwordConfirmation"
+            label="Konfirmasi Password *" />
+          <div class="row justify-start">
+            <div class="q-mt-md">
+              <q-checkbox v-model="accept" class="text-white" color="primary" label="I accept the terms of Use" />
+            </div>
+          </div>
           <div>
-            <q-btn label="Daftar" type="submit" color="primary" :loading="loadingLogin" />
+
+            <q-btn label="Sign Up" class="full-width text-white" rounded size="lg" type="submit"
+              style="background-color: #7AA748;" :loading="loadingLogin" />
           </div>
           <div class="q-mt-md">
-            <div class="text-caption">Sudah punya akun? <q-btn flat color="blue" :to="{ name: 'LoginPage' }" dense
-                size="sm">
-                Login</q-btn>
+            <div class="text-caption text-white">Already have account? <q-btn flat color="blue"
+                :to="{ name: 'LoginPage' }" dense size="sm">
+                Sign In</q-btn>
             </div>
           </div>
         </q-form>
@@ -54,6 +62,7 @@ import axios from 'axios';
 import { useRouter } from 'vue-router';
 
 const router = useRouter();
+const accept = ref(false);
 
 const registerForm = reactive<RegisterForm>({
   username: '',
@@ -82,13 +91,12 @@ const onSubmit = async (): Promise<void> => {
     loginError.message = 'Konfirmasi password tidak valid';
     return;
   }
-  if (!v$.value.$invalid) {
+  if (!v$.value.$invalid && accept.value) {
     loadingLogin.value = true;
     try {
-      await api.post('register', {
+      await api.post('auth/register', {
         email: registerForm.email,
         password: registerForm.password,
-        password_confirmation: registerForm.passwordConfirmation,
         name: registerForm.username
       }, {
         headers: {
@@ -126,6 +134,8 @@ const onSubmit = async (): Promise<void> => {
     } finally {
       loadingLogin.value = false;
     }
+  } else {
+    v$.value.$touch();
   }
 
 }

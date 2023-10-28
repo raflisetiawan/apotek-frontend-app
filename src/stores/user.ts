@@ -1,6 +1,5 @@
 import { defineStore } from 'pinia';
 import { User } from 'src/models/user';
-import { api } from 'src/boot/axios';
 import { Router } from 'src/router/index';
 import { useNotify } from 'src/composables/notification';
 import { Cookies } from 'quasar';
@@ -29,23 +28,14 @@ export const useUserStore = defineStore('user', {
       this.$state.email_verified_at = null;
       this.$state.updated_at = null;
       this.$state.created_at = '';
-      Cookies.remove('token');
-      Cookies.remove('signedIn');
     },
     async logout() {
-      try {
-        const response = await api.post('logout');
-        if (response.data.success) {
-          this.resetUser();
-          useNotify('Berhasil logout', 'green');
-          Router.push({ name: 'LoginPage' });
-        } else {
-          useNotify('Berhasil logout', 'green');
-        }
-      } catch (error) {
-        useNotify('Terjadi masalah', 'red');
-        throw error;
-      }
+      this.resetUser();
+      Cookies.remove('token');
+      Cookies.remove('signedIn');
+      Cookies.remove('refreshToken');
+      useNotify('Berhasil logout', 'green');
+      Router.push({ name: 'LoginPage' });
     },
   },
 });

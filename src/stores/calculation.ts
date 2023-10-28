@@ -1,5 +1,6 @@
 import { defineStore } from 'pinia';
 import { Itemset } from 'src/models/transaction';
+import { AssociationRulesItems } from 'src/models/transaction';
 export const useCalculationStore = defineStore('calculation', {
   state: () => ({
     oneItemSet: [] as any,
@@ -8,6 +9,7 @@ export const useCalculationStore = defineStore('calculation', {
     itemsWithSupport: [] as Itemset[],
     oneItemSetWithSupport: [] as Itemset[],
     twoItemSetWithSupport: [] as Itemset[],
+    associationRulesItems: [] as AssociationRulesItems[],
   }),
   getters: {
     getOneItemSet: (state) => state.oneItemSet,
@@ -30,6 +32,7 @@ export const useCalculationStore = defineStore('calculation', {
 
       return result;
     },
+    getAssociationRulesItems: (state) => state.associationRulesItems,
   },
   actions: {
     setOneItemSet(data: any) {
@@ -92,6 +95,9 @@ export const useCalculationStore = defineStore('calculation', {
       // Sekarang Anda memiliki dua objek baru: itemsLength1 dan itemsLength2
       // itemsLength1 berisi item dengan panjang 1
       // itemsLength2 berisi item dengan panjang 2
+    },
+    setAssociationRulesItems(items: AssociationRulesItems[]) {
+      this.associationRulesItems = items;
     },
   },
 });

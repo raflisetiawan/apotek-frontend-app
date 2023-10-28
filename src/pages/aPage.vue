@@ -1,30 +1,30 @@
 <template>
-  <q-layout>
-    <q-page-container>
-      <q-page>
-        <div id="getstarted" style="overflow-y: hidden;">
-          <div class="justify-center text-center">
+  <div id="getstarted">
+    <q-layout>
+      <q-page-container>
+        <q-page>
+          <div class="container justify-center text-center">
             <div class="row justify-center q-mt-lg">
               <div class="col-6 q-col-xs-10">
-                <q-img src="../assets/2efdb2e9-2322-478a-8120-635247d930cc.png" width="200px" />
+                <q-img src="../assets/2efdb2e9-2322-478a-8120-635247d930cc.png" width="100px" />
               </div>
             </div>
             <div class="text-h4 text-weight-bold apotek-green">
               APOTEK
             </div>
-            <div class="text-h4 text-weight-bold golong-color">
+            <div class="text-h4 text-weight-bold golong-color mb">
               GOLONG
             </div>
-            <q-page-sticky position="bottom" :offset="[18, 40]">
-              <q-btn fab style="background: #22411F;" size="xl" text-color="white" @click="handleGetStarted"
-                class="getstarted-text full-width">Get
+            <q-page-sticky position="bottom-right" :offset="[18, 18]">
+              <q-btn fab style="background: #22411F;" text-color="white" @click="handleGetStarted"
+                class="getstarted-text">Get
                 Started</q-btn>
             </q-page-sticky>
           </div>
-        </div>
-      </q-page>
-    </q-page-container>
-  </q-layout>
+        </q-page>
+      </q-page-container>
+    </q-layout>
+  </div>
 </template>
 
 <script setup lang="ts">
@@ -36,10 +36,9 @@ const router = useRouter();
 const handleGetStarted = () => {
   qCookies.set('isFirstTime', 'false', {
     expires: new Date(new Date().getTime() + 7 * 24 * 60 * 60 * 1000), // Cookie berlaku selama 7 hari
-    // secure: true, // Cookie hanya berlaku di mode HTTPS
+    secure: true, // Cookie hanya berlaku di mode HTTPS
     sameSite: 'Strict',
   });
-
   router.push('/')
 }
 </script>
@@ -55,5 +54,9 @@ const handleGetStarted = () => {
 
 .getstarted-button {
   color: #22411F;
+}
+
+.getstarted-text {
+  top: 290px;
 }
 </style>

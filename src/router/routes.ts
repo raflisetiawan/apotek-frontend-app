@@ -10,45 +10,52 @@ const routes: RouteRecordRaw[] = [
         component: () => import('pages/IndexPage.vue'),
         name: 'HomePage',
       },
+    ],
+    meta: { requiresAuth: true },
+  },
+  {
+    path: '/transaction',
+    component: () => import('layouts/TransactionLayout.vue'),
+    children: [
       {
-        path: '/transaction',
+        path: '',
         component: () => import('pages/transactions/IndexPage.vue'),
         name: 'TransactionPage',
       },
       {
-        path: '/transaction/upload',
+        path: 'upload',
         component: () => import('pages/transactions/ImportTransactionPage.vue'),
         name: 'ImportTransactionPage',
       },
+
       {
-        path: '/oneitemset',
+        path: 'oneitemset',
         component: () => import('pages/calculations/OneItemSetsPage.vue'),
         name: 'OneItemSetsPage',
       },
       {
-        path: '/oneitemsetwithminimumsupport',
+        path: 'oneitemsetwithminimumsupport',
         component: () =>
           import('pages/calculations/OneItemSetsWithMinimumSupportPage.vue'),
         name: 'OneItemSetsWithMinimumSupportPage',
       },
       {
-        path: '/twoitemset',
+        path: 'twoitemset',
         component: () => import('pages/calculations/TwoItemSetsPage.vue'),
         name: 'TwoItemSetsPage',
+      },
+      {
+        path: 'associationrules',
+        component: () => import('pages/calculations/AssociationRulePage.vue'),
+        name: 'AssociationRulePage',
       },
     ],
     meta: { requiresAuth: true },
   },
   {
     path: '/getstarted',
-    component: () => import('layouts/AuthLayout.vue'),
-    children: [
-      {
-        path: '',
-        component: () => import('pages/GetstartedPage.vue'),
-        name: 'GetStartedPage',
-      },
-    ],
+    component: () => import('pages/GetstartedPage.vue'),
+    name: 'GetStartedPage',
   },
   {
     path: '/login',

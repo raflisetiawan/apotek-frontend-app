@@ -1,10 +1,8 @@
 <template>
   <q-layout>
-    <q-header reveal elevated>
-      <q-toolbar>
-        <q-toolbar-title>Hasil support 1 itemset</q-toolbar-title>
-      </q-toolbar>
-    </q-header>
+    <div class="text-body1 text-white" style="margin-left: 79px;">
+      Itemset 1 yang memenuhi minimun support
+    </div>
     <q-page-container>
       <div class="q-pa-md">
         <q-markup-table>
@@ -25,7 +23,7 @@
     </q-page-container>
   </q-layout>
   <q-page-sticky position="bottom-right" :offset="[18, 18]">
-    <q-btn @click="handleCalculate" label="Minimum Support" fab color="primary" />
+    <q-btn @click="handleCalculate" label="2 Itemset" fab style="background-color: #7AA748;" class="text-white" />
   </q-page-sticky>
 </template>
 
@@ -39,7 +37,6 @@ const router = useRouter();
 const { oneItemSetWithSupport: items } = useCalculationStore();
 
 const handleCalculate = () => {
-  console.log('ok');
   router.push({ name: 'TwoItemSetsPage' })
 }
 

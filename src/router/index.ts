@@ -25,27 +25,30 @@ const Router = createRouter({
 });
 
 // Use the router instance in the route function
-export default route(function ({ ssrContext }) {
-  const cookies = process.env.SERVER ? Cookies.parseSSR(ssrContext) : Cookies;
+export default route(function (/*{ ssrContext }*/) {
+  // const cookies = process.env.SERVER ? Cookies.parseSSR(ssrContext) : Cookies;
   const { $state, setUser } = useUserStore();
 
   const isFirstTime = (): boolean => {
-    const data = cookies.get('isFirstTime');
+    const data = Cookies.get('isFirstTime');
     return !!data;
   };
 
   const isAuthenticated = (): boolean => {
-    const token = cookies.get('token');
+    const token = Cookies.get('token');
     return !!token;
   };
 
   Router.beforeEach(async (to, from, next) => {
     if ($state.id === 0) {
-      if (cookies.get('token')) {
+      if (Cookies.get('token')) {
         try {
-          const response = await useUser(Cookies.get('token'));
-
-          setUser(response.data);
+          const response = await useUser(
+            Cookies.get('token'),
+            Cookies.get('refreshToken')
+          );
+          const resUser = response.data.user;
+          setUser({ name: resUser.name, email: resUser.email, id: resUser.id });
         } catch (error) {}
       }
     }
