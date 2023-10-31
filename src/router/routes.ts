@@ -93,6 +93,11 @@ const routes: RouteRecordRaw[] = [
       },
     ],
   },
+  {
+    path: '/tes',
+    component: () => import('pages/TesPage.vue'),
+    name: 'TesPage',
+  },
 
   // Always leave this as last one,
   // but you can also remove it

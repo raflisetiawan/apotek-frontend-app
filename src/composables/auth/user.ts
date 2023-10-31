@@ -14,8 +14,6 @@ const useUser = async (token: null | string, refreshToken: null | string) => {
 
     return response;
   } catch (error) {
-    console.log(error);
-
     if (error instanceof AxiosError) {
       if (error.response?.status === 401) {
         const response = await api.post('auth/refresh-token', {

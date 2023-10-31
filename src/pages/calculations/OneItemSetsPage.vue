@@ -56,7 +56,6 @@ const loadingSubmit = ref(false);
 const uniqueMedicines = dates.length > 0 ? Object.keys(getOneItemSet[dates[0]]) : [];
 const handleCalculate = async () => {
   loadingSubmit.value = true;
-  // console.log(getTransactionPerDate);
 
 
   // const response = await axios.post('http://localhost:9100/api/apriori', { transactions: getTransactionPerDate }, {
