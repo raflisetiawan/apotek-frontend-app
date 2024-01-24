@@ -1,3574 +1,2984 @@
-{
-  "result": [
-    {
-      "lhs": ["alpara"],
-      "rhs": ["cdr"],
-      "confidence": 1
-    },
-    {
-      "lhs": ["cdr"],
-      "rhs": ["alpara"],
-      "confidence": 0.5555555555555556
-    },
-    {
-      "lhs": ["supertetra"],
-      "rhs": ["cdr"],
-      "confidence": 1
-    },
-    {
-      "lhs": ["omeric"],
-      "rhs": ["cdr"],
-      "confidence": 1
-    },
-    {
-      "lhs": ["flamar"],
-      "rhs": ["cdr"],
-      "confidence": 1
-    },
-    {
-      "lhs": ["paracetamol"],
-      "rhs": ["cdr"],
-      "confidence": 1
-    },
-    {
-      "lhs": ["amoxcilin"],
-      "rhs": ["cdr"],
-      "confidence": 1
-    },
-    {
-      "lhs": ["gratazon"],
-      "rhs": ["cdr"],
-      "confidence": 1
-    },
-    {
-      "lhs": ["allopurinol 100"],
-      "rhs": ["cdr"],
-      "confidence": 1
-    },
-    {
-      "lhs": ["alpara", "cdr"],
-      "rhs": ["supertetra"],
-      "confidence": 1
-    },
-    {
-      "lhs": ["alpara", "supertetra"],
-      "rhs": ["cdr"],
-      "confidence": 1
-    },
-    {
-      "lhs": ["cdr", "supertetra"],
-      "rhs": ["alpara"],
-      "confidence": 0.6250000000000001
-    },
-    {
-      "lhs": ["alpara", "omeric"],
-      "rhs": ["cdr"],
-      "confidence": 1
-    },
-    {
-      "lhs": ["cdr", "omeric"],
-      "rhs": ["alpara"],
-      "confidence": 0.6666666666666666
-    },
-    {
-      "lhs": ["alpara", "flamar"],
-      "rhs": ["cdr"],
-      "confidence": 1
-    },
-    {
-      "lhs": ["cdr", "flamar"],
-      "rhs": ["alpara"],
-      "confidence": 0.5555555555555556
-    },
-    {
-      "lhs": ["alpara", "paracetamol"],
-      "rhs": ["cdr"],
-      "confidence": 1
-    },
-    {
-      "lhs": ["cdr", "paracetamol"],
-      "rhs": ["alpara"],
-      "confidence": 0.5555555555555556
-    },
-    {
-      "lhs": ["alpara", "amoxcilin"],
-      "rhs": ["cdr"],
-      "confidence": 1
-    },
-    {
-      "lhs": ["amoxcilin", "cdr"],
-      "rhs": ["alpara"],
-      "confidence": 0.5555555555555556
-    },
-    {
-      "lhs": ["alpara", "gratazon"],
-      "rhs": ["cdr"],
-      "confidence": 1
-    },
-    {
-      "lhs": ["cdr", "gratazon"],
-      "rhs": ["alpara"],
-      "confidence": 0.5555555555555556
-    },
-    {
-      "lhs": ["allopurinol 100", "alpara"],
-      "rhs": ["cdr"],
-      "confidence": 1
-    },
-    {
-      "lhs": ["allopurinol 100", "cdr"],
-      "rhs": ["alpara"],
-      "confidence": 0.5
-    },
-    {
-      "lhs": ["omeric", "supertetra"],
-      "rhs": ["cdr"],
-      "confidence": 1
-    },
-    {
-      "lhs": ["flamar", "supertetra"],
-      "rhs": ["cdr"],
-      "confidence": 1
-    },
-    {
-      "lhs": ["paracetamol", "supertetra"],
-      "rhs": ["cdr"],
-      "confidence": 1
-    },
-    {
-      "lhs": ["amoxcilin", "supertetra"],
-      "rhs": ["cdr"],
-      "confidence": 1
-    },
-    {
-      "lhs": ["gratazon", "supertetra"],
-      "rhs": ["cdr"],
-      "confidence": 1
-    },
-    {
-      "lhs": ["allopurinol 100", "supertetra"],
-      "rhs": ["cdr"],
-      "confidence": 1
-    },
-    {
-      "lhs": ["flamar", "omeric"],
-      "rhs": ["cdr"],
-      "confidence": 1
-    },
-    {
-      "lhs": ["omeric", "paracetamol"],
-      "rhs": ["cdr"],
-      "confidence": 1
-    },
-    {
-      "lhs": ["amoxcilin", "omeric"],
-      "rhs": ["cdr"],
-      "confidence": 1
-    },
-    {
-      "lhs": ["gratazon", "omeric"],
-      "rhs": ["cdr"],
-      "confidence": 1
-    },
-    {
-      "lhs": ["allopurinol 100", "omeric"],
-      "rhs": ["cdr"],
-      "confidence": 1
-    },
-    {
-      "lhs": ["flamar", "paracetamol"],
-      "rhs": ["cdr"],
-      "confidence": 1
-    },
-    {
-      "lhs": ["amoxcilin", "flamar"],
-      "rhs": ["cdr"],
-      "confidence": 1
-    },
-    {
-      "lhs": ["flamar", "gratazon"],
-      "rhs": ["cdr"],
-      "confidence": 1
-    },
-    {
-      "lhs": ["allopurinol 100", "flamar"],
-      "rhs": ["cdr"],
-      "confidence": 1
-    },
-    {
-      "lhs": ["amoxcilin", "paracetamol"],
-      "rhs": ["cdr"],
-      "confidence": 1
-    },
-    {
-      "lhs": ["gratazon", "paracetamol"],
-      "rhs": ["cdr"],
-      "confidence": 1
-    },
-    {
-      "lhs": ["allopurinol 100", "paracetamol"],
-      "rhs": ["cdr"],
-      "confidence": 1
-    },
-    {
-      "lhs": ["amoxcilin", "gratazon"],
-      "rhs": ["cdr"],
-      "confidence": 1
-    },
-    {
-      "lhs": ["allopurinol 100", "amoxcilin"],
-      "rhs": ["cdr"],
-      "confidence": 1
-    },
-    {
-      "lhs": ["allopurinol 100", "gratazon"],
-      "rhs": ["cdr"],
-      "confidence": 1
-    },
-    {
-      "lhs": ["alpara", "cdr", "omeric"],
-      "rhs": ["supertetra"],
-      "confidence": 1
-    },
-    {
-      "lhs": ["alpara", "cdr", "supertetra"],
-      "rhs": ["omeric"],
-      "confidence": 0.7999999999999999
-    },
-    {
-      "lhs": ["alpara", "omeric", "supertetra"],
-      "rhs": ["cdr"],
-      "confidence": 1
-    },
-    {
-      "lhs": ["cdr", "omeric", "supertetra"],
-      "rhs": ["alpara"],
-      "confidence": 0.7999999999999999
-    },
-    {
-      "lhs": ["alpara", "cdr", "flamar"],
-      "rhs": ["supertetra"],
-      "confidence": 1
-    },
-    {
-      "lhs": ["alpara", "flamar", "supertetra"],
-      "rhs": ["cdr"],
-      "confidence": 1
-    },
-    {
-      "lhs": ["cdr", "flamar", "supertetra"],
-      "rhs": ["alpara"],
-      "confidence": 0.6250000000000001
-    },
-    {
-      "lhs": ["alpara", "cdr", "paracetamol"],
-      "rhs": ["supertetra"],
-      "confidence": 1
-    },
-    {
-      "lhs": ["alpara", "paracetamol", "supertetra"],
-      "rhs": ["cdr"],
-      "confidence": 1
-    },
-    {
-      "lhs": ["cdr", "paracetamol", "supertetra"],
-      "rhs": ["alpara"],
-      "confidence": 0.6250000000000001
-    },
-    {
-      "lhs": ["alpara", "amoxcilin", "cdr"],
-      "rhs": ["supertetra"],
-      "confidence": 1
-    },
-    {
-      "lhs": ["alpara", "amoxcilin", "supertetra"],
-      "rhs": ["cdr"],
-      "confidence": 1
-    },
-    {
-      "lhs": ["amoxcilin", "cdr", "supertetra"],
-      "rhs": ["alpara"],
-      "confidence": 0.6250000000000001
-    },
-    {
-      "lhs": ["alpara", "cdr", "gratazon"],
-      "rhs": ["supertetra"],
-      "confidence": 1
-    },
-    {
-      "lhs": ["alpara", "gratazon", "supertetra"],
-      "rhs": ["cdr"],
-      "confidence": 1
-    },
-    {
-      "lhs": ["cdr", "gratazon", "supertetra"],
-      "rhs": ["alpara"],
-      "confidence": 0.6250000000000001
-    },
-    {
-      "lhs": ["allopurinol 100", "alpara", "cdr"],
-      "rhs": ["supertetra"],
-      "confidence": 1
-    },
-    {
-      "lhs": ["allopurinol 100", "alpara", "supertetra"],
-      "rhs": ["cdr"],
-      "confidence": 1
-    },
-    {
-      "lhs": ["allopurinol 100", "cdr", "supertetra"],
-      "rhs": ["alpara"],
-      "confidence": 0.6
-    },
-    {
-      "lhs": ["alpara", "flamar", "omeric"],
-      "rhs": ["cdr"],
-      "confidence": 1
-    },
-    {
-      "lhs": ["cdr", "flamar", "omeric"],
-      "rhs": ["alpara"],
-      "confidence": 0.6666666666666666
-    },
-    {
-      "lhs": ["alpara", "omeric", "paracetamol"],
-      "rhs": ["cdr"],
-      "confidence": 1
-    },
-    {
-      "lhs": ["cdr", "omeric", "paracetamol"],
-      "rhs": ["alpara"],
-      "confidence": 0.6666666666666666
-    },
-    {
-      "lhs": ["alpara", "amoxcilin", "omeric"],
-      "rhs": ["cdr"],
-      "confidence": 1
-    },
-    {
-      "lhs": ["amoxcilin", "cdr", "omeric"],
-      "rhs": ["alpara"],
-      "confidence": 0.6666666666666666
-    },
-    {
-      "lhs": ["alpara", "gratazon", "omeric"],
-      "rhs": ["cdr"],
-      "confidence": 1
-    },
-    {
-      "lhs": ["cdr", "gratazon", "omeric"],
-      "rhs": ["alpara"],
-      "confidence": 0.6666666666666666
-    },
-    {
-      "lhs": ["allopurinol 100", "alpara", "omeric"],
-      "rhs": ["cdr"],
-      "confidence": 1
-    },
-    {
-      "lhs": ["allopurinol 100", "cdr", "omeric"],
-      "rhs": ["alpara"],
-      "confidence": 0.6
-    },
-    {
-      "lhs": ["alpara", "flamar", "paracetamol"],
-      "rhs": ["cdr"],
-      "confidence": 1
-    },
-    {
-      "lhs": ["cdr", "flamar", "paracetamol"],
-      "rhs": ["alpara"],
-      "confidence": 0.5555555555555556
-    },
-    {
-      "lhs": ["alpara", "amoxcilin", "flamar"],
-      "rhs": ["cdr"],
-      "confidence": 1
-    },
-    {
-      "lhs": ["amoxcilin", "cdr", "flamar"],
-      "rhs": ["alpara"],
-      "confidence": 0.5555555555555556
-    },
-    {
-      "lhs": ["alpara", "flamar", "gratazon"],
-      "rhs": ["cdr"],
-      "confidence": 1
-    },
-    {
-      "lhs": ["cdr", "flamar", "gratazon"],
-      "rhs": ["alpara"],
-      "confidence": 0.5555555555555556
-    },
-    {
-      "lhs": ["allopurinol 100", "alpara", "flamar"],
-      "rhs": ["cdr"],
-      "confidence": 1
-    },
-    {
-      "lhs": ["allopurinol 100", "cdr", "flamar"],
-      "rhs": ["alpara"],
-      "confidence": 0.5
-    },
-    {
-      "lhs": ["alpara", "amoxcilin", "paracetamol"],
-      "rhs": ["cdr"],
-      "confidence": 1
-    },
-    {
-      "lhs": ["amoxcilin", "cdr", "paracetamol"],
-      "rhs": ["alpara"],
-      "confidence": 0.5555555555555556
-    },
-    {
-      "lhs": ["alpara", "gratazon", "paracetamol"],
-      "rhs": ["cdr"],
-      "confidence": 1
-    },
-    {
-      "lhs": ["cdr", "gratazon", "paracetamol"],
-      "rhs": ["alpara"],
-      "confidence": 0.5555555555555556
-    },
-    {
-      "lhs": ["allopurinol 100", "alpara", "paracetamol"],
-      "rhs": ["cdr"],
-      "confidence": 1
-    },
-    {
-      "lhs": ["allopurinol 100", "cdr", "paracetamol"],
-      "rhs": ["alpara"],
-      "confidence": 0.5
-    },
-    {
-      "lhs": ["alpara", "amoxcilin", "gratazon"],
-      "rhs": ["cdr"],
-      "confidence": 1
-    },
-    {
-      "lhs": ["amoxcilin", "cdr", "gratazon"],
-      "rhs": ["alpara"],
-      "confidence": 0.5555555555555556
-    },
-    {
-      "lhs": ["allopurinol 100", "alpara", "amoxcilin"],
-      "rhs": ["cdr"],
-      "confidence": 1
-    },
-    {
-      "lhs": ["allopurinol 100", "amoxcilin", "cdr"],
-      "rhs": ["alpara"],
-      "confidence": 0.5
-    },
-    {
-      "lhs": ["allopurinol 100", "alpara", "gratazon"],
-      "rhs": ["cdr"],
-      "confidence": 1
-    },
-    {
-      "lhs": ["allopurinol 100", "cdr", "gratazon"],
-      "rhs": ["alpara"],
-      "confidence": 0.5
-    },
-    {
-      "lhs": ["flamar", "omeric", "supertetra"],
-      "rhs": ["cdr"],
-      "confidence": 1
-    },
-    {
-      "lhs": ["omeric", "paracetamol", "supertetra"],
-      "rhs": ["cdr"],
-      "confidence": 1
-    },
-    {
-      "lhs": ["amoxcilin", "omeric", "supertetra"],
-      "rhs": ["cdr"],
-      "confidence": 1
-    },
-    {
-      "lhs": ["gratazon", "omeric", "supertetra"],
-      "rhs": ["cdr"],
-      "confidence": 1
-    },
-    {
-      "lhs": ["allopurinol 100", "omeric", "supertetra"],
-      "rhs": ["cdr"],
-      "confidence": 1
-    },
-    {
-      "lhs": ["flamar", "paracetamol", "supertetra"],
-      "rhs": ["cdr"],
-      "confidence": 1
-    },
-    {
-      "lhs": ["amoxcilin", "flamar", "supertetra"],
-      "rhs": ["cdr"],
-      "confidence": 1
-    },
-    {
-      "lhs": ["flamar", "gratazon", "supertetra"],
-      "rhs": ["cdr"],
-      "confidence": 1
-    },
-    {
-      "lhs": ["allopurinol 100", "flamar", "supertetra"],
-      "rhs": ["cdr"],
-      "confidence": 1
-    },
-    {
-      "lhs": ["amoxcilin", "paracetamol", "supertetra"],
-      "rhs": ["cdr"],
-      "confidence": 1
-    },
-    {
-      "lhs": ["gratazon", "paracetamol", "supertetra"],
-      "rhs": ["cdr"],
-      "confidence": 1
-    },
-    {
-      "lhs": ["allopurinol 100", "paracetamol", "supertetra"],
-      "rhs": ["cdr"],
-      "confidence": 1
-    },
-    {
-      "lhs": ["amoxcilin", "gratazon", "supertetra"],
-      "rhs": ["cdr"],
-      "confidence": 1
-    },
-    {
-      "lhs": ["allopurinol 100", "amoxcilin", "supertetra"],
-      "rhs": ["cdr"],
-      "confidence": 1
-    },
-    {
-      "lhs": ["allopurinol 100", "gratazon", "supertetra"],
-      "rhs": ["cdr"],
-      "confidence": 1
-    },
-    {
-      "lhs": ["flamar", "omeric", "paracetamol"],
-      "rhs": ["cdr"],
-      "confidence": 1
-    },
-    {
-      "lhs": ["amoxcilin", "flamar", "omeric"],
-      "rhs": ["cdr"],
-      "confidence": 1
-    },
-    {
-      "lhs": ["flamar", "gratazon", "omeric"],
-      "rhs": ["cdr"],
-      "confidence": 1
-    },
-    {
-      "lhs": ["allopurinol 100", "flamar", "omeric"],
-      "rhs": ["cdr"],
-      "confidence": 1
-    },
-    {
-      "lhs": ["amoxcilin", "omeric", "paracetamol"],
-      "rhs": ["cdr"],
-      "confidence": 1
-    },
-    {
-      "lhs": ["gratazon", "omeric", "paracetamol"],
-      "rhs": ["cdr"],
-      "confidence": 1
-    },
-    {
-      "lhs": ["allopurinol 100", "omeric", "paracetamol"],
-      "rhs": ["cdr"],
-      "confidence": 1
-    },
-    {
-      "lhs": ["amoxcilin", "gratazon", "omeric"],
-      "rhs": ["cdr"],
-      "confidence": 1
-    },
-    {
-      "lhs": ["allopurinol 100", "amoxcilin", "omeric"],
-      "rhs": ["cdr"],
-      "confidence": 1
-    },
-    {
-      "lhs": ["allopurinol 100", "gratazon", "omeric"],
-      "rhs": ["cdr"],
-      "confidence": 1
-    },
-    {
-      "lhs": ["amoxcilin", "flamar", "paracetamol"],
-      "rhs": ["cdr"],
-      "confidence": 1
-    },
-    {
-      "lhs": ["flamar", "gratazon", "paracetamol"],
-      "rhs": ["cdr"],
-      "confidence": 1
-    },
-    {
-      "lhs": ["allopurinol 100", "flamar", "paracetamol"],
-      "rhs": ["cdr"],
-      "confidence": 1
-    },
-    {
-      "lhs": ["amoxcilin", "flamar", "gratazon"],
-      "rhs": ["cdr"],
-      "confidence": 1
-    },
-    {
-      "lhs": ["allopurinol 100", "amoxcilin", "flamar"],
-      "rhs": ["cdr"],
-      "confidence": 1
-    },
-    {
-      "lhs": ["allopurinol 100", "flamar", "gratazon"],
-      "rhs": ["cdr"],
-      "confidence": 1
-    },
-    {
-      "lhs": ["amoxcilin", "gratazon", "paracetamol"],
-      "rhs": ["cdr"],
-      "confidence": 1
-    },
-    {
-      "lhs": ["allopurinol 100", "amoxcilin", "paracetamol"],
-      "rhs": ["cdr"],
-      "confidence": 1
-    },
-    {
-      "lhs": ["allopurinol 100", "gratazon", "paracetamol"],
-      "rhs": ["cdr"],
-      "confidence": 1
-    },
-    {
-      "lhs": ["allopurinol 100", "amoxcilin", "gratazon"],
-      "rhs": ["cdr"],
-      "confidence": 1
-    },
-    {
-      "lhs": ["alpara", "cdr", "flamar", "omeric"],
-      "rhs": ["supertetra"],
-      "confidence": 1
-    },
-    {
-      "lhs": ["alpara", "cdr", "flamar", "supertetra"],
-      "rhs": ["omeric"],
-      "confidence": 0.7999999999999999
-    },
-    {
-      "lhs": ["alpara", "cdr", "omeric", "supertetra"],
-      "rhs": ["flamar"],
-      "confidence": 1
-    },
-    {
-      "lhs": ["alpara", "flamar", "omeric", "supertetra"],
-      "rhs": ["cdr"],
-      "confidence": 1
-    },
-    {
-      "lhs": ["cdr", "flamar", "omeric", "supertetra"],
-      "rhs": ["alpara"],
-      "confidence": 0.7999999999999999
-    },
-    {
-      "lhs": ["alpara", "cdr", "omeric", "paracetamol"],
-      "rhs": ["supertetra"],
-      "confidence": 1
-    },
-    {
-      "lhs": ["alpara", "cdr", "paracetamol", "supertetra"],
-      "rhs": ["omeric"],
-      "confidence": 0.7999999999999999
-    },
-    {
-      "lhs": ["alpara", "omeric", "paracetamol", "supertetra"],
-      "rhs": ["cdr"],
-      "confidence": 1
-    },
-    {
-      "lhs": ["cdr", "omeric", "paracetamol", "supertetra"],
-      "rhs": ["alpara"],
-      "confidence": 0.7999999999999999
-    },
-    {
-      "lhs": ["alpara", "amoxcilin", "cdr", "omeric"],
-      "rhs": ["supertetra"],
-      "confidence": 1
-    },
-    {
-      "lhs": ["alpara", "amoxcilin", "cdr", "supertetra"],
-      "rhs": ["omeric"],
-      "confidence": 0.7999999999999999
-    },
-    {
-      "lhs": ["alpara", "amoxcilin", "omeric", "supertetra"],
-      "rhs": ["cdr"],
-      "confidence": 1
-    },
-    {
-      "lhs": ["amoxcilin", "cdr", "omeric", "supertetra"],
-      "rhs": ["alpara"],
-      "confidence": 0.7999999999999999
-    },
-    {
-      "lhs": ["alpara", "cdr", "gratazon", "omeric"],
-      "rhs": ["supertetra"],
-      "confidence": 1
-    },
-    {
-      "lhs": ["alpara", "cdr", "gratazon", "supertetra"],
-      "rhs": ["omeric"],
-      "confidence": 0.7999999999999999
-    },
-    {
-      "lhs": ["alpara", "gratazon", "omeric", "supertetra"],
-      "rhs": ["cdr"],
-      "confidence": 1
-    },
-    {
-      "lhs": ["cdr", "gratazon", "omeric", "supertetra"],
-      "rhs": ["alpara"],
-      "confidence": 0.7999999999999999
-    },
-    {
-      "lhs": ["allopurinol 100", "alpara", "cdr", "omeric"],
-      "rhs": ["supertetra"],
-      "confidence": 1
-    },
-    {
-      "lhs": ["allopurinol 100", "alpara", "cdr", "supertetra"],
-      "rhs": ["omeric"],
-      "confidence": 1
-    },
-    {
-      "lhs": ["allopurinol 100", "alpara", "omeric", "supertetra"],
-      "rhs": ["cdr"],
-      "confidence": 1
-    },
-    {
-      "lhs": ["allopurinol 100", "cdr", "omeric", "supertetra"],
-      "rhs": ["alpara"],
-      "confidence": 0.75
-    },
-    {
-      "lhs": ["alpara", "cdr", "flamar", "paracetamol"],
-      "rhs": ["supertetra"],
-      "confidence": 1
-    },
-    {
-      "lhs": ["alpara", "flamar", "paracetamol", "supertetra"],
-      "rhs": ["cdr"],
-      "confidence": 1
-    },
-    {
-      "lhs": ["cdr", "flamar", "paracetamol", "supertetra"],
-      "rhs": ["alpara"],
-      "confidence": 0.6250000000000001
-    },
-    {
-      "lhs": ["alpara", "amoxcilin", "cdr", "flamar"],
-      "rhs": ["supertetra"],
-      "confidence": 1
-    },
-    {
-      "lhs": ["alpara", "amoxcilin", "flamar", "supertetra"],
-      "rhs": ["cdr"],
-      "confidence": 1
-    },
-    {
-      "lhs": ["amoxcilin", "cdr", "flamar", "supertetra"],
-      "rhs": ["alpara"],
-      "confidence": 0.6250000000000001
-    },
-    {
-      "lhs": ["alpara", "cdr", "flamar", "gratazon"],
-      "rhs": ["supertetra"],
-      "confidence": 1
-    },
-    {
-      "lhs": ["alpara", "flamar", "gratazon", "supertetra"],
-      "rhs": ["cdr"],
-      "confidence": 1
-    },
-    {
-      "lhs": ["cdr", "flamar", "gratazon", "supertetra"],
-      "rhs": ["alpara"],
-      "confidence": 0.6250000000000001
-    },
-    {
-      "lhs": ["allopurinol 100", "alpara", "cdr", "flamar"],
-      "rhs": ["supertetra"],
-      "confidence": 1
-    },
-    {
-      "lhs": ["allopurinol 100", "alpara", "flamar", "supertetra"],
-      "rhs": ["cdr"],
-      "confidence": 1
-    },
-    {
-      "lhs": ["allopurinol 100", "cdr", "flamar", "supertetra"],
-      "rhs": ["alpara"],
-      "confidence": 0.6
-    },
-    {
-      "lhs": ["alpara", "amoxcilin", "cdr", "paracetamol"],
-      "rhs": ["supertetra"],
-      "confidence": 1
-    },
-    {
-      "lhs": ["alpara", "amoxcilin", "paracetamol", "supertetra"],
-      "rhs": ["cdr"],
-      "confidence": 1
-    },
-    {
-      "lhs": ["amoxcilin", "cdr", "paracetamol", "supertetra"],
-      "rhs": ["alpara"],
-      "confidence": 0.6250000000000001
-    },
-    {
-      "lhs": ["alpara", "cdr", "gratazon", "paracetamol"],
-      "rhs": ["supertetra"],
-      "confidence": 1
-    },
-    {
-      "lhs": ["alpara", "gratazon", "paracetamol", "supertetra"],
-      "rhs": ["cdr"],
-      "confidence": 1
-    },
-    {
-      "lhs": ["cdr", "gratazon", "paracetamol", "supertetra"],
-      "rhs": ["alpara"],
-      "confidence": 0.6250000000000001
-    },
-    {
-      "lhs": ["allopurinol 100", "alpara", "cdr", "paracetamol"],
-      "rhs": ["supertetra"],
-      "confidence": 1
-    },
-    {
-      "lhs": ["allopurinol 100", "alpara", "paracetamol", "supertetra"],
-      "rhs": ["cdr"],
-      "confidence": 1
-    },
-    {
-      "lhs": ["allopurinol 100", "cdr", "paracetamol", "supertetra"],
-      "rhs": ["alpara"],
-      "confidence": 0.6
-    },
-    {
-      "lhs": ["alpara", "amoxcilin", "cdr", "gratazon"],
-      "rhs": ["supertetra"],
-      "confidence": 1
-    },
-    {
-      "lhs": ["alpara", "amoxcilin", "gratazon", "supertetra"],
-      "rhs": ["cdr"],
-      "confidence": 1
-    },
-    {
-      "lhs": ["amoxcilin", "cdr", "gratazon", "supertetra"],
-      "rhs": ["alpara"],
-      "confidence": 0.6250000000000001
-    },
-    {
-      "lhs": ["allopurinol 100", "alpara", "amoxcilin", "cdr"],
-      "rhs": ["supertetra"],
-      "confidence": 1
-    },
-    {
-      "lhs": ["allopurinol 100", "alpara", "amoxcilin", "supertetra"],
-      "rhs": ["cdr"],
-      "confidence": 1
-    },
-    {
-      "lhs": ["allopurinol 100", "amoxcilin", "cdr", "supertetra"],
-      "rhs": ["alpara"],
-      "confidence": 0.6
-    },
-    {
-      "lhs": ["allopurinol 100", "alpara", "cdr", "gratazon"],
-      "rhs": ["supertetra"],
-      "confidence": 1
-    },
-    {
-      "lhs": ["allopurinol 100", "alpara", "gratazon", "supertetra"],
-      "rhs": ["cdr"],
-      "confidence": 1
-    },
-    {
-      "lhs": ["allopurinol 100", "cdr", "gratazon", "supertetra"],
-      "rhs": ["alpara"],
-      "confidence": 0.6
-    },
-    {
-      "lhs": ["alpara", "flamar", "omeric", "paracetamol"],
-      "rhs": ["cdr"],
-      "confidence": 1
-    },
-    {
-      "lhs": ["cdr", "flamar", "omeric", "paracetamol"],
-      "rhs": ["alpara"],
-      "confidence": 0.6666666666666666
-    },
-    {
-      "lhs": ["alpara", "amoxcilin", "flamar", "omeric"],
-      "rhs": ["cdr"],
-      "confidence": 1
-    },
-    {
-      "lhs": ["amoxcilin", "cdr", "flamar", "omeric"],
-      "rhs": ["alpara"],
-      "confidence": 0.6666666666666666
-    },
-    {
-      "lhs": ["alpara", "flamar", "gratazon", "omeric"],
-      "rhs": ["cdr"],
-      "confidence": 1
-    },
-    {
-      "lhs": ["cdr", "flamar", "gratazon", "omeric"],
-      "rhs": ["alpara"],
-      "confidence": 0.6666666666666666
-    },
-    {
-      "lhs": ["allopurinol 100", "alpara", "flamar", "omeric"],
-      "rhs": ["cdr"],
-      "confidence": 1
-    },
-    {
-      "lhs": ["allopurinol 100", "cdr", "flamar", "omeric"],
-      "rhs": ["alpara"],
-      "confidence": 0.6
-    },
-    {
-      "lhs": ["alpara", "amoxcilin", "omeric", "paracetamol"],
-      "rhs": ["cdr"],
-      "confidence": 1
-    },
-    {
-      "lhs": ["amoxcilin", "cdr", "omeric", "paracetamol"],
-      "rhs": ["alpara"],
-      "confidence": 0.6666666666666666
-    },
-    {
-      "lhs": ["alpara", "gratazon", "omeric", "paracetamol"],
-      "rhs": ["cdr"],
-      "confidence": 1
-    },
-    {
-      "lhs": ["cdr", "gratazon", "omeric", "paracetamol"],
-      "rhs": ["alpara"],
-      "confidence": 0.6666666666666666
-    },
-    {
-      "lhs": ["allopurinol 100", "alpara", "omeric", "paracetamol"],
-      "rhs": ["cdr"],
-      "confidence": 1
-    },
-    {
-      "lhs": ["allopurinol 100", "cdr", "omeric", "paracetamol"],
-      "rhs": ["alpara"],
-      "confidence": 0.6
-    },
-    {
-      "lhs": ["alpara", "amoxcilin", "gratazon", "omeric"],
-      "rhs": ["cdr"],
-      "confidence": 1
-    },
-    {
-      "lhs": ["amoxcilin", "cdr", "gratazon", "omeric"],
-      "rhs": ["alpara"],
-      "confidence": 0.6666666666666666
-    },
-    {
-      "lhs": ["allopurinol 100", "alpara", "amoxcilin", "omeric"],
-      "rhs": ["cdr"],
-      "confidence": 1
-    },
-    {
-      "lhs": ["allopurinol 100", "amoxcilin", "cdr", "omeric"],
-      "rhs": ["alpara"],
-      "confidence": 0.6
-    },
-    {
-      "lhs": ["allopurinol 100", "alpara", "gratazon", "omeric"],
-      "rhs": ["cdr"],
-      "confidence": 1
-    },
-    {
-      "lhs": ["allopurinol 100", "cdr", "gratazon", "omeric"],
-      "rhs": ["alpara"],
-      "confidence": 0.6
-    },
-    {
-      "lhs": ["alpara", "amoxcilin", "flamar", "paracetamol"],
-      "rhs": ["cdr"],
-      "confidence": 1
-    },
-    {
-      "lhs": ["amoxcilin", "cdr", "flamar", "paracetamol"],
-      "rhs": ["alpara"],
-      "confidence": 0.5555555555555556
-    },
-    {
-      "lhs": ["alpara", "flamar", "gratazon", "paracetamol"],
-      "rhs": ["cdr"],
-      "confidence": 1
-    },
-    {
-      "lhs": ["cdr", "flamar", "gratazon", "paracetamol"],
-      "rhs": ["alpara"],
-      "confidence": 0.5555555555555556
-    },
-    {
-      "lhs": ["allopurinol 100", "alpara", "flamar", "paracetamol"],
-      "rhs": ["cdr"],
-      "confidence": 1
-    },
-    {
-      "lhs": ["allopurinol 100", "cdr", "flamar", "paracetamol"],
-      "rhs": ["alpara"],
-      "confidence": 0.5
-    },
-    {
-      "lhs": ["alpara", "amoxcilin", "flamar", "gratazon"],
-      "rhs": ["cdr"],
-      "confidence": 1
-    },
-    {
-      "lhs": ["amoxcilin", "cdr", "flamar", "gratazon"],
-      "rhs": ["alpara"],
-      "confidence": 0.5555555555555556
-    },
-    {
-      "lhs": ["allopurinol 100", "alpara", "amoxcilin", "flamar"],
-      "rhs": ["cdr"],
-      "confidence": 1
-    },
-    {
-      "lhs": ["allopurinol 100", "amoxcilin", "cdr", "flamar"],
-      "rhs": ["alpara"],
-      "confidence": 0.5
-    },
-    {
-      "lhs": ["allopurinol 100", "alpara", "flamar", "gratazon"],
-      "rhs": ["cdr"],
-      "confidence": 1
-    },
-    {
-      "lhs": ["allopurinol 100", "cdr", "flamar", "gratazon"],
-      "rhs": ["alpara"],
-      "confidence": 0.5
-    },
-    {
-      "lhs": ["alpara", "amoxcilin", "gratazon", "paracetamol"],
-      "rhs": ["cdr"],
-      "confidence": 1
-    },
-    {
-      "lhs": ["amoxcilin", "cdr", "gratazon", "paracetamol"],
-      "rhs": ["alpara"],
-      "confidence": 0.5555555555555556
-    },
-    {
-      "lhs": ["allopurinol 100", "alpara", "amoxcilin", "paracetamol"],
-      "rhs": ["cdr"],
-      "confidence": 1
-    },
-    {
-      "lhs": ["allopurinol 100", "amoxcilin", "cdr", "paracetamol"],
-      "rhs": ["alpara"],
-      "confidence": 0.5
-    },
-    {
-      "lhs": ["allopurinol 100", "alpara", "gratazon", "paracetamol"],
-      "rhs": ["cdr"],
-      "confidence": 1
-    },
-    {
-      "lhs": ["allopurinol 100", "cdr", "gratazon", "paracetamol"],
-      "rhs": ["alpara"],
-      "confidence": 0.5
-    },
-    {
-      "lhs": ["allopurinol 100", "alpara", "amoxcilin", "gratazon"],
-      "rhs": ["cdr"],
-      "confidence": 1
-    },
-    {
-      "lhs": ["allopurinol 100", "amoxcilin", "cdr", "gratazon"],
-      "rhs": ["alpara"],
-      "confidence": 0.5
-    },
-    {
-      "lhs": ["flamar", "omeric", "paracetamol", "supertetra"],
-      "rhs": ["cdr"],
-      "confidence": 1
-    },
-    {
-      "lhs": ["amoxcilin", "flamar", "omeric", "supertetra"],
-      "rhs": ["cdr"],
-      "confidence": 1
-    },
-    {
-      "lhs": ["flamar", "gratazon", "omeric", "supertetra"],
-      "rhs": ["cdr"],
-      "confidence": 1
-    },
-    {
-      "lhs": ["allopurinol 100", "flamar", "omeric", "supertetra"],
-      "rhs": ["cdr"],
-      "confidence": 1
-    },
-    {
-      "lhs": ["amoxcilin", "omeric", "paracetamol", "supertetra"],
-      "rhs": ["cdr"],
-      "confidence": 1
-    },
-    {
-      "lhs": ["gratazon", "omeric", "paracetamol", "supertetra"],
-      "rhs": ["cdr"],
-      "confidence": 1
-    },
-    {
-      "lhs": ["allopurinol 100", "omeric", "paracetamol", "supertetra"],
-      "rhs": ["cdr"],
-      "confidence": 1
-    },
-    {
-      "lhs": ["amoxcilin", "gratazon", "omeric", "supertetra"],
-      "rhs": ["cdr"],
-      "confidence": 1
-    },
-    {
-      "lhs": ["allopurinol 100", "amoxcilin", "omeric", "supertetra"],
-      "rhs": ["cdr"],
-      "confidence": 1
-    },
-    {
-      "lhs": ["allopurinol 100", "gratazon", "omeric", "supertetra"],
-      "rhs": ["cdr"],
-      "confidence": 1
-    },
-    {
-      "lhs": ["amoxcilin", "flamar", "paracetamol", "supertetra"],
-      "rhs": ["cdr"],
-      "confidence": 1
-    },
-    {
-      "lhs": ["flamar", "gratazon", "paracetamol", "supertetra"],
-      "rhs": ["cdr"],
-      "confidence": 1
-    },
-    {
-      "lhs": ["allopurinol 100", "flamar", "paracetamol", "supertetra"],
-      "rhs": ["cdr"],
-      "confidence": 1
-    },
-    {
-      "lhs": ["amoxcilin", "flamar", "gratazon", "supertetra"],
-      "rhs": ["cdr"],
-      "confidence": 1
-    },
-    {
-      "lhs": ["allopurinol 100", "amoxcilin", "flamar", "supertetra"],
-      "rhs": ["cdr"],
-      "confidence": 1
-    },
-    {
-      "lhs": ["allopurinol 100", "flamar", "gratazon", "supertetra"],
-      "rhs": ["cdr"],
-      "confidence": 1
-    },
-    {
-      "lhs": ["amoxcilin", "gratazon", "paracetamol", "supertetra"],
-      "rhs": ["cdr"],
-      "confidence": 1
-    },
-    {
-      "lhs": ["allopurinol 100", "amoxcilin", "paracetamol", "supertetra"],
-      "rhs": ["cdr"],
-      "confidence": 1
-    },
-    {
-      "lhs": ["allopurinol 100", "gratazon", "paracetamol", "supertetra"],
-      "rhs": ["cdr"],
-      "confidence": 1
-    },
-    {
-      "lhs": ["allopurinol 100", "amoxcilin", "gratazon", "supertetra"],
-      "rhs": ["cdr"],
-      "confidence": 1
-    },
-    {
-      "lhs": ["amoxcilin", "flamar", "omeric", "paracetamol"],
-      "rhs": ["cdr"],
-      "confidence": 1
-    },
-    {
-      "lhs": ["flamar", "gratazon", "omeric", "paracetamol"],
-      "rhs": ["cdr"],
-      "confidence": 1
-    },
-    {
-      "lhs": ["allopurinol 100", "flamar", "omeric", "paracetamol"],
-      "rhs": ["cdr"],
-      "confidence": 1
-    },
-    {
-      "lhs": ["amoxcilin", "flamar", "gratazon", "omeric"],
-      "rhs": ["cdr"],
-      "confidence": 1
-    },
-    {
-      "lhs": ["allopurinol 100", "amoxcilin", "flamar", "omeric"],
-      "rhs": ["cdr"],
-      "confidence": 1
-    },
-    {
-      "lhs": ["allopurinol 100", "flamar", "gratazon", "omeric"],
-      "rhs": ["cdr"],
-      "confidence": 1
-    },
-    {
-      "lhs": ["amoxcilin", "gratazon", "omeric", "paracetamol"],
-      "rhs": ["cdr"],
-      "confidence": 1
-    },
-    {
-      "lhs": ["allopurinol 100", "amoxcilin", "omeric", "paracetamol"],
-      "rhs": ["cdr"],
-      "confidence": 1
-    },
-    {
-      "lhs": ["allopurinol 100", "gratazon", "omeric", "paracetamol"],
-      "rhs": ["cdr"],
-      "confidence": 1
-    },
-    {
-      "lhs": ["allopurinol 100", "amoxcilin", "gratazon", "omeric"],
-      "rhs": ["cdr"],
-      "confidence": 1
-    },
-    {
-      "lhs": ["amoxcilin", "flamar", "gratazon", "paracetamol"],
-      "rhs": ["cdr"],
-      "confidence": 1
-    },
-    {
-      "lhs": ["allopurinol 100", "amoxcilin", "flamar", "paracetamol"],
-      "rhs": ["cdr"],
-      "confidence": 1
-    },
-    {
-      "lhs": ["allopurinol 100", "flamar", "gratazon", "paracetamol"],
-      "rhs": ["cdr"],
-      "confidence": 1
-    },
-    {
-      "lhs": ["allopurinol 100", "amoxcilin", "flamar", "gratazon"],
-      "rhs": ["cdr"],
-      "confidence": 1
-    },
-    {
-      "lhs": ["allopurinol 100", "amoxcilin", "gratazon", "paracetamol"],
-      "rhs": ["cdr"],
-      "confidence": 1
-    },
-    {
-      "lhs": ["alpara", "cdr", "flamar", "omeric", "paracetamol"],
-      "rhs": ["supertetra"],
-      "confidence": 1
-    },
-    {
-      "lhs": ["alpara", "cdr", "flamar", "omeric", "supertetra"],
-      "rhs": ["paracetamol"],
-      "confidence": 1
-    },
-    {
-      "lhs": ["alpara", "cdr", "flamar", "paracetamol", "supertetra"],
-      "rhs": ["omeric"],
-      "confidence": 0.7999999999999999
-    },
-    {
-      "lhs": ["alpara", "cdr", "omeric", "paracetamol", "supertetra"],
-      "rhs": ["flamar"],
-      "confidence": 1
-    },
-    {
-      "lhs": ["alpara", "flamar", "omeric", "paracetamol", "supertetra"],
-      "rhs": ["cdr"],
-      "confidence": 1
-    },
-    {
-      "lhs": ["cdr", "flamar", "omeric", "paracetamol", "supertetra"],
-      "rhs": ["alpara"],
-      "confidence": 0.7999999999999999
-    },
-    {
-      "lhs": ["alpara", "amoxcilin", "cdr", "flamar", "omeric"],
-      "rhs": ["supertetra"],
-      "confidence": 1
-    },
-    {
-      "lhs": ["alpara", "amoxcilin", "cdr", "flamar", "supertetra"],
-      "rhs": ["omeric"],
-      "confidence": 0.7999999999999999
-    },
-    {
-      "lhs": ["alpara", "amoxcilin", "cdr", "omeric", "supertetra"],
-      "rhs": ["flamar"],
-      "confidence": 1
-    },
-    {
-      "lhs": ["alpara", "amoxcilin", "flamar", "omeric", "supertetra"],
-      "rhs": ["cdr"],
-      "confidence": 1
-    },
-    {
-      "lhs": ["amoxcilin", "cdr", "flamar", "omeric", "supertetra"],
-      "rhs": ["alpara"],
-      "confidence": 0.7999999999999999
-    },
-    {
-      "lhs": ["alpara", "cdr", "flamar", "gratazon", "omeric"],
-      "rhs": ["supertetra"],
-      "confidence": 1
-    },
-    {
-      "lhs": ["alpara", "cdr", "flamar", "gratazon", "supertetra"],
-      "rhs": ["omeric"],
-      "confidence": 0.7999999999999999
-    },
-    {
-      "lhs": ["alpara", "cdr", "gratazon", "omeric", "supertetra"],
-      "rhs": ["flamar"],
-      "confidence": 1
-    },
-    {
-      "lhs": ["alpara", "flamar", "gratazon", "omeric", "supertetra"],
-      "rhs": ["cdr"],
-      "confidence": 1
-    },
-    {
-      "lhs": ["cdr", "flamar", "gratazon", "omeric", "supertetra"],
-      "rhs": ["alpara"],
-      "confidence": 0.7999999999999999
-    },
-    {
-      "lhs": ["allopurinol 100", "alpara", "cdr", "flamar", "omeric"],
-      "rhs": ["supertetra"],
-      "confidence": 1
-    },
-    {
-      "lhs": ["allopurinol 100", "alpara", "cdr", "flamar", "supertetra"],
-      "rhs": ["omeric"],
-      "confidence": 1
-    },
-    {
-      "lhs": ["allopurinol 100", "alpara", "cdr", "omeric", "supertetra"],
-      "rhs": ["flamar"],
-      "confidence": 1
-    },
-    {
-      "lhs": ["allopurinol 100", "alpara", "flamar", "omeric", "supertetra"],
-      "rhs": ["cdr"],
-      "confidence": 1
-    },
-    {
-      "lhs": ["allopurinol 100", "cdr", "flamar", "omeric", "supertetra"],
-      "rhs": ["alpara"],
-      "confidence": 0.75
-    },
-    {
-      "lhs": ["alpara", "amoxcilin", "cdr", "omeric", "paracetamol"],
-      "rhs": ["supertetra"],
-      "confidence": 1
-    },
-    {
-      "lhs": ["alpara", "amoxcilin", "cdr", "paracetamol", "supertetra"],
-      "rhs": ["omeric"],
-      "confidence": 0.7999999999999999
-    },
-    {
-      "lhs": ["alpara", "amoxcilin", "omeric", "paracetamol", "supertetra"],
-      "rhs": ["cdr"],
-      "confidence": 1
-    },
-    {
-      "lhs": ["amoxcilin", "cdr", "omeric", "paracetamol", "supertetra"],
-      "rhs": ["alpara"],
-      "confidence": 0.7999999999999999
-    },
-    {
-      "lhs": ["alpara", "cdr", "gratazon", "omeric", "paracetamol"],
-      "rhs": ["supertetra"],
-      "confidence": 1
-    },
-    {
-      "lhs": ["alpara", "cdr", "gratazon", "paracetamol", "supertetra"],
-      "rhs": ["omeric"],
-      "confidence": 0.7999999999999999
-    },
-    {
-      "lhs": ["alpara", "gratazon", "omeric", "paracetamol", "supertetra"],
-      "rhs": ["cdr"],
-      "confidence": 1
-    },
-    {
-      "lhs": ["cdr", "gratazon", "omeric", "paracetamol", "supertetra"],
-      "rhs": ["alpara"],
-      "confidence": 0.7999999999999999
-    },
-    {
-      "lhs": ["allopurinol 100", "alpara", "cdr", "omeric", "paracetamol"],
-      "rhs": ["supertetra"],
-      "confidence": 1
-    },
-    {
-      "lhs": ["allopurinol 100", "alpara", "cdr", "paracetamol", "supertetra"],
-      "rhs": ["omeric"],
-      "confidence": 1
-    },
-    {
-      "lhs": [
-        "allopurinol 100",
-        "alpara",
-        "omeric",
-        "paracetamol",
-        "supertetra"
-      ],
-      "rhs": ["cdr"],
-      "confidence": 1
-    },
-    {
-      "lhs": ["allopurinol 100", "cdr", "omeric", "paracetamol", "supertetra"],
-      "rhs": ["alpara"],
-      "confidence": 0.75
-    },
-    {
-      "lhs": ["alpara", "amoxcilin", "cdr", "gratazon", "omeric"],
-      "rhs": ["supertetra"],
-      "confidence": 1
-    },
-    {
-      "lhs": ["alpara", "amoxcilin", "cdr", "gratazon", "supertetra"],
-      "rhs": ["omeric"],
-      "confidence": 0.7999999999999999
-    },
-    {
-      "lhs": ["alpara", "amoxcilin", "gratazon", "omeric", "supertetra"],
-      "rhs": ["cdr"],
-      "confidence": 1
-    },
-    {
-      "lhs": ["amoxcilin", "cdr", "gratazon", "omeric", "supertetra"],
-      "rhs": ["alpara"],
-      "confidence": 0.7999999999999999
-    },
-    {
-      "lhs": ["allopurinol 100", "alpara", "amoxcilin", "cdr", "omeric"],
-      "rhs": ["supertetra"],
-      "confidence": 1
-    },
-    {
-      "lhs": ["allopurinol 100", "alpara", "amoxcilin", "cdr", "supertetra"],
-      "rhs": ["omeric"],
-      "confidence": 1
-    },
-    {
-      "lhs": ["allopurinol 100", "alpara", "amoxcilin", "omeric", "supertetra"],
-      "rhs": ["cdr"],
-      "confidence": 1
-    },
-    {
-      "lhs": ["allopurinol 100", "amoxcilin", "cdr", "omeric", "supertetra"],
-      "rhs": ["alpara"],
-      "confidence": 0.75
-    },
-    {
-      "lhs": ["allopurinol 100", "alpara", "cdr", "gratazon", "omeric"],
-      "rhs": ["supertetra"],
-      "confidence": 1
-    },
-    {
-      "lhs": ["allopurinol 100", "alpara", "cdr", "gratazon", "supertetra"],
-      "rhs": ["omeric"],
-      "confidence": 1
-    },
-    {
-      "lhs": ["allopurinol 100", "alpara", "gratazon", "omeric", "supertetra"],
-      "rhs": ["cdr"],
-      "confidence": 1
-    },
-    {
-      "lhs": ["allopurinol 100", "cdr", "gratazon", "omeric", "supertetra"],
-      "rhs": ["alpara"],
-      "confidence": 0.75
-    },
-    {
-      "lhs": ["alpara", "amoxcilin", "cdr", "flamar", "paracetamol"],
-      "rhs": ["supertetra"],
-      "confidence": 1
-    },
-    {
-      "lhs": ["alpara", "amoxcilin", "flamar", "paracetamol", "supertetra"],
-      "rhs": ["cdr"],
-      "confidence": 1
-    },
-    {
-      "lhs": ["amoxcilin", "cdr", "flamar", "paracetamol", "supertetra"],
-      "rhs": ["alpara"],
-      "confidence": 0.6250000000000001
-    },
-    {
-      "lhs": ["alpara", "cdr", "flamar", "gratazon", "paracetamol"],
-      "rhs": ["supertetra"],
-      "confidence": 1
-    },
-    {
-      "lhs": ["alpara", "flamar", "gratazon", "paracetamol", "supertetra"],
-      "rhs": ["cdr"],
-      "confidence": 1
-    },
-    {
-      "lhs": ["cdr", "flamar", "gratazon", "paracetamol", "supertetra"],
-      "rhs": ["alpara"],
-      "confidence": 0.6250000000000001
-    },
-    {
-      "lhs": ["allopurinol 100", "alpara", "cdr", "flamar", "paracetamol"],
-      "rhs": ["supertetra"],
-      "confidence": 1
-    },
-    {
-      "lhs": [
-        "allopurinol 100",
-        "alpara",
-        "flamar",
-        "paracetamol",
-        "supertetra"
-      ],
-      "rhs": ["cdr"],
-      "confidence": 1
-    },
-    {
-      "lhs": ["allopurinol 100", "cdr", "flamar", "paracetamol", "supertetra"],
-      "rhs": ["alpara"],
-      "confidence": 0.6
-    },
-    {
-      "lhs": ["alpara", "amoxcilin", "cdr", "flamar", "gratazon"],
-      "rhs": ["supertetra"],
-      "confidence": 1
-    },
-    {
-      "lhs": ["alpara", "amoxcilin", "flamar", "gratazon", "supertetra"],
-      "rhs": ["cdr"],
-      "confidence": 1
-    },
-    {
-      "lhs": ["amoxcilin", "cdr", "flamar", "gratazon", "supertetra"],
-      "rhs": ["alpara"],
-      "confidence": 0.6250000000000001
-    },
-    {
-      "lhs": ["allopurinol 100", "alpara", "amoxcilin", "cdr", "flamar"],
-      "rhs": ["supertetra"],
-      "confidence": 1
-    },
-    {
-      "lhs": ["allopurinol 100", "alpara", "amoxcilin", "flamar", "supertetra"],
-      "rhs": ["cdr"],
-      "confidence": 1
-    },
-    {
-      "lhs": ["allopurinol 100", "amoxcilin", "cdr", "flamar", "supertetra"],
-      "rhs": ["alpara"],
-      "confidence": 0.6
-    },
-    {
-      "lhs": ["allopurinol 100", "alpara", "cdr", "flamar", "gratazon"],
-      "rhs": ["supertetra"],
-      "confidence": 1
-    },
-    {
-      "lhs": ["allopurinol 100", "alpara", "flamar", "gratazon", "supertetra"],
-      "rhs": ["cdr"],
-      "confidence": 1
-    },
-    {
-      "lhs": ["allopurinol 100", "cdr", "flamar", "gratazon", "supertetra"],
-      "rhs": ["alpara"],
-      "confidence": 0.6
-    },
-    {
-      "lhs": ["alpara", "amoxcilin", "cdr", "gratazon", "paracetamol"],
-      "rhs": ["supertetra"],
-      "confidence": 1
-    },
-    {
-      "lhs": ["alpara", "amoxcilin", "gratazon", "paracetamol", "supertetra"],
-      "rhs": ["cdr"],
-      "confidence": 1
-    },
-    {
-      "lhs": ["amoxcilin", "cdr", "gratazon", "paracetamol", "supertetra"],
-      "rhs": ["alpara"],
-      "confidence": 0.6250000000000001
-    },
-    {
-      "lhs": ["allopurinol 100", "alpara", "amoxcilin", "cdr", "paracetamol"],
-      "rhs": ["supertetra"],
-      "confidence": 1
-    },
-    {
-      "lhs": [
-        "allopurinol 100",
-        "alpara",
-        "amoxcilin",
-        "paracetamol",
-        "supertetra"
-      ],
-      "rhs": ["cdr"],
-      "confidence": 1
-    },
-    {
-      "lhs": [
-        "allopurinol 100",
-        "amoxcilin",
-        "cdr",
-        "paracetamol",
-        "supertetra"
-      ],
-      "rhs": ["alpara"],
-      "confidence": 0.6
-    },
-    {
-      "lhs": ["allopurinol 100", "alpara", "cdr", "gratazon", "paracetamol"],
-      "rhs": ["supertetra"],
-      "confidence": 1
-    },
-    {
-      "lhs": [
-        "allopurinol 100",
-        "alpara",
-        "gratazon",
-        "paracetamol",
-        "supertetra"
-      ],
-      "rhs": ["cdr"],
-      "confidence": 1
-    },
-    {
-      "lhs": [
-        "allopurinol 100",
-        "cdr",
-        "gratazon",
-        "paracetamol",
-        "supertetra"
-      ],
-      "rhs": ["alpara"],
-      "confidence": 0.6
-    },
-    {
-      "lhs": ["allopurinol 100", "alpara", "amoxcilin", "cdr", "gratazon"],
-      "rhs": ["supertetra"],
-      "confidence": 1
-    },
-    {
-      "lhs": [
-        "allopurinol 100",
-        "alpara",
-        "amoxcilin",
-        "gratazon",
-        "supertetra"
-      ],
-      "rhs": ["cdr"],
-      "confidence": 1
-    },
-    {
-      "lhs": ["allopurinol 100", "amoxcilin", "cdr", "gratazon", "supertetra"],
-      "rhs": ["alpara"],
-      "confidence": 0.6
-    },
-    {
-      "lhs": ["alpara", "amoxcilin", "flamar", "omeric", "paracetamol"],
-      "rhs": ["cdr"],
-      "confidence": 1
-    },
-    {
-      "lhs": ["amoxcilin", "cdr", "flamar", "omeric", "paracetamol"],
-      "rhs": ["alpara"],
-      "confidence": 0.6666666666666666
-    },
-    {
-      "lhs": ["alpara", "flamar", "gratazon", "omeric", "paracetamol"],
-      "rhs": ["cdr"],
-      "confidence": 1
-    },
-    {
-      "lhs": ["cdr", "flamar", "gratazon", "omeric", "paracetamol"],
-      "rhs": ["alpara"],
-      "confidence": 0.6666666666666666
-    },
-    {
-      "lhs": ["allopurinol 100", "alpara", "flamar", "omeric", "paracetamol"],
-      "rhs": ["cdr"],
-      "confidence": 1
-    },
-    {
-      "lhs": ["allopurinol 100", "cdr", "flamar", "omeric", "paracetamol"],
-      "rhs": ["alpara"],
-      "confidence": 0.6
-    },
-    {
-      "lhs": ["alpara", "amoxcilin", "flamar", "gratazon", "omeric"],
-      "rhs": ["cdr"],
-      "confidence": 1
-    },
-    {
-      "lhs": ["amoxcilin", "cdr", "flamar", "gratazon", "omeric"],
-      "rhs": ["alpara"],
-      "confidence": 0.6666666666666666
-    },
-    {
-      "lhs": ["allopurinol 100", "alpara", "amoxcilin", "flamar", "omeric"],
-      "rhs": ["cdr"],
-      "confidence": 1
-    },
-    {
-      "lhs": ["allopurinol 100", "amoxcilin", "cdr", "flamar", "omeric"],
-      "rhs": ["alpara"],
-      "confidence": 0.6
-    },
-    {
-      "lhs": ["allopurinol 100", "alpara", "flamar", "gratazon", "omeric"],
-      "rhs": ["cdr"],
-      "confidence": 1
-    },
-    {
-      "lhs": ["allopurinol 100", "cdr", "flamar", "gratazon", "omeric"],
-      "rhs": ["alpara"],
-      "confidence": 0.6
-    },
-    {
-      "lhs": ["alpara", "amoxcilin", "gratazon", "omeric", "paracetamol"],
-      "rhs": ["cdr"],
-      "confidence": 1
-    },
-    {
-      "lhs": ["amoxcilin", "cdr", "gratazon", "omeric", "paracetamol"],
-      "rhs": ["alpara"],
-      "confidence": 0.6666666666666666
-    },
-    {
-      "lhs": [
-        "allopurinol 100",
-        "alpara",
-        "amoxcilin",
-        "omeric",
-        "paracetamol"
-      ],
-      "rhs": ["cdr"],
-      "confidence": 1
-    },
-    {
-      "lhs": ["allopurinol 100", "amoxcilin", "cdr", "omeric", "paracetamol"],
-      "rhs": ["alpara"],
-      "confidence": 0.6
-    },
-    {
-      "lhs": ["allopurinol 100", "alpara", "gratazon", "omeric", "paracetamol"],
-      "rhs": ["cdr"],
-      "confidence": 1
-    },
-    {
-      "lhs": ["allopurinol 100", "cdr", "gratazon", "omeric", "paracetamol"],
-      "rhs": ["alpara"],
-      "confidence": 0.6
-    },
-    {
-      "lhs": ["allopurinol 100", "alpara", "amoxcilin", "gratazon", "omeric"],
-      "rhs": ["cdr"],
-      "confidence": 1
-    },
-    {
-      "lhs": ["allopurinol 100", "amoxcilin", "cdr", "gratazon", "omeric"],
-      "rhs": ["alpara"],
-      "confidence": 0.6
-    },
-    {
-      "lhs": ["alpara", "amoxcilin", "flamar", "gratazon", "paracetamol"],
-      "rhs": ["cdr"],
-      "confidence": 1
-    },
-    {
-      "lhs": ["amoxcilin", "cdr", "flamar", "gratazon", "paracetamol"],
-      "rhs": ["alpara"],
-      "confidence": 0.5555555555555556
-    },
-    {
-      "lhs": [
-        "allopurinol 100",
-        "alpara",
-        "amoxcilin",
-        "flamar",
-        "paracetamol"
-      ],
-      "rhs": ["cdr"],
-      "confidence": 1
-    },
-    {
-      "lhs": ["allopurinol 100", "amoxcilin", "cdr", "flamar", "paracetamol"],
-      "rhs": ["alpara"],
-      "confidence": 0.5
-    },
-    {
-      "lhs": ["allopurinol 100", "alpara", "flamar", "gratazon", "paracetamol"],
-      "rhs": ["cdr"],
-      "confidence": 1
-    },
-    {
-      "lhs": ["allopurinol 100", "cdr", "flamar", "gratazon", "paracetamol"],
-      "rhs": ["alpara"],
-      "confidence": 0.5
-    },
-    {
-      "lhs": ["allopurinol 100", "alpara", "amoxcilin", "flamar", "gratazon"],
-      "rhs": ["cdr"],
-      "confidence": 1
-    },
-    {
-      "lhs": ["allopurinol 100", "amoxcilin", "cdr", "flamar", "gratazon"],
-      "rhs": ["alpara"],
-      "confidence": 0.5
-    },
-    {
-      "lhs": [
-        "allopurinol 100",
-        "alpara",
-        "amoxcilin",
-        "gratazon",
-        "paracetamol"
-      ],
-      "rhs": ["cdr"],
-      "confidence": 1
-    },
-    {
-      "lhs": ["allopurinol 100", "amoxcilin", "cdr", "gratazon", "paracetamol"],
-      "rhs": ["alpara"],
-      "confidence": 0.5
-    },
-    {
-      "lhs": ["amoxcilin", "flamar", "omeric", "paracetamol", "supertetra"],
-      "rhs": ["cdr"],
-      "confidence": 1
-    },
-    {
-      "lhs": ["flamar", "gratazon", "omeric", "paracetamol", "supertetra"],
-      "rhs": ["cdr"],
-      "confidence": 1
-    },
-    {
-      "lhs": [
-        "allopurinol 100",
-        "flamar",
-        "omeric",
-        "paracetamol",
-        "supertetra"
-      ],
-      "rhs": ["cdr"],
-      "confidence": 1
-    },
-    {
-      "lhs": ["amoxcilin", "flamar", "gratazon", "omeric", "supertetra"],
-      "rhs": ["cdr"],
-      "confidence": 1
-    },
-    {
-      "lhs": ["allopurinol 100", "amoxcilin", "flamar", "omeric", "supertetra"],
-      "rhs": ["cdr"],
-      "confidence": 1
-    },
-    {
-      "lhs": ["allopurinol 100", "flamar", "gratazon", "omeric", "supertetra"],
-      "rhs": ["cdr"],
-      "confidence": 1
-    },
-    {
-      "lhs": ["amoxcilin", "gratazon", "omeric", "paracetamol", "supertetra"],
-      "rhs": ["cdr"],
-      "confidence": 1
-    },
-    {
-      "lhs": [
-        "allopurinol 100",
-        "amoxcilin",
-        "omeric",
-        "paracetamol",
-        "supertetra"
-      ],
-      "rhs": ["cdr"],
-      "confidence": 1
-    },
-    {
-      "lhs": [
-        "allopurinol 100",
-        "gratazon",
-        "omeric",
-        "paracetamol",
-        "supertetra"
-      ],
-      "rhs": ["cdr"],
-      "confidence": 1
-    },
-    {
-      "lhs": [
-        "allopurinol 100",
-        "amoxcilin",
-        "gratazon",
-        "omeric",
-        "supertetra"
-      ],
-      "rhs": ["cdr"],
-      "confidence": 1
-    },
-    {
-      "lhs": ["amoxcilin", "flamar", "gratazon", "paracetamol", "supertetra"],
-      "rhs": ["cdr"],
-      "confidence": 1
-    },
-    {
-      "lhs": [
-        "allopurinol 100",
-        "amoxcilin",
-        "flamar",
-        "paracetamol",
-        "supertetra"
-      ],
-      "rhs": ["cdr"],
-      "confidence": 1
-    },
-    {
-      "lhs": [
-        "allopurinol 100",
-        "flamar",
-        "gratazon",
-        "paracetamol",
-        "supertetra"
-      ],
-      "rhs": ["cdr"],
-      "confidence": 1
-    },
-    {
-      "lhs": [
-        "allopurinol 100",
-        "amoxcilin",
-        "flamar",
-        "gratazon",
-        "supertetra"
-      ],
-      "rhs": ["cdr"],
-      "confidence": 1
-    },
-    {
-      "lhs": [
-        "allopurinol 100",
-        "amoxcilin",
-        "gratazon",
-        "paracetamol",
-        "supertetra"
-      ],
-      "rhs": ["cdr"],
-      "confidence": 1
-    },
-    {
-      "lhs": ["amoxcilin", "flamar", "gratazon", "omeric", "paracetamol"],
-      "rhs": ["cdr"],
-      "confidence": 1
-    },
-    {
-      "lhs": [
-        "allopurinol 100",
-        "amoxcilin",
-        "flamar",
-        "omeric",
-        "paracetamol"
-      ],
-      "rhs": ["cdr"],
-      "confidence": 1
-    },
-    {
-      "lhs": ["allopurinol 100", "flamar", "gratazon", "omeric", "paracetamol"],
-      "rhs": ["cdr"],
-      "confidence": 1
-    },
-    {
-      "lhs": ["allopurinol 100", "amoxcilin", "flamar", "gratazon", "omeric"],
-      "rhs": ["cdr"],
-      "confidence": 1
-    },
-    {
-      "lhs": [
-        "allopurinol 100",
-        "amoxcilin",
-        "gratazon",
-        "omeric",
-        "paracetamol"
-      ],
-      "rhs": ["cdr"],
-      "confidence": 1
-    },
-    {
-      "lhs": [
-        "allopurinol 100",
-        "amoxcilin",
-        "flamar",
-        "gratazon",
-        "paracetamol"
-      ],
-      "rhs": ["cdr"],
-      "confidence": 1
-    },
-    {
-      "lhs": ["alpara", "amoxcilin", "cdr", "flamar", "omeric", "paracetamol"],
-      "rhs": ["supertetra"],
-      "confidence": 1
-    },
-    {
-      "lhs": ["alpara", "amoxcilin", "cdr", "flamar", "omeric", "supertetra"],
-      "rhs": ["paracetamol"],
-      "confidence": 1
-    },
-    {
-      "lhs": [
-        "alpara",
-        "amoxcilin",
-        "cdr",
-        "flamar",
-        "paracetamol",
-        "supertetra"
-      ],
-      "rhs": ["omeric"],
-      "confidence": 0.7999999999999999
-    },
-    {
-      "lhs": [
-        "alpara",
-        "amoxcilin",
-        "cdr",
-        "omeric",
-        "paracetamol",
-        "supertetra"
-      ],
-      "rhs": ["flamar"],
-      "confidence": 1
-    },
-    {
-      "lhs": [
-        "alpara",
-        "amoxcilin",
-        "flamar",
-        "omeric",
-        "paracetamol",
-        "supertetra"
-      ],
-      "rhs": ["cdr"],
-      "confidence": 1
-    },
-    {
-      "lhs": ["alpara", "cdr", "flamar", "omeric", "paracetamol", "supertetra"],
-      "rhs": ["amoxcilin"],
-      "confidence": 1
-    },
-    {
-      "lhs": [
-        "amoxcilin",
-        "cdr",
-        "flamar",
-        "omeric",
-        "paracetamol",
-        "supertetra"
-      ],
-      "rhs": ["alpara"],
-      "confidence": 0.7999999999999999
-    },
-    {
-      "lhs": ["alpara", "cdr", "flamar", "gratazon", "omeric", "paracetamol"],
-      "rhs": ["supertetra"],
-      "confidence": 1
-    },
-    {
-      "lhs": ["alpara", "cdr", "flamar", "gratazon", "omeric", "supertetra"],
-      "rhs": ["paracetamol"],
-      "confidence": 1
-    },
-    {
-      "lhs": [
-        "alpara",
-        "cdr",
-        "flamar",
-        "gratazon",
-        "paracetamol",
-        "supertetra"
-      ],
-      "rhs": ["omeric"],
-      "confidence": 0.7999999999999999
-    },
-    {
-      "lhs": [
-        "alpara",
-        "cdr",
-        "gratazon",
-        "omeric",
-        "paracetamol",
-        "supertetra"
-      ],
-      "rhs": ["flamar"],
-      "confidence": 1
-    },
-    {
-      "lhs": [
-        "alpara",
-        "flamar",
-        "gratazon",
-        "omeric",
-        "paracetamol",
-        "supertetra"
-      ],
-      "rhs": ["cdr"],
-      "confidence": 1
-    },
-    {
-      "lhs": [
-        "cdr",
-        "flamar",
-        "gratazon",
-        "omeric",
-        "paracetamol",
-        "supertetra"
-      ],
-      "rhs": ["alpara"],
-      "confidence": 0.7999999999999999
-    },
-    {
-      "lhs": [
-        "allopurinol 100",
-        "alpara",
-        "cdr",
-        "flamar",
-        "omeric",
-        "paracetamol"
-      ],
-      "rhs": ["supertetra"],
-      "confidence": 1
-    },
-    {
-      "lhs": [
-        "allopurinol 100",
-        "alpara",
-        "cdr",
-        "flamar",
-        "omeric",
-        "supertetra"
-      ],
-      "rhs": ["paracetamol"],
-      "confidence": 1
-    },
-    {
-      "lhs": [
-        "allopurinol 100",
-        "alpara",
-        "cdr",
-        "flamar",
-        "paracetamol",
-        "supertetra"
-      ],
-      "rhs": ["omeric"],
-      "confidence": 1
-    },
-    {
-      "lhs": [
-        "allopurinol 100",
-        "alpara",
-        "cdr",
-        "omeric",
-        "paracetamol",
-        "supertetra"
-      ],
-      "rhs": ["flamar"],
-      "confidence": 1
-    },
-    {
-      "lhs": [
-        "allopurinol 100",
-        "alpara",
-        "flamar",
-        "omeric",
-        "paracetamol",
-        "supertetra"
-      ],
-      "rhs": ["cdr"],
-      "confidence": 1
-    },
-    {
-      "lhs": [
-        "allopurinol 100",
-        "cdr",
-        "flamar",
-        "omeric",
-        "paracetamol",
-        "supertetra"
-      ],
-      "rhs": ["alpara"],
-      "confidence": 0.75
-    },
-    {
-      "lhs": ["alpara", "amoxcilin", "cdr", "flamar", "gratazon", "omeric"],
-      "rhs": ["supertetra"],
-      "confidence": 1
-    },
-    {
-      "lhs": ["alpara", "amoxcilin", "cdr", "flamar", "gratazon", "supertetra"],
-      "rhs": ["omeric"],
-      "confidence": 0.7999999999999999
-    },
-    {
-      "lhs": ["alpara", "amoxcilin", "cdr", "gratazon", "omeric", "supertetra"],
-      "rhs": ["flamar"],
-      "confidence": 1
-    },
-    {
-      "lhs": [
-        "alpara",
-        "amoxcilin",
-        "flamar",
-        "gratazon",
-        "omeric",
-        "supertetra"
-      ],
-      "rhs": ["cdr"],
-      "confidence": 1
-    },
-    {
-      "lhs": ["amoxcilin", "cdr", "flamar", "gratazon", "omeric", "supertetra"],
-      "rhs": ["alpara"],
-      "confidence": 0.7999999999999999
-    },
-    {
-      "lhs": [
-        "allopurinol 100",
-        "alpara",
-        "amoxcilin",
-        "cdr",
-        "flamar",
-        "omeric"
-      ],
-      "rhs": ["supertetra"],
-      "confidence": 1
-    },
-    {
-      "lhs": [
-        "allopurinol 100",
-        "alpara",
-        "amoxcilin",
-        "cdr",
-        "flamar",
-        "supertetra"
-      ],
-      "rhs": ["omeric"],
-      "confidence": 1
-    },
-    {
-      "lhs": [
-        "allopurinol 100",
-        "alpara",
-        "amoxcilin",
-        "cdr",
-        "omeric",
-        "supertetra"
-      ],
-      "rhs": ["flamar"],
-      "confidence": 1
-    },
-    {
-      "lhs": [
-        "allopurinol 100",
-        "alpara",
-        "amoxcilin",
-        "flamar",
-        "omeric",
-        "supertetra"
-      ],
-      "rhs": ["cdr"],
-      "confidence": 1
-    },
-    {
-      "lhs": [
-        "allopurinol 100",
-        "amoxcilin",
-        "cdr",
-        "flamar",
-        "omeric",
-        "supertetra"
-      ],
-      "rhs": ["alpara"],
-      "confidence": 0.75
-    },
-    {
-      "lhs": [
-        "allopurinol 100",
-        "alpara",
-        "cdr",
-        "flamar",
-        "gratazon",
-        "omeric"
-      ],
-      "rhs": ["supertetra"],
-      "confidence": 1
-    },
-    {
-      "lhs": [
-        "allopurinol 100",
-        "alpara",
-        "cdr",
-        "flamar",
-        "gratazon",
-        "supertetra"
-      ],
-      "rhs": ["omeric"],
-      "confidence": 1
-    },
-    {
-      "lhs": [
-        "allopurinol 100",
-        "alpara",
-        "cdr",
-        "gratazon",
-        "omeric",
-        "supertetra"
-      ],
-      "rhs": ["flamar"],
-      "confidence": 1
-    },
-    {
-      "lhs": [
-        "allopurinol 100",
-        "alpara",
-        "flamar",
-        "gratazon",
-        "omeric",
-        "supertetra"
-      ],
-      "rhs": ["cdr"],
-      "confidence": 1
-    },
-    {
-      "lhs": [
-        "allopurinol 100",
-        "cdr",
-        "flamar",
-        "gratazon",
-        "omeric",
-        "supertetra"
-      ],
-      "rhs": ["alpara"],
-      "confidence": 0.75
-    },
-    {
-      "lhs": [
-        "alpara",
-        "amoxcilin",
-        "cdr",
-        "gratazon",
-        "omeric",
-        "paracetamol"
-      ],
-      "rhs": ["supertetra"],
-      "confidence": 1
-    },
-    {
-      "lhs": [
-        "alpara",
-        "amoxcilin",
-        "cdr",
-        "gratazon",
-        "paracetamol",
-        "supertetra"
-      ],
-      "rhs": ["omeric"],
-      "confidence": 0.7999999999999999
-    },
-    {
-      "lhs": [
-        "alpara",
-        "amoxcilin",
-        "gratazon",
-        "omeric",
-        "paracetamol",
-        "supertetra"
-      ],
-      "rhs": ["cdr"],
-      "confidence": 1
-    },
-    {
-      "lhs": [
-        "amoxcilin",
-        "cdr",
-        "gratazon",
-        "omeric",
-        "paracetamol",
-        "supertetra"
-      ],
-      "rhs": ["alpara"],
-      "confidence": 0.7999999999999999
-    },
-    {
-      "lhs": [
-        "allopurinol 100",
-        "alpara",
-        "amoxcilin",
-        "cdr",
-        "omeric",
-        "paracetamol"
-      ],
-      "rhs": ["supertetra"],
-      "confidence": 1
-    },
-    {
-      "lhs": [
-        "allopurinol 100",
-        "alpara",
-        "amoxcilin",
-        "cdr",
-        "paracetamol",
-        "supertetra"
-      ],
-      "rhs": ["omeric"],
-      "confidence": 1
-    },
-    {
-      "lhs": [
-        "allopurinol 100",
-        "alpara",
-        "amoxcilin",
-        "omeric",
-        "paracetamol",
-        "supertetra"
-      ],
-      "rhs": ["cdr"],
-      "confidence": 1
-    },
-    {
-      "lhs": [
-        "allopurinol 100",
-        "amoxcilin",
-        "cdr",
-        "omeric",
-        "paracetamol",
-        "supertetra"
-      ],
-      "rhs": ["alpara"],
-      "confidence": 0.75
-    },
-    {
-      "lhs": [
-        "allopurinol 100",
-        "alpara",
-        "cdr",
-        "gratazon",
-        "omeric",
-        "paracetamol"
-      ],
-      "rhs": ["supertetra"],
-      "confidence": 1
-    },
-    {
-      "lhs": [
-        "allopurinol 100",
-        "alpara",
-        "cdr",
-        "gratazon",
-        "paracetamol",
-        "supertetra"
-      ],
-      "rhs": ["omeric"],
-      "confidence": 1
-    },
-    {
-      "lhs": [
-        "allopurinol 100",
-        "alpara",
-        "gratazon",
-        "omeric",
-        "paracetamol",
-        "supertetra"
-      ],
-      "rhs": ["cdr"],
-      "confidence": 1
-    },
-    {
-      "lhs": [
-        "allopurinol 100",
-        "cdr",
-        "gratazon",
-        "omeric",
-        "paracetamol",
-        "supertetra"
-      ],
-      "rhs": ["alpara"],
-      "confidence": 0.75
-    },
-    {
-      "lhs": [
-        "allopurinol 100",
-        "alpara",
-        "amoxcilin",
-        "cdr",
-        "gratazon",
-        "omeric"
-      ],
-      "rhs": ["supertetra"],
-      "confidence": 1
-    },
-    {
-      "lhs": [
-        "allopurinol 100",
-        "alpara",
-        "amoxcilin",
-        "cdr",
-        "gratazon",
-        "supertetra"
-      ],
-      "rhs": ["omeric"],
-      "confidence": 1
-    },
-    {
-      "lhs": [
-        "allopurinol 100",
-        "alpara",
-        "amoxcilin",
-        "gratazon",
-        "omeric",
-        "supertetra"
-      ],
-      "rhs": ["cdr"],
-      "confidence": 1
-    },
-    {
-      "lhs": [
-        "allopurinol 100",
-        "amoxcilin",
-        "cdr",
-        "gratazon",
-        "omeric",
-        "supertetra"
-      ],
-      "rhs": ["alpara"],
-      "confidence": 0.75
-    },
-    {
-      "lhs": [
-        "alpara",
-        "amoxcilin",
-        "cdr",
-        "flamar",
-        "gratazon",
-        "paracetamol"
-      ],
-      "rhs": ["supertetra"],
-      "confidence": 1
-    },
-    {
-      "lhs": [
-        "alpara",
-        "amoxcilin",
-        "flamar",
-        "gratazon",
-        "paracetamol",
-        "supertetra"
-      ],
-      "rhs": ["cdr"],
-      "confidence": 1
-    },
-    {
-      "lhs": [
-        "amoxcilin",
-        "cdr",
-        "flamar",
-        "gratazon",
-        "paracetamol",
-        "supertetra"
-      ],
-      "rhs": ["alpara"],
-      "confidence": 0.6250000000000001
-    },
-    {
-      "lhs": [
-        "allopurinol 100",
-        "alpara",
-        "amoxcilin",
-        "cdr",
-        "flamar",
-        "paracetamol"
-      ],
-      "rhs": ["supertetra"],
-      "confidence": 1
-    },
-    {
-      "lhs": [
-        "allopurinol 100",
-        "alpara",
-        "amoxcilin",
-        "flamar",
-        "paracetamol",
-        "supertetra"
-      ],
-      "rhs": ["cdr"],
-      "confidence": 1
-    },
-    {
-      "lhs": [
-        "allopurinol 100",
-        "amoxcilin",
-        "cdr",
-        "flamar",
-        "paracetamol",
-        "supertetra"
-      ],
-      "rhs": ["alpara"],
-      "confidence": 0.6
-    },
-    {
-      "lhs": [
-        "allopurinol 100",
-        "alpara",
-        "cdr",
-        "flamar",
-        "gratazon",
-        "paracetamol"
-      ],
-      "rhs": ["supertetra"],
-      "confidence": 1
-    },
-    {
-      "lhs": [
-        "allopurinol 100",
-        "alpara",
-        "flamar",
-        "gratazon",
-        "paracetamol",
-        "supertetra"
-      ],
-      "rhs": ["cdr"],
-      "confidence": 1
-    },
-    {
-      "lhs": [
-        "allopurinol 100",
-        "cdr",
-        "flamar",
-        "gratazon",
-        "paracetamol",
-        "supertetra"
-      ],
-      "rhs": ["alpara"],
-      "confidence": 0.6
-    },
-    {
-      "lhs": [
-        "allopurinol 100",
-        "alpara",
-        "amoxcilin",
-        "cdr",
-        "flamar",
-        "gratazon"
-      ],
-      "rhs": ["supertetra"],
-      "confidence": 1
-    },
-    {
-      "lhs": [
-        "allopurinol 100",
-        "alpara",
-        "amoxcilin",
-        "flamar",
-        "gratazon",
-        "supertetra"
-      ],
-      "rhs": ["cdr"],
-      "confidence": 1
-    },
-    {
-      "lhs": [
-        "allopurinol 100",
-        "amoxcilin",
-        "cdr",
-        "flamar",
-        "gratazon",
-        "supertetra"
-      ],
-      "rhs": ["alpara"],
-      "confidence": 0.6
-    },
-    {
-      "lhs": [
-        "allopurinol 100",
-        "alpara",
-        "amoxcilin",
-        "cdr",
-        "gratazon",
-        "paracetamol"
-      ],
-      "rhs": ["supertetra"],
-      "confidence": 1
-    },
-    {
-      "lhs": [
-        "allopurinol 100",
-        "alpara",
-        "amoxcilin",
-        "gratazon",
-        "paracetamol",
-        "supertetra"
-      ],
-      "rhs": ["cdr"],
-      "confidence": 1
-    },
-    {
-      "lhs": [
-        "allopurinol 100",
-        "amoxcilin",
-        "cdr",
-        "gratazon",
-        "paracetamol",
-        "supertetra"
-      ],
-      "rhs": ["alpara"],
-      "confidence": 0.6
-    },
-    {
-      "lhs": [
-        "alpara",
-        "amoxcilin",
-        "flamar",
-        "gratazon",
-        "omeric",
-        "paracetamol"
-      ],
-      "rhs": ["cdr"],
-      "confidence": 1
-    },
-    {
-      "lhs": [
-        "amoxcilin",
-        "cdr",
-        "flamar",
-        "gratazon",
-        "omeric",
-        "paracetamol"
-      ],
-      "rhs": ["alpara"],
-      "confidence": 0.6666666666666666
-    },
-    {
-      "lhs": [
-        "allopurinol 100",
-        "alpara",
-        "amoxcilin",
-        "flamar",
-        "omeric",
-        "paracetamol"
-      ],
-      "rhs": ["cdr"],
-      "confidence": 1
-    },
-    {
-      "lhs": [
-        "allopurinol 100",
-        "amoxcilin",
-        "cdr",
-        "flamar",
-        "omeric",
-        "paracetamol"
-      ],
-      "rhs": ["alpara"],
-      "confidence": 0.6
-    },
-    {
-      "lhs": [
-        "allopurinol 100",
-        "alpara",
-        "flamar",
-        "gratazon",
-        "omeric",
-        "paracetamol"
-      ],
-      "rhs": ["cdr"],
-      "confidence": 1
-    },
-    {
-      "lhs": [
-        "allopurinol 100",
-        "cdr",
-        "flamar",
-        "gratazon",
-        "omeric",
-        "paracetamol"
-      ],
-      "rhs": ["alpara"],
-      "confidence": 0.6
-    },
-    {
-      "lhs": [
-        "allopurinol 100",
-        "alpara",
-        "amoxcilin",
-        "flamar",
-        "gratazon",
-        "omeric"
-      ],
-      "rhs": ["cdr"],
-      "confidence": 1
-    },
-    {
-      "lhs": [
-        "allopurinol 100",
-        "amoxcilin",
-        "cdr",
-        "flamar",
-        "gratazon",
-        "omeric"
-      ],
-      "rhs": ["alpara"],
-      "confidence": 0.6
-    },
-    {
-      "lhs": [
-        "allopurinol 100",
-        "alpara",
-        "amoxcilin",
-        "gratazon",
-        "omeric",
-        "paracetamol"
-      ],
-      "rhs": ["cdr"],
-      "confidence": 1
-    },
-    {
-      "lhs": [
-        "allopurinol 100",
-        "amoxcilin",
-        "cdr",
-        "gratazon",
-        "omeric",
-        "paracetamol"
-      ],
-      "rhs": ["alpara"],
-      "confidence": 0.6
-    },
-    {
-      "lhs": [
-        "allopurinol 100",
-        "alpara",
-        "amoxcilin",
-        "flamar",
-        "gratazon",
-        "paracetamol"
-      ],
-      "rhs": ["cdr"],
-      "confidence": 1
-    },
-    {
-      "lhs": [
-        "allopurinol 100",
-        "amoxcilin",
-        "cdr",
-        "flamar",
-        "gratazon",
-        "paracetamol"
-      ],
-      "rhs": ["alpara"],
-      "confidence": 0.5
-    },
-    {
-      "lhs": [
-        "amoxcilin",
-        "flamar",
-        "gratazon",
-        "omeric",
-        "paracetamol",
-        "supertetra"
-      ],
-      "rhs": ["cdr"],
-      "confidence": 1
-    },
-    {
-      "lhs": [
-        "allopurinol 100",
-        "amoxcilin",
-        "flamar",
-        "omeric",
-        "paracetamol",
-        "supertetra"
-      ],
-      "rhs": ["cdr"],
-      "confidence": 1
-    },
-    {
-      "lhs": [
-        "allopurinol 100",
-        "flamar",
-        "gratazon",
-        "omeric",
-        "paracetamol",
-        "supertetra"
-      ],
-      "rhs": ["cdr"],
-      "confidence": 1
-    },
-    {
-      "lhs": [
-        "allopurinol 100",
-        "amoxcilin",
-        "flamar",
-        "gratazon",
-        "omeric",
-        "supertetra"
-      ],
-      "rhs": ["cdr"],
-      "confidence": 1
-    },
-    {
-      "lhs": [
-        "allopurinol 100",
-        "amoxcilin",
-        "gratazon",
-        "omeric",
-        "paracetamol",
-        "supertetra"
-      ],
-      "rhs": ["cdr"],
-      "confidence": 1
-    },
-    {
-      "lhs": [
-        "allopurinol 100",
-        "amoxcilin",
-        "flamar",
-        "gratazon",
-        "paracetamol",
-        "supertetra"
-      ],
-      "rhs": ["cdr"],
-      "confidence": 1
-    },
-    {
-      "lhs": [
-        "allopurinol 100",
-        "amoxcilin",
-        "flamar",
-        "gratazon",
-        "omeric",
-        "paracetamol"
-      ],
-      "rhs": ["cdr"],
-      "confidence": 1
-    },
-    {
-      "lhs": [
-        "alpara",
-        "amoxcilin",
-        "cdr",
-        "flamar",
-        "gratazon",
-        "omeric",
-        "paracetamol"
-      ],
-      "rhs": ["supertetra"],
-      "confidence": 1
-    },
-    {
-      "lhs": [
-        "alpara",
-        "amoxcilin",
-        "cdr",
-        "flamar",
-        "gratazon",
-        "omeric",
-        "supertetra"
-      ],
-      "rhs": ["paracetamol"],
-      "confidence": 1
-    },
-    {
-      "lhs": [
-        "alpara",
-        "amoxcilin",
-        "cdr",
-        "flamar",
-        "gratazon",
-        "paracetamol",
-        "supertetra"
-      ],
-      "rhs": ["omeric"],
-      "confidence": 0.7999999999999999
-    },
-    {
-      "lhs": [
-        "alpara",
-        "amoxcilin",
-        "cdr",
-        "flamar",
-        "omeric",
-        "paracetamol",
-        "supertetra"
-      ],
-      "rhs": ["gratazon"],
-      "confidence": 1
-    },
-    {
-      "lhs": [
-        "alpara",
-        "amoxcilin",
-        "cdr",
-        "gratazon",
-        "omeric",
-        "paracetamol",
-        "supertetra"
-      ],
-      "rhs": ["flamar"],
-      "confidence": 1
-    },
-    {
-      "lhs": [
-        "alpara",
-        "amoxcilin",
-        "flamar",
-        "gratazon",
-        "omeric",
-        "paracetamol",
-        "supertetra"
-      ],
-      "rhs": ["cdr"],
-      "confidence": 1
-    },
-    {
-      "lhs": [
-        "alpara",
-        "cdr",
-        "flamar",
-        "gratazon",
-        "omeric",
-        "paracetamol",
-        "supertetra"
-      ],
-      "rhs": ["amoxcilin"],
-      "confidence": 1
-    },
-    {
-      "lhs": [
-        "amoxcilin",
-        "cdr",
-        "flamar",
-        "gratazon",
-        "omeric",
-        "paracetamol",
-        "supertetra"
-      ],
-      "rhs": ["alpara"],
-      "confidence": 0.7999999999999999
-    },
-    {
-      "lhs": [
-        "allopurinol 100",
-        "alpara",
-        "amoxcilin",
-        "cdr",
-        "flamar",
-        "omeric",
-        "paracetamol"
-      ],
-      "rhs": ["supertetra"],
-      "confidence": 1
-    },
-    {
-      "lhs": [
-        "allopurinol 100",
-        "alpara",
-        "amoxcilin",
-        "cdr",
-        "flamar",
-        "omeric",
-        "supertetra"
-      ],
-      "rhs": ["paracetamol"],
-      "confidence": 1
-    },
-    {
-      "lhs": [
-        "allopurinol 100",
-        "alpara",
-        "amoxcilin",
-        "cdr",
-        "flamar",
-        "paracetamol",
-        "supertetra"
-      ],
-      "rhs": ["omeric"],
-      "confidence": 1
-    },
-    {
-      "lhs": [
-        "allopurinol 100",
-        "alpara",
-        "amoxcilin",
-        "cdr",
-        "omeric",
-        "paracetamol",
-        "supertetra"
-      ],
-      "rhs": ["flamar"],
-      "confidence": 1
-    },
-    {
-      "lhs": [
-        "allopurinol 100",
-        "alpara",
-        "amoxcilin",
-        "flamar",
-        "omeric",
-        "paracetamol",
-        "supertetra"
-      ],
-      "rhs": ["cdr"],
-      "confidence": 1
-    },
-    {
-      "lhs": [
-        "allopurinol 100",
-        "alpara",
-        "cdr",
-        "flamar",
-        "omeric",
-        "paracetamol",
-        "supertetra"
-      ],
-      "rhs": ["amoxcilin"],
-      "confidence": 1
-    },
-    {
-      "lhs": [
-        "allopurinol 100",
-        "amoxcilin",
-        "cdr",
-        "flamar",
-        "omeric",
-        "paracetamol",
-        "supertetra"
-      ],
-      "rhs": ["alpara"],
-      "confidence": 0.75
-    },
-    {
-      "lhs": [
-        "allopurinol 100",
-        "alpara",
-        "cdr",
-        "flamar",
-        "gratazon",
-        "omeric",
-        "paracetamol"
-      ],
-      "rhs": ["supertetra"],
-      "confidence": 1
-    },
-    {
-      "lhs": [
-        "allopurinol 100",
-        "alpara",
-        "cdr",
-        "flamar",
-        "gratazon",
-        "omeric",
-        "supertetra"
-      ],
-      "rhs": ["paracetamol"],
-      "confidence": 1
-    },
-    {
-      "lhs": [
-        "allopurinol 100",
-        "alpara",
-        "cdr",
-        "flamar",
-        "gratazon",
-        "paracetamol",
-        "supertetra"
-      ],
-      "rhs": ["omeric"],
-      "confidence": 1
-    },
-    {
-      "lhs": [
-        "allopurinol 100",
-        "alpara",
-        "cdr",
-        "gratazon",
-        "omeric",
-        "paracetamol",
-        "supertetra"
-      ],
-      "rhs": ["flamar"],
-      "confidence": 1
-    },
-    {
-      "lhs": [
-        "allopurinol 100",
-        "alpara",
-        "flamar",
-        "gratazon",
-        "omeric",
-        "paracetamol",
-        "supertetra"
-      ],
-      "rhs": ["cdr"],
-      "confidence": 1
-    },
-    {
-      "lhs": [
-        "allopurinol 100",
-        "cdr",
-        "flamar",
-        "gratazon",
-        "omeric",
-        "paracetamol",
-        "supertetra"
-      ],
-      "rhs": ["alpara"],
-      "confidence": 0.75
-    },
-    {
-      "lhs": [
-        "allopurinol 100",
-        "alpara",
-        "amoxcilin",
-        "cdr",
-        "flamar",
-        "gratazon",
-        "omeric"
-      ],
-      "rhs": ["supertetra"],
-      "confidence": 1
-    },
-    {
-      "lhs": [
-        "allopurinol 100",
-        "alpara",
-        "amoxcilin",
-        "cdr",
-        "flamar",
-        "gratazon",
-        "supertetra"
-      ],
-      "rhs": ["omeric"],
-      "confidence": 1
-    },
-    {
-      "lhs": [
-        "allopurinol 100",
-        "alpara",
-        "amoxcilin",
-        "cdr",
-        "gratazon",
-        "omeric",
-        "supertetra"
-      ],
-      "rhs": ["flamar"],
-      "confidence": 1
-    },
-    {
-      "lhs": [
-        "allopurinol 100",
-        "alpara",
-        "amoxcilin",
-        "flamar",
-        "gratazon",
-        "omeric",
-        "supertetra"
-      ],
-      "rhs": ["cdr"],
-      "confidence": 1
-    },
-    {
-      "lhs": [
-        "allopurinol 100",
-        "amoxcilin",
-        "cdr",
-        "flamar",
-        "gratazon",
-        "omeric",
-        "supertetra"
-      ],
-      "rhs": ["alpara"],
-      "confidence": 0.75
-    },
-    {
-      "lhs": [
-        "allopurinol 100",
-        "alpara",
-        "amoxcilin",
-        "cdr",
-        "gratazon",
-        "omeric",
-        "paracetamol"
-      ],
-      "rhs": ["supertetra"],
-      "confidence": 1
-    },
-    {
-      "lhs": [
-        "allopurinol 100",
-        "alpara",
-        "amoxcilin",
-        "cdr",
-        "gratazon",
-        "paracetamol",
-        "supertetra"
-      ],
-      "rhs": ["omeric"],
-      "confidence": 1
-    },
-    {
-      "lhs": [
-        "allopurinol 100",
-        "alpara",
-        "amoxcilin",
-        "gratazon",
-        "omeric",
-        "paracetamol",
-        "supertetra"
-      ],
-      "rhs": ["cdr"],
-      "confidence": 1
-    },
-    {
-      "lhs": [
-        "allopurinol 100",
-        "amoxcilin",
-        "cdr",
-        "gratazon",
-        "omeric",
-        "paracetamol",
-        "supertetra"
-      ],
-      "rhs": ["alpara"],
-      "confidence": 0.75
-    },
-    {
-      "lhs": [
-        "allopurinol 100",
-        "alpara",
-        "amoxcilin",
-        "cdr",
-        "flamar",
-        "gratazon",
-        "paracetamol"
-      ],
-      "rhs": ["supertetra"],
-      "confidence": 1
-    },
-    {
-      "lhs": [
-        "allopurinol 100",
-        "alpara",
-        "amoxcilin",
-        "flamar",
-        "gratazon",
-        "paracetamol",
-        "supertetra"
-      ],
-      "rhs": ["cdr"],
-      "confidence": 1
-    },
-    {
-      "lhs": [
-        "allopurinol 100",
-        "amoxcilin",
-        "cdr",
-        "flamar",
-        "gratazon",
-        "paracetamol",
-        "supertetra"
-      ],
-      "rhs": ["alpara"],
-      "confidence": 0.6
-    },
-    {
-      "lhs": [
-        "allopurinol 100",
-        "alpara",
-        "amoxcilin",
-        "flamar",
-        "gratazon",
-        "omeric",
-        "paracetamol"
-      ],
-      "rhs": ["cdr"],
-      "confidence": 1
-    },
-    {
-      "lhs": [
-        "allopurinol 100",
-        "amoxcilin",
-        "cdr",
-        "flamar",
-        "gratazon",
-        "omeric",
-        "paracetamol"
-      ],
-      "rhs": ["alpara"],
-      "confidence": 0.6
-    },
-    {
-      "lhs": [
-        "allopurinol 100",
-        "amoxcilin",
-        "flamar",
-        "gratazon",
-        "omeric",
-        "paracetamol",
-        "supertetra"
-      ],
-      "rhs": ["cdr"],
-      "confidence": 1
-    },
-    {
-      "lhs": [
-        "allopurinol 100",
-        "alpara",
-        "amoxcilin",
-        "cdr",
-        "flamar",
-        "gratazon",
-        "omeric",
-        "paracetamol"
-      ],
-      "rhs": ["supertetra"],
-      "confidence": 1
-    },
-    {
-      "lhs": [
-        "allopurinol 100",
-        "alpara",
-        "amoxcilin",
-        "cdr",
-        "flamar",
-        "gratazon",
-        "omeric",
-        "supertetra"
-      ],
-      "rhs": ["paracetamol"],
-      "confidence": 1
-    },
-    {
-      "lhs": [
-        "allopurinol 100",
-        "alpara",
-        "amoxcilin",
-        "cdr",
-        "flamar",
-        "gratazon",
-        "paracetamol",
-        "supertetra"
-      ],
-      "rhs": ["omeric"],
-      "confidence": 1
-    },
-    {
-      "lhs": [
-        "allopurinol 100",
-        "alpara",
-        "amoxcilin",
-        "cdr",
-        "flamar",
-        "omeric",
-        "paracetamol",
-        "supertetra"
-      ],
-      "rhs": ["gratazon"],
-      "confidence": 1
-    },
-    {
-      "lhs": [
-        "allopurinol 100",
-        "alpara",
-        "amoxcilin",
-        "cdr",
-        "gratazon",
-        "omeric",
-        "paracetamol",
-        "supertetra"
-      ],
-      "rhs": ["flamar"],
-      "confidence": 1
-    },
-    {
-      "lhs": [
-        "allopurinol 100",
-        "alpara",
-        "amoxcilin",
-        "flamar",
-        "gratazon",
-        "omeric",
-        "paracetamol",
-        "supertetra"
-      ],
-      "rhs": ["cdr"],
-      "confidence": 1
-    },
-    {
-      "lhs": [
-        "allopurinol 100",
-        "alpara",
-        "cdr",
-        "flamar",
-        "gratazon",
-        "omeric",
-        "paracetamol",
-        "supertetra"
-      ],
-      "rhs": ["amoxcilin"],
-      "confidence": 1
-    },
-    {
-      "lhs": [
-        "allopurinol 100",
-        "amoxcilin",
-        "cdr",
-        "flamar",
-        "gratazon",
-        "omeric",
-        "paracetamol",
-        "supertetra"
-      ],
-      "rhs": ["alpara"],
-      "confidence": 0.75
-    },
-    {
-      "lhs": [
-        "alpara",
-        "amoxcilin",
-        "cdr",
-        "flamar",
-        "gratazon",
-        "omeric",
-        "paracetamol",
-        "supertetra"
-      ],
-      "rhs": ["allopurinol 100"],
-      "confidence": 0.75
-    }
-  ]
-}
+
+  {
+        "cdr",
+        "lasegar anak",
+        "hufamag plus tab",
+        "oskadon nyeri otot",
+        "antangin",
+        "piracatem 800mg",
+        "bodrek migra",
+        "kalpana",
+        "alkohol",
+        "procold flu",
+        "panadol hijau",
+        "kasa",
+        "fargetik",
+        "mefinal 500",
+        "vitamin c",
+        "furosemide",
+        "oskadon sp",
+        "mixagrip",
+        "lameson 4mg",
+        "yusimox",
+        "bronsolvan",
+        "rendinac",
+        "microgimin",
+        "protecid 100mg",
+        "kuldon",
+        "bodrek migra",
+        "dextamin",
+        "paramex flu dan batuk",
+        "alpora",
+        "lezin tab",
+        "omperazole",
+        "paramex",
+        "nufadol",
+        "oskadon",
+        "alletrol salep",
+        "cargesik",
+        "neoudex",
+        "bye bye fever",
+        "volatren",
+        "vit c1000",
+        "oskadon",
+        "supertetra",
+        "carbidu 0,75 mg",
+        "omeric",
+        "flamar",
+        "paracetamol",
+        "coparcefin",
+        "amoxcilin",
+        "gratazon",
+        "allopurinol  100",
+        "minyak kayu putih",
+        "ampera",
+        "pamol tab",
+        "obp",
+        "sabutamol",
+        "dexycol",
+        "salep 88",
+        "alofar 100mg",
+        "permen tolak angin",
+        "cataflam 25 mg",
+        "dumin",
+        "orphen",
+        "neopachin",
+        "ponstelex",
+        "bodrex extra",
+        "tolak angin",
+        "melofieem 15mg",
+        "kapsida",
+        "kolnicol",
+        "kejibeling",
+        "lorotadine",
+        "counterpain 5gr",
+        "hufagrip flu",
+        "kalmethasone 0 5 mg",
+        "ambevan",
+        "decolsin",
+        "biomag",
+        "biolysin tab",
+        "sangobion",
+        "koyo cabe",
+        "neorheumacy",
+        "vicks vaporub",
+        "andalan laktasi",
+        "demacolin",
+        "flamar",
+        "genalten",
+        "cooling",
+        "caladine cream",
+        "ponstan",
+        "citieizine",
+        "dexanta",
+        "dulcolax",
+        "obh combi anak",
+        "controxin",
+        "carbidu 0,5",
+        "andala",
+        "nellco anak",
+        "vosiden",
+        "midiamer",
+        "becomc",
+        "molacort",
+        "methylprednisolone",
+        "salbutamol",
+        "allopurinol",
+        "voltaren 50 mg",
+        "fresh care hot",
+        "counterpain",
+        "meloxcam 15",
+        "vicks formula 44",
+        "counterpain",
+        "imbost tab",
+        "balsem geliga",
+        "vicks inhaler",
+        "paramex nyeri otot",
+        "minyak telon lang",
+        "ampera"
+  }
+  {
+        "fargetik",
+        "lasegar anak",
+        "minyak ikan",
+        "bronsolvan",
+        "spasminal",
+        "mixlagin",
+        "alleron",
+        "mixagrip",
+        "arkevit c",
+        "kalpana",
+        "oskadon nyeri otot",
+        "bodrek migra",
+        "mefinal 500",
+        "alletrol salep",
+        "tolak linu",
+        "vitamin c",
+        "kasa",
+        "minyak kayu putih",
+        "antangin",
+        "sanmol tab",
+        "elroid",
+        "yusimox",
+        "kuldon",
+        "gratheos",
+        "bodrek migra",
+        "oskadon",
+        "oskadon sp",
+        "carbidu",
+        "vit c1000",
+        "freshcare",
+        "neoudex",
+        "bye bye fever",
+        "mesol",
+        "paramex",
+        "carbidu 0,75 mg",
+        "paracetamol",
+        "coparcefin",
+        "gralazp",
+        "oskadon",
+        "amoxcilin",
+        "protecid 100mg",
+        "melexcim 15",
+        "cargesik",
+        "dextamin",
+        "flamar",
+        "copal",
+        "supertetra",
+        "yusimox",
+        "omeric",
+        "carbidu",
+        "alleron",
+        "salon pas",
+        "antangin",
+        "fargetik",
+        "tolak linu",
+        "bodrex migra",
+        "vicks vaporup",
+        "bodrex tab",
+        "arkevit c",
+        "pamol tab",
+        "dexycol",
+        "kapsida",
+        "salbutamol sirup",
+        "tolak angin",
+        "dumin",
+        "permen tolak angin",
+        "obp",
+        "salep 88",
+        "cataflam 25 mg",
+        "kolnicol",
+        "baraginol s",
+        "ponstelex",
+        "sabutamol",
+        "nellco anak",
+        "flocodex sirup",
+        "counterpain 5gr",
+        "pamol",
+        "sangobion",
+        "santaflam",
+        "biolysin tab",
+        "methylprednisolone 4 mg",
+        "koyo cabe",
+        "caladine cream",
+        "divoltar",
+        "dexaharsen 0,5",
+        "bodrex extra",
+        "fresh care hot",
+        "counterpain",
+        "ponstan",
+        "mesol",
+        "biomag",
+        "vicks vaporub",
+        "salbutamol",
+        "andalan laktasi",
+        "lorotadine",
+        "dulcolax",
+        "vosiden",
+        "dexaharsen 0,75",
+        "genalten",
+        "meloxcam 15",
+        "neurobion",
+        "voltadex",
+        "caviplex",
+        "molacort",
+        "vicks formula 44",
+        "antimo",
+        "allopurinol",
+        "imbost tab",
+        "floxifar",
+        "counterpain",
+        "hufagrip flu",
+        "balsem geliga",
+        "vicks inhaler",
+        "ampera"
+  }
+  {
+        "paramex flu dan batuk",
+        "bye bye fever",
+        "alleron",
+        "mesol",
+        "sanmol tab",
+        "sanmol drops tetes",
+        "oskadon sp",
+        "freshcare",
+        "spasminal",
+        "oskadon nyeri otot",
+        "teosal",
+        "kalpana",
+        "bronsolvan",
+        "mixagrip",
+        "panadol hijau",
+        "bodrek migra",
+        "kasa",
+        "microgimin",
+        "tolak linu",
+        "oskadon",
+        "protecid 100mg",
+        "volatren",
+        "paramex",
+        "flasicox",
+        "bodrek migra",
+        "lasegar anak",
+        "dextem",
+        "minyak ikan",
+        "vit c1000",
+        "oskadon",
+        "faxiden 20mg",
+        "mixlagin",
+        "melexcim 15",
+        "mylanta",
+        "metilprednisolon",
+        "gratheos",
+        "allopurinol  100",
+        "vicks vaporup",
+        "cargesik",
+        "utraflu",
+        "mixlagin",
+        "nufadol",
+        "gratazon",
+        "flamar",
+        "kuldon",
+        "omperazole",
+        "oskadon sp",
+        "paramex flu dan batuk",
+        "alofar 300 mg",
+        "mycoral salep",
+        "kalpana crim",
+        "soldextam",
+        "sanmol drops tetes",
+        "mycoral salep",
+        "fargetik",
+        "spasminal",
+        "panadol hijau",
+        "minyak telon lang",
+        "pamol",
+        "sabutamol",
+        "silandex",
+        "dexycol",
+        "dumin",
+        "permen tolak angin",
+        "tolak angin",
+        "bodrex extra",
+        "pamol tab",
+        "neopachin",
+        "cataflam 25 mg",
+        "salep 88",
+        "kapsida",
+        "paramex nyeri otot",
+        "obp",
+        "ponstelex",
+        "counterpain 5gr",
+        "hot crem aroma terapi",
+        "flamar",
+        "kejibeling",
+        "methylprednisolone 4 mg",
+        "ambevan",
+        "vicks vaporub",
+        "flocodex sirup",
+        "melofieem 15mg",
+        "koyo cabe",
+        "ibuprofen 400mg",
+        "rifampicin 450 mg",
+        "grafadom",
+        "controxin",
+        "vicks formula 44",
+        "antimo",
+        "andalan laktasi",
+        "cooling",
+        "biomag",
+        "neorheumacy",
+        "lorotadine",
+        "dulcolax",
+        "saridon extra",
+        "ponstan",
+        "decolsin",
+        "becomc",
+        "salbutamol",
+        "biolysin tab",
+        "demacolin",
+        "voltadex",
+        "neurobion",
+        "vosiden",
+        "imbost tab",
+        "metformin",
+        "hufagrip flu",
+        "gentamicin",
+        "counterpain",
+        "nellco anak",
+        "balsem geliga",
+        "vicks inhaler",
+        "obh combi anak",
+        "minyak telon lang",
+        "ampera"
+  }
+  {
+        "elroid",
+        "lasegar anak",
+        "mesol",
+        "dextamin",
+        "renovit gold",
+        "bodrek migra",
+        "spasminal",
+        "bronsolvan",
+        "oskadon",
+        "panadol hijau",
+        "kasa",
+        "paramex",
+        "omperazole",
+        "alleron",
+        "kalpana",
+        "bodrek migra",
+        "rendinac",
+        "alugen 100 mg",
+        "furosemide",
+        "minyak kayu putih",
+        "oskadon nyeri otot",
+        "sanmol drops tetes",
+        "lameson 4mg",
+        "coparcefin",
+        "minyak ikan",
+        "piracatem 800mg",
+        "carbidu 0,75 mg",
+        "freshcare",
+        "vit c1000",
+        "gratazon",
+        "antangin",
+        "yusimox",
+        "utraflu",
+        "alletrol salep",
+        "dextem",
+        "winatin",
+        "oskadon",
+        "mylanta",
+        "metilprednisolon",
+        "melexcim 15",
+        "amoxcilin",
+        "allopurinol  100",
+        "vicks vaporup",
+        "gratheos",
+        "alugen 100 ml",
+        "rendinac",
+        "gralazp",
+        "kuldon",
+        "furosemide",
+        "arkevit c",
+        "vitamin c ipi",
+        "cargesik",
+        "kasa",
+        "omperazole",
+        "fargetik",
+        "ampere",
+        "paramex nyeri otot",
+        "obh combi",
+        "floxifar",
+        "freshcare",
+        "ibuprofen 400mg",
+        "bodrex extra",
+        "cataflam 25 mg",
+        "dexycol",
+        "permen tolak angin",
+        "tolak angin",
+        "dumin",
+        "kapsida",
+        "salep 88",
+        "obp",
+        "obh combi anak",
+        "sabutamol",
+        "demacolin",
+        "ponstelex",
+        "decolsin",
+        "hot crem aroma terapi",
+        "counterpain 5gr",
+        "flamar",
+        "sangobion",
+        "biomag",
+        "antimo sirup",
+        "midiamer",
+        "hufagrip flu",
+        "vicks vaporub",
+        "controxin",
+        "dexaharsen 0,75",
+        "cooling",
+        "biolysin tab",
+        "ponstan",
+        "dexanta",
+        "dexaharsen 0,5",
+        "neurobion",
+        "dexaharsen 0,75",
+        "antimo",
+        "fresh care hot",
+        "salbutamol",
+        "carbidu 0,5",
+        "andala",
+        "genalten",
+        "becomc",
+        "floxifar",
+        "mesol",
+        "gentamicin",
+        "alegri",
+        "counterpain",
+        "methylprednisolone",
+        "nellco anak",
+        "imbost tab",
+        "balsem geliga",
+        "paramex nyeri otot",
+        "pamol tab",
+        "minyak telon lang"
+  }
+  {
+        "voltaren",
+        "farsifen",
+        "voltaren",
+        "paramex",
+        "spasminal",
+        "minyak kayu putih",
+        "antangin",
+        "freshcare",
+        "mixagrip",
+        "nifedipine",
+        "microgimin",
+        "bye bye fever",
+        "alugen 100 mg",
+        "bodrek migra",
+        "protecid 100mg",
+        "carbidu 0,75 mg",
+        "kalpana",
+        "panadol hijau",
+        "oskadon",
+        "mefinal 500",
+        "mycoral salep",
+        "yusimox",
+        "hufamag plus tab",
+        "bodrek migra",
+        "gratheos",
+        "melexcim 15",
+        "sanmol tab",
+        "paracetamol",
+        "procold flu",
+        "amoxcilin",
+        "minyak ikan",
+        "allopurinol  100",
+        "supertetra",
+        "gralazp",
+        "omeric",
+        "farsifen",
+        "lasegar anak",
+        "bye bye fever",
+        "coparcefin",
+        "rhemafar",
+        "flamar",
+        "neoudex",
+        "winatin",
+        "lezin tab",
+        "kuldon",
+        "omeric 100",
+        "gratheos",
+        "paramex flu dan batuk",
+        "gralazp",
+        "melexcin 15",
+        "cinolon",
+        "teosal",
+        "minyak ikan",
+        "cargesik",
+        "salep 88",
+        "kalmethasone 0 5 mg",
+        "tolak angin",
+        "dexycol",
+        "salbutamol sirup",
+        "dumin",
+        "fasidol",
+        "salep 88",
+        "permen tolak angin",
+        "obp",
+        "cataflam 25 mg",
+        "bodrex extra",
+        "kapsida",
+        "sabutamol",
+        "kolnicol",
+        "vicks inhaler",
+        "hot crem aroma terapi",
+        "ponstelex",
+        "kejibeling",
+        "demacolin",
+        "sangobion",
+        "alofar 100mg",
+        "melofieem 15mg",
+        "santaflam",
+        "alegri",
+        "ambevan",
+        "vicks vaporub",
+        "koyo cabe",
+        "neorheumacy",
+        "grafadom",
+        "hufagrip flu",
+        "metformin",
+        "dexaharsen 0,5",
+        "andalan laktasi",
+        "controxin",
+        "antimo",
+        "decolsin",
+        "dexaharsen 0,75",
+        "dexaharsen 0,75",
+        "biolysin tab",
+        "neopachin",
+        "dulcolax",
+        "caviplex",
+        "lorotadine",
+        "counterpain",
+        "methylprednisolone",
+        "molacort",
+        "fresh care hot",
+        "counterpain",
+        "carbidu 0,5",
+        "vosiden",
+        "imbost tab",
+        "floxifar",
+        "methylprednisolone 4 mg",
+        "voltadex",
+        "omemox",
+        "nellco anak",
+        "balsem geliga",
+        "obh combi anak",
+        "sanmaol infus"
+  }
+  {
+        "mesol",
+        "minyak kayu putih",
+        "farsifen",
+        "oskadon",
+        "rendinac",
+        "yusimox",
+        "tolak linu",
+        "bodrek migra",
+        "arkevit c",
+        "furosemide",
+        "kasa",
+        "renovit gold",
+        "mixagrip",
+        "lasegar anak",
+        "oskadon nyeri otot",
+        "omperazole",
+        "bronsolvan",
+        "vit c1000",
+        "kalpana",
+        "teosal",
+        "alleron",
+        "fargetik",
+        "sanmol drops tetes",
+        "oskadon",
+        "alletrol salep",
+        "amoxcilin",
+        "paramex",
+        "mylanta",
+        "nufadol",
+        "gratazon",
+        "elroid",
+        "gralazp",
+        "bye bye fever",
+        "metilprednisolon",
+        "gratheos",
+        "cargesik",
+        "nifedipine",
+        "lezin tab",
+        "allopurinol  100",
+        "minyak ikan",
+        "copal",
+        "mixlagin",
+        "alofar 300 mg",
+        "oskadon sp",
+        "vicks vaporup",
+        "neoudex",
+        "faxiden 20mg",
+        "rhemafar",
+        "bodrek migra",
+        "copal",
+        "vicks vaporub",
+        "my lanta",
+        "kuldon",
+        "alletra salep",
+        "panadol hijau",
+        "vitamin c1000",
+        "neoudex",
+        "kaditic",
+        "sabutamol",
+        "cauiplex",
+        "dexycol",
+        "dumin",
+        "permen tolak angin",
+        "silandex",
+        "bodrex extra",
+        "tolak angin",
+        "cataflam 25 mg",
+        "fasidol",
+        "ponstelex",
+        "kapsida",
+        "neopachin",
+        "obp",
+        "baraginol s",
+        "pamol tab",
+        "melofieem 15mg",
+        "kolnicol",
+        "flamar",
+        "biomag",
+        "koyo cabe",
+        "dexaharsen 0,75",
+        "andalan laktasi",
+        "grafadom",
+        "pamol",
+        "alofar 100mg",
+        "flocodex sirup",
+        "neorheumacy",
+        "citieizine",
+        "midiamer",
+        "sangobion",
+        "ponstan",
+        "controxin",
+        "methylprednisolone",
+        "floxifar",
+        "antimo",
+        "becomc",
+        "dexaharsen 0,5",
+        "omemox",
+        "mesol",
+        "allopurinol",
+        "vicks formula 44",
+        "fresh care hot",
+        "metformin",
+        "voltaren 50 mg",
+        "alegri",
+        "divoltar",
+        "counterpain",
+        "balsem geliga",
+        "paramex nyeri otot",
+        "zoralin",
+        "dexaharsen 0,5 mg",
+        "vicks inhaler",
+        "obh combi anak",
+        "ampera"
+  }
+  {
+        "alletrol",
+        "coparcefin",
+        "voltaren",
+        "oskadon",
+        "sanmol tab",
+        "protecid 100mg",
+        "antangin",
+        "panadol hijau",
+        "minyak kayu putih",
+        "spasminal",
+        "kasa",
+        "mycoral salep",
+        "bodrek migra",
+        "yusimox",
+        "alkohol",
+        "alugen 100 mg",
+        "rendinac",
+        "oskadon",
+        "alleron",
+        "vicks vaporup",
+        "procold flu",
+        "kalpana",
+        "hot cream",
+        "hufamag plus tab",
+        "lasegar anak",
+        "paramex",
+        "alletrol salep",
+        "lezin tab",
+        "vit c1000",
+        "mesol",
+        "kuldon",
+        "neoudex",
+        "faxiden 20mg",
+        "teosal",
+        "fargetik",
+        "mixagrip",
+        "copal",
+        "hufamagplus",
+        "gratheos",
+        "alkohol",
+        "nellco anak",
+        "bodrek migra",
+        "imbost tab",
+        "methyelprednisolon 4mg",
+        "omperazole",
+        "counterpain 50 ml",
+        "vicks inhare",
+        "dexaharsen 0,5",
+        "oskadon nyeri otot",
+        "oskadon",
+        "hot cream",
+        "sabutamol",
+        "salbutamol sirup",
+        "bodrex extra",
+        "obp",
+        "cauiplex",
+        "cataflam 25 mg",
+        "salep 88",
+        "fasidol",
+        "dexycol",
+        "permen tolak angin",
+        "dumin",
+        "tolak angin",
+        "kapsida",
+        "ponstelex",
+        "neopachin",
+        "paramex nyeri otot",
+        "methylprednisolone 4 mg",
+        "kejibeling",
+        "hot crem aroma terapi",
+        "alofar 100mg",
+        "methylprednisolone 4 mg",
+        "kalmethasone 0 5 mg",
+        "koyo cabe",
+        "flamar",
+        "baraginol s",
+        "antimo sirup",
+        "vicee",
+        "rifampicin 450 mg",
+        "fresh care hot",
+        "ambevan",
+        "sangobion",
+        "andalan laktasi",
+        "genalten",
+        "dexaharsen 0,75",
+        "antimo",
+        "ponstan",
+        "dexanta",
+        "dexaharsen 0,5",
+        "decolsin",
+        "demacolin",
+        "voltaren 50 mg",
+        "vosiden",
+        "imbost tab",
+        "nellco anak",
+        "pamol tab",
+        "minyak telon lang"
+  }
+  {
+        "cataflam 25 mg",
+        "tolak angin",
+        "bodrex extra",
+        "salbutamol sirup",
+        "permen tolak angin",
+        "dexycol",
+        "dumin",
+        "obp",
+        "kapsida",
+        "neopachin",
+        "vicks inhaler",
+        "ponstelex",
+        "orphen",
+        "alofar 100mg",
+        "counterpain 5gr",
+        "nellco anak",
+        "kolnicol",
+        "methylprednisolone 4 mg",
+        "melofieem 15mg",
+        "dulcolax",
+        "hot crem aroma terapi",
+        "hufagrip flu",
+        "koyo cabe",
+        "santaflam",
+        "ambevan",
+        "rifampicin 450 mg",
+        "vicks vaporub",
+        "pamol",
+        "biomag",
+        "allopurinol",
+        "flocodex sirup",
+        "neorheumacy",
+        "decolsin",
+        "controxin",
+        "dexanta",
+        "grafadom",
+        "andalan laktasi",
+        "vicee",
+        "dexaharsen 0,75",
+        "voltadex",
+        "counterpain",
+        "andala",
+        "lorotadine",
+        "counterpain",
+        "gentamicin",
+        "demacolin",
+        "genalten",
+        "methylprednisolone",
+        "balsem geliga",
+        "zoralin",
+        "imbost tab",
+        "ibuprofen 400mg",
+        "kaditic",
+        "obh combi anak",
+        "pamol tab",
+        "obh combi anak",
+        "paramex",
+        "farsifen",
+        "coparcefin",
+        "sanmol tab",
+        "alkohol",
+        "piracatem 800mg",
+        "panadol hijau",
+        "tolak linu",
+        "bronsolvan",
+        "lasegar anak",
+        "protecid 100mg",
+        "oskadon sp",
+        "paramex",
+        "bodrek migra",
+        "mefinal 500",
+        "nufadol",
+        "arkevit c",
+        "winatin",
+        "kasa",
+        "nifedipine",
+        "hufamag plus tab",
+        "elroid",
+        "oskadon",
+        "gratazon",
+        "furosemide",
+        "bodrek migra",
+        "omperazole",
+        "volatren",
+        "rhemafar",
+        "minyak kayu putih",
+        "vit c1000",
+        "oskadon",
+        "freshcare",
+        "gratheos",
+        "paramex flu dan batuk",
+        "paracetamol",
+        "supertetra",
+        "samugor",
+        "alofar 300 mg",
+        "bronsolvon",
+        "neoudex",
+        "methyelprednisolon",
+        "minyak ikan",
+        "gralazp",
+        "sunmol tab",
+        "fargetik",
+        "nifedipine",
+        "nufadol",
+        "winatin",
+        "oskadon nyeri otot",
+        "oskadon sp",
+        "obh combi anak"
+  }
+  {
+        "hufamag plus tab",
+        "sanmol tab",
+        "minyak kayu putih",
+        "volatren",
+        "nufadol",
+        "paramex",
+        "panadol hijau",
+        "antangin",
+        "protecid 100mg",
+        "dextamin",
+        "rendinac",
+        "mefinal 500",
+        "sanmol drops tetes",
+        "bodrek migra",
+        "alugen 100 mg",
+        "mesol",
+        "kasa",
+        "kalpana",
+        "vit c1000",
+        "piracatem 800mg",
+        "bodrek migra",
+        "tolak linu",
+        "oskadon sp",
+        "omperazole",
+        "freshcare",
+        "hufamag plus tab",
+        "oskadon",
+        "mixlagin",
+        "bye bye fever",
+        "nifedipine",
+        "kuldon",
+        "oskadon",
+        "yusimox",
+        "renovit gold",
+        "rhemafar",
+        "procold flu",
+        "teosal",
+        "gratheos",
+        "lasegar anak",
+        "allopurinol  100",
+        "amoxcilin",
+        "alpora",
+        "gralazp",
+        "omeric",
+        "piracetem 800",
+        "lemason 4mg",
+        "dextem",
+        "pamol tab",
+        "balsem geliga",
+        "ibuprofen",
+        "hufagrip flu",
+        "cataflam 25 mg",
+        "bodrex extra",
+        "tolak angin",
+        "fasidol",
+        "molacort",
+        "permen tolak angin",
+        "dexycol",
+        "obp",
+        "salep 88",
+        "sabutamol",
+        "kolnicol",
+        "kapsida",
+        "ponstelex",
+        "orphen",
+        "hot crem aroma terapi",
+        "baraginol s",
+        "kejibeling",
+        "kaditic",
+        "koyo cabe",
+        "clindamycin",
+        "fresh care hot",
+        "caladine cream",
+        "vosiden",
+        "ponstan",
+        "sangobion",
+        "santaflam",
+        "flamar",
+        "neorheumacy",
+        "rifampicin 450 mg",
+        "genalten",
+        "divoltar",
+        "pamol",
+        "vicks vaporub",
+        "imbost tab",
+        "andalan laktasi",
+        "counterpain 5gr",
+        "dexaharsen 0,75",
+        "dexanta",
+        "biolysin tab",
+        "dulcolax",
+        "mesol",
+        "lorotadine",
+        "neurobion",
+        "vicee",
+        "counterpain",
+        "midiamer",
+        "becomc",
+        "hufagrip flu",
+        "methylprednisolone 4 mg",
+        "voltadex",
+        "ibuprofen 400mg",
+        "balsem geliga",
+        "dexaharsen 0,5 mg",
+        "vicks inhaler",
+        "ampera"
+  }
+  {
+        "microgin",
+        "lasegar anak",
+        "sanmol tab",
+        "mefinal 500",
+        "carbidu",
+        "kalpana",
+        "rendinac",
+        "mixagrip",
+        "farsifen",
+        "freshcare",
+        "dextamin",
+        "procold flu",
+        "alleron",
+        "kasa",
+        "mycoral salep",
+        "nufadol",
+        "spasminal",
+        "antangin",
+        "bronsolvan",
+        "fargetik",
+        "protecid 100mg",
+        "bodrek migra",
+        "alugen 100 mg",
+        "mixlagin",
+        "bodrek migra",
+        "winatin",
+        "samugor",
+        "microgimin",
+        "alletrol salep",
+        "nifedipine",
+        "oskadon",
+        "paracetamol",
+        "piracatem 800mg",
+        "bye bye fever",
+        "mylanta",
+        "vit c1000",
+        "paramex",
+        "rhemafar",
+        "oskadon",
+        "omperazole",
+        "amoxcilin",
+        "renovit gold",
+        "oskadon sp",
+        "minyak ikan",
+        "yusimox",
+        "neoudex",
+        "supertetra",
+        "omeric",
+        "alofar 300 mg",
+        "mefinal 500",
+        "metformin",
+        "antimo",
+        "midiamor",
+        "dextamin sirup",
+        "decolsin",
+        "cataflam 25 mg",
+        "salbutamol sirup",
+        "tolak angin",
+        "dumin",
+        "dexycol",
+        "permen tolak angin",
+        "silandex",
+        "salep 88",
+        "bodrex extra",
+        "hufagrip flu",
+        "sabutamol",
+        "obp",
+        "neopachin",
+        "alofar 100mg",
+        "orphen",
+        "kapsida",
+        "kalmethasone 0 5 mg",
+        "ponstelex",
+        "kolnicol",
+        "zoralin",
+        "methylprednisolone 4 mg",
+        "baraginol s",
+        "caviplex",
+        "koyo cabe",
+        "biomag",
+        "melofieem 15mg",
+        "metformin",
+        "voltadex",
+        "clindamycin",
+        "caladine cream",
+        "voltaren 50 mg",
+        "decolsin",
+        "sangobion",
+        "molacort",
+        "fresh care hot",
+        "pamol",
+        "allopurinol",
+        "vicks vaporub",
+        "neurobion",
+        "antimo",
+        "andala",
+        "alofar 100 mg",
+        "floxifar",
+        "alpara",
+        "vicks inhaler",
+        "obh combi anak",
+        "ampera"
+  }
+  {
+        "salbutamol sirup",
+        "tolak angin",
+        "bodrex extra",
+        "gentamicin",
+        "fasidol",
+        "silandex",
+        "dexycol",
+        "cataflam 25 mg",
+        "obp",
+        "ponstelex",
+        "ibuprofen 400mg",
+        "permen tolak angin",
+        "cauiplex",
+        "sabutamol",
+        "methylprednisolone 4 mg",
+        "salep 88",
+        "counterpain 5gr",
+        "koyo cabe",
+        "kalmethasone 0 5 mg",
+        "hot crem aroma terapi",
+        "citieizine",
+        "ambevan",
+        "omemox",
+        "baraginol s",
+        "grafadom",
+        "santaflam",
+        "alegri",
+        "imbost tab",
+        "decolsin",
+        "ponstan",
+        "antimo sirup",
+        "controxin",
+        "saridon extra",
+        "mesol",
+        "biolysin tab",
+        "vicks vaporub",
+        "caladine cream",
+        "becomc",
+        "neurobion",
+        "andalan laktasi",
+        "fresh care hot",
+        "dexaharsen 0,5",
+        "andala",
+        "meloxcam 15",
+        "demacolin",
+        "antimo",
+        "floxifar",
+        "dexaharsen 0,75",
+        "vicee",
+        "salbutamol",
+        "metformin",
+        "alofar 100 mg",
+        "hufagrip flu",
+        "counterpain",
+        "obh combi anak",
+        "paramex nyeri otot",
+        "minyak telon lang",
+        "sanmaol infus",
+        "lezin tab",
+        "dextem",
+        "faxiden 20mg",
+        "lasegar anak",
+        "coparcefin",
+        "dextamin",
+        "alletrol salep",
+        "antangin",
+        "rendinac",
+        "carbidu",
+        "kasa",
+        "bodrek migra",
+        "furosemide",
+        "alkohol",
+        "bronsolvan",
+        "oskadon nyeri otot",
+        "mefinal 500",
+        "lezin tab",
+        "arkevit c",
+        "sanmol tab",
+        "piracatem 800mg",
+        "bye bye fever",
+        "paramex",
+        "kalpana",
+        "winatin",
+        "omperazole",
+        "elroid",
+        "volatren",
+        "alleron",
+        "minyak kayu putih",
+        "fargetik",
+        "oskadon",
+        "oskadon",
+        "tolak linu",
+        "neoudex",
+        "vit c1000",
+        "utraflu",
+        "flasicox",
+        "nufadol",
+        "mylanta",
+        "renovit gold",
+        "spasminal",
+        "oskadon ex",
+        "allopurinol  100",
+        "alofar 300 mg",
+        "pirotdcm 10",
+        "hot cream",
+        "alergi",
+        "alofar 100",
+        "counterpain 120 ml",
+        "ibuprofen 400",
+        "omemox"
+  }
+  {
+        "alofar 100mg",
+        "tolak angin",
+        "bodrex extra",
+        "fasidol",
+        "dumin",
+        "salep 88",
+        "cauiplex",
+        "dexycol",
+        "cataflam 25 mg",
+        "obh combi anak",
+        "fasidol",
+        "permen tolak angin",
+        "ponstelex",
+        "neopachin",
+        "sabutamol",
+        "kaditic",
+        "obp",
+        "melofieem 15mg",
+        "koyo cabe",
+        "ibuprofen 400mg",
+        "citieizine",
+        "sangobion",
+        "biomag",
+        "kolnicol",
+        "neorheumacy",
+        "lorotadine",
+        "rifampicin 450 mg",
+        "grafadom",
+        "flamar",
+        "flocodex sirup",
+        "caladine cream",
+        "alofar 100 mg",
+        "floxifar",
+        "molacort",
+        "ponstan",
+        "genalten",
+        "biolysin tab",
+        "vicks vaporub",
+        "methylprednisolone",
+        "saridon extra",
+        "vosiden",
+        "alegri",
+        "meloxcam 15",
+        "dulcolax",
+        "midiamer",
+        "carbidu 0,5",
+        "hufagrip flu",
+        "counterpain",
+        "counterpain",
+        "nellco anak",
+        "balsem geliga",
+        "imbost tab",
+        "vicks inhaler",
+        "paramex nyeri otot",
+        "minyak telon lang",
+        "ampera",
+        "procoid flu",
+        "melexcim 15",
+        "renovit gold",
+        "farsifen",
+        "hufamag plus tab",
+        "lasegar anak",
+        "oskadon nyeri otot",
+        "mixagrip",
+        "kasa",
+        "furosemide",
+        "bye bye fever",
+        "sanmol drops tetes",
+        "spasminal",
+        "rendinac",
+        "bronsolvan",
+        "alugen 100 mg",
+        "panadol hijau",
+        "elroid",
+        "tolak linu",
+        "volatren",
+        "alleron",
+        "mycoral salep",
+        "minyak kayu putih",
+        "bodrek migra",
+        "kalpana",
+        "piracatem 800mg",
+        "paramex",
+        "antangin",
+        "nifedipine",
+        "oskadon",
+        "omperazole",
+        "paracetamol",
+        "amoxcilin",
+        "gratazon",
+        "fargetik",
+        "renovit gold",
+        "arkevit c",
+        "oskadon sp",
+        "omeric",
+        "sanmol tab",
+        "otede",
+        "oskadon",
+        "mixlagin",
+        "protecid 100mg",
+        "vit c1000",
+        "bodrek migra",
+        "mefinal 500",
+        "ponstan",
+        "kaditic",
+        "carbidu 0,5",
+        "methyprednisolon 8",
+        "mediamor"
+  }
+  {
+        "cataflam 25 mg",
+        "salbutamol sirup",
+        "obp",
+        "tolak angin",
+        "salep 88",
+        "pamol tab",
+        "permen tolak angin",
+        "bodrex extra",
+        "ponstelex",
+        "kapsida",
+        "hufagrip flu",
+        "dexycol",
+        "neopachin",
+        "fresh care hot",
+        "methylprednisolone 4 mg",
+        "counterpain 5gr",
+        "koyo cabe",
+        "meloxcam 15",
+        "sangobion",
+        "flamar",
+        "hot crem aroma terapi",
+        "rifampicin 450 mg",
+        "ambevan",
+        "clindamycin",
+        "biomag",
+        "baraginol s",
+        "antimo",
+        "voltaren 50 mg",
+        "mesol",
+        "molacort",
+        "kolnicol",
+        "vicks vaporub",
+        "ponstan",
+        "metformin",
+        "divoltar",
+        "lorotadine",
+        "alegri",
+        "floxifar",
+        "gentamicin",
+        "counterpain",
+        "hufagrip flu",
+        "ibuprofen 400mg",
+        "vicks inhaler",
+        "balsem geliga",
+        "minyak telon lang",
+        "sanmaol infus",
+        "farosemide",
+        "nifedipine",
+        "mefinal 500",
+        "oskadon",
+        "gralazp",
+        "rendinac",
+        "mixagrip",
+        "spasminal",
+        "lasegar anak",
+        "oskadon nyeri otot",
+        "teosal",
+        "lezin tab",
+        "kasa",
+        "omperazole",
+        "sanmol drops tetes",
+        "bodrek migra",
+        "renovit gold",
+        "hot cream",
+        "hufamag plus tab",
+        "antangin",
+        "sanmol tab",
+        "alugen 100 mg",
+        "oskadon sp",
+        "paramex",
+        "freshcare",
+        "microgimin",
+        "mesol",
+        "bye bye fever",
+        "protecid 100mg",
+        "dextem",
+        "kalpana",
+        "utraflu",
+        "paracetamol",
+        "amoxcilin",
+        "bronsolvan",
+        "mylanta",
+        "copal",
+        "bodrek migra",
+        "vit c1000",
+        "mixagrip",
+        "flamar",
+        "gratheos",
+        "flasicox",
+        "voltaren",
+        "salbutamol",
+        "gentamicin",
+        "mesola",
+        "melocort 0,75mg",
+        "vosiden"
+  }
+  {
+        "counterpaint 5 ml",
+        "bye bye fever",
+        "vit c1000",
+        "dextamin",
+        "hot cream",
+        "panadol hijau",
+        "spasminal",
+        "omperazole",
+        "yusimox",
+        "alkohol",
+        "mixagrip",
+        "copal",
+        "oskadon",
+        "winatin",
+        "oskadon nyeri otot",
+        "kasa",
+        "antangin",
+        "sanmol drops tetes",
+        "protecid 100mg",
+        "procold flu",
+        "kalpana",
+        "neoudex",
+        "freshcare",
+        "alletrol salep",
+        "omperazole",
+        "lasegar anak",
+        "bodrek migra",
+        "bodrek migra",
+        "carbidu",
+        "paramex",
+        "nufadol",
+        "dextem",
+        "coparcefin",
+        "utraflu",
+        "allopurinol  100",
+        "arkevit c",
+        "fargetik",
+        "piracatem 800mg",
+        "cinolon",
+        "vicks vaporup",
+        "alpora",
+        "paracetamol",
+        "alofar 300 mg",
+        "renovit gold",
+        "caviplex",
+        "gratazon",
+        "sanmol tab",
+        "minyak ikan",
+        "nice",
+        "neurobin",
+        "demacolin",
+        "dulcolax",
+        "kapsida",
+        "salbutamol sirup",
+        "tolak angin",
+        "bodrex extra",
+        "fasidol",
+        "obp",
+        "dexycol",
+        "permen tolak angin",
+        "dumin",
+        "cataflam 25 mg",
+        "neopachin",
+        "salep 88",
+        "ponstelex",
+        "caviplex",
+        "sabutamol",
+        "counterpain 5gr",
+        "kolnicol",
+        "kejibeling",
+        "pamol tab",
+        "demacolin",
+        "methylprednisolone 4 mg",
+        "flocodex sirup",
+        "kalmethasone 0 5 mg",
+        "hot crem aroma terapi",
+        "baraginol s",
+        "alofar 100mg",
+        "antimo sirup",
+        "koyo cabe",
+        "melofieem 15mg",
+        "hufagrip flu",
+        "ambevan",
+        "neorheumacy",
+        "dextamin sirup",
+        "gentamicin",
+        "vicks vaporub",
+        "counterpain",
+        "santaflam",
+        "pamol",
+        "andalan laktasi",
+        "grafadom",
+        "voltadex",
+        "vicee",
+        "dulcolax",
+        "ponstan",
+        "neurobion",
+        "biolysin tab",
+        "cooling",
+        "becomc",
+        "voltaren 50 mg",
+        "antimo",
+        "metformin",
+        "vicks formula 44",
+        "fresh care hot",
+        "floxifar",
+        "methylprednisolone 4 mg",
+        "alofar 100 mg",
+        "alpara",
+        "nellco anak",
+        "obh combi anak",
+        "minyak telon lang",
+        "sanmaol infus"
+  }
+  {
+        "vicks formula 44",
+        "freshcare",
+        "panadol hijau",
+        "farsifen",
+        "oskadon sp",
+        "elroid",
+        "alletrol salep",
+        "paracetamol",
+        "dextamin",
+        "kasa",
+        "dextem",
+        "samugor",
+        "tolak linu",
+        "bodrek migra",
+        "furosemide",
+        "mesol",
+        "protecid 100mg",
+        "piracatem 800mg",
+        "paramex",
+        "mycoral salep",
+        "oskadon",
+        "bye bye fever",
+        "winatin",
+        "amoxcilin",
+        "bodrek migra",
+        "utraflu",
+        "oskadon",
+        "lasegar anak",
+        "allopurinol  100",
+        "omperazole",
+        "vit c1000",
+        "mylanta",
+        "rendinac",
+        "yusimox",
+        "fargetik",
+        "teosal",
+        "gratazon",
+        "flamar",
+        "supertetra",
+        "alofar 300 mg",
+        "clindamycin",
+        "antimo sirup",
+        "kapasida",
+        "kolnicol",
+        "ponstelex",
+        "obp",
+        "cataflam 25 mg",
+        "sabutamol",
+        "salep 88",
+        "tolak angin",
+        "silandex",
+        "bodrex extra",
+        "obh combi anak",
+        "permen tolak angin",
+        "vicks inhaler",
+        "alofar 100mg",
+        "kapsida",
+        "ponstelex",
+        "hufagrip flu",
+        "koyo cabe",
+        "controxin",
+        "grafadom",
+        "antimo",
+        "gentamicin",
+        "antimo sirup",
+        "clindamycin",
+        "dexaharsen 0,75",
+        "santaflam",
+        "decolsin",
+        "biolysin tab",
+        "sangobion",
+        "metformin",
+        "lorotadine",
+        "caviplex",
+        "pamol",
+        "dexanta",
+        "biomag",
+        "divoltar",
+        "andala",
+        "mesol",
+        "vosiden",
+        "vicks formula 44",
+        "counterpain",
+        "dextamin sirup",
+        "becomc",
+        "alegri",
+        "vicee",
+        "midiamer",
+        "salbutamol",
+        "counterpain",
+        "methylprednisolone 4 mg",
+        "imbost tab",
+        "voltadex",
+        "omemox",
+        "dexaharsen 0,5 mg",
+        "pamol tab",
+        "minyak telon lang",
+        "ampera"
+  }
+  {
+        "sanmol infus",
+        "lasegar anak",
+        "omperazole",
+        "bronsolvan",
+        "lezin tab",
+        "mixagrip",
+        "piracatem 800mg",
+        "panadol hijau",
+        "spasminal",
+        "antangin",
+        "kasa",
+        "alletrol salep",
+        "oskadon sp",
+        "arkevit c",
+        "oskadon nyeri otot",
+        "renovit gold",
+        "protecid 100mg",
+        "sanmol drops tetes",
+        "tolak linu",
+        "bodrek migra",
+        "oskadon",
+        "volatren 50 mg",
+        "bye bye fever",
+        "carbidu",
+        "alletrol salep",
+        "microgimin",
+        "bodrek migra",
+        "paramex",
+        "minyak kayu putih",
+        "neoudex",
+        "nifedipine",
+        "kalpana",
+        "nufadol",
+        "vit c1000",
+        "dextem",
+        "cargesik",
+        "oskadon",
+        "utraflu",
+        "gratheos",
+        "melexcim 15",
+        "allopurinol  100",
+        "paracetamol",
+        "vicks vaporup",
+        "silandex",
+        "cauiplex",
+        "obp",
+        "permen tolak angin",
+        "cataflam 25 mg",
+        "sabutamol",
+        "silandex",
+        "obp",
+        "tolak angin",
+        "cauiplex",
+        "dexycol",
+        "paramex nyeri otot",
+        "permen tolak angin",
+        "counterpain 5gr",
+        "kolnicol",
+        "neopachin",
+        "hot crem aroma terapi",
+        "omemox",
+        "kapsida",
+        "alofar 100mg",
+        "koyo cabe",
+        "carbidu 0,5",
+        "melofieem 15mg",
+        "grafadom",
+        "bodrex extra",
+        "baraginol s",
+        "ambevan",
+        "neorheumacy",
+        "allopurinol",
+        "biomag",
+        "kalmethasone 0 5 mg",
+        "gentamicin",
+        "dexanta",
+        "hufagrip flu",
+        "citieizine",
+        "vicks vaporub",
+        "biolysin tab",
+        "alofar 100 mg",
+        "flamar",
+        "lorotadine",
+        "voltadex",
+        "ponstan",
+        "genalten",
+        "neurobion",
+        "antimo",
+        "fasidol",
+        "balsem geliga",
+        "fresh care hot",
+        "voltaren 50 mg",
+        "vicks formula 44",
+        "ibuprofen 400mg",
+        "nellco anak",
+        "kaditic",
+        "vicks inhaler",
+        "pamol tab",
+        "sanmaol infus"
+  }
+  {
+        "sabutamol",
+        "fasidol",
+        "silandex",
+        "salep 88",
+        "cauiplex",
+        "dexycol",
+        "cataflam 25 mg",
+        "tolak angin",
+        "pamol tab",
+        "obp",
+        "genalten",
+        "ponstelex",
+        "neopachin",
+        "antimo sirup",
+        "ibuprofen 400mg",
+        "permen tolak angin",
+        "hot crem aroma terapi",
+        "nellco anak",
+        "kalmethasone 0 5 mg",
+        "neorheumacy",
+        "dexaharsen 0,5",
+        "koyo cabe",
+        "biomag",
+        "flocodex sirup",
+        "ambevan",
+        "biolysin tab",
+        "clindamycin",
+        "grafadom",
+        "methylprednisolone",
+        "mesol",
+        "flamar",
+        "rifampicin 450 mg",
+        "vicks vaporub",
+        "controxin",
+        "bodrex extra",
+        "antimo",
+        "dexanta",
+        "ponstan",
+        "neurobion",
+        "vosiden",
+        "hufagrip flu",
+        "andala",
+        "omemox",
+        "gentamicin",
+        "alpara",
+        "pamol",
+        "counterpain",
+        "imbost tab",
+        "dexaharsen 0,5 mg",
+        "kaditic",
+        "vicks inhaler",
+        "balsem geliga",
+        "obh combi anak",
+        "paramex nyeri otot",
+        "minyak telon lang",
+        "ampera",
+        "fasidol",
+        "bronsolvan",
+        "alleron",
+        "minyak kayu putih",
+        "spasminal",
+        "mesol",
+        "farsifen",
+        "lasegar anak",
+        "renovit gold",
+        "mefinal 500",
+        "omperazole",
+        "oskadon",
+        "mixagrip",
+        "oskadon nyeri otot",
+        "mixlagin",
+        "kasa",
+        "alugen 100 mg",
+        "antangin",
+        "oskadon sp",
+        "hot cream",
+        "bodrek migra",
+        "protecid 100mg",
+        "nifedipine",
+        "bye bye fever",
+        "bodrek migra",
+        "paramex",
+        "oskadon",
+        "omperazole",
+        "faxiden 20mg",
+        "dextem",
+        "vit c1000",
+        "samugor",
+        "freshcare",
+        "utraflu",
+        "melexcim 15",
+        "yusimox",
+        "panadol hijau",
+        "mylanta",
+        "alofar 300 mg",
+        "sanmol tab",
+        "omeric",
+        "gratheos",
+        "dexycol",
+        "ambeven",
+        "kolmetason"
+  }
+  {
+        "cataflam 25 mg",
+        "salbutamol sirup",
+        "melofieem 15mg",
+        "silandex",
+        "permen tolak angin",
+        "fasidol",
+        "tolak angin",
+        "dexycol",
+        "kapsida",
+        "obp",
+        "bodrex extra",
+        "ponstelex",
+        "paramex nyeri otot",
+        "obh combi anak",
+        "methylprednisolone 4 mg",
+        "sabutamol",
+        "kejibeling",
+        "salep 88",
+        "hot crem aroma terapi",
+        "meloxcam 15",
+        "ibuprofen 400mg",
+        "baraginol s",
+        "pamol",
+        "antimo sirup",
+        "hufagrip flu",
+        "koyo cabe",
+        "sangobion",
+        "grafadom",
+        "flamar",
+        "dulcolax",
+        "biolysin tab",
+        "vicee",
+        "ponstan",
+        "dexaharsen 0,75",
+        "omemox",
+        "lorotadine",
+        "metformin",
+        "dexaharsen 0,75",
+        "demacolin",
+        "caviplex",
+        "genalten",
+        "floxifar",
+        "alegri",
+        "antimo",
+        "midiamer",
+        "becomc",
+        "andala",
+        "alofar 100 mg",
+        "dexaharsen 0,5",
+        "allopurinol",
+        "voltaren 50 mg",
+        "nellco anak",
+        "voltadex",
+        "methylprednisolone 4 mg",
+        "alpara",
+        "imbost tab",
+        "kaditic",
+        "vicks inhaler",
+        "pamol tab",
+        "minyak telon lang",
+        "ampera",
+        "sagumor",
+        "voltaren",
+        "teosal",
+        "oskadon",
+        "bronsolvan",
+        "mefinal 500",
+        "mixagrip",
+        "furosemide",
+        "farsifen",
+        "carbidu",
+        "bye bye fever",
+        "mycoral salep",
+        "procold flu",
+        "kasa",
+        "minyak kayu putih",
+        "lasegar anak",
+        "alleron",
+        "antangin",
+        "bodrek migra",
+        "vit c1000",
+        "tolak linu",
+        "oskadon",
+        "winatin",
+        "kalpana",
+        "omperazole",
+        "paramex",
+        "samugor",
+        "carbidu 0,75 mg",
+        "neoudex",
+        "kuldon",
+        "vicks vaporup",
+        "cinolon",
+        "metilprednisolon",
+        "allopurinol  100",
+        "supertetra",
+        "renovit gold",
+        "panadol hijau",
+        "alpora",
+        "omeric",
+        "biogesic 500mg",
+        "becomc",
+        "divoltar",
+        "biolisyn tab"
+  }
+  {
+        "cataflam 25 mg",
+        "salbutamol sirup",
+        "fasidol",
+        "tolak angin",
+        "salep 88",
+        "obh combi anak",
+        "permen tolak angin",
+        "bodrex extra",
+        "dumin",
+        "obp",
+        "sabutamol",
+        "kapsida",
+        "neopachin",
+        "kolnicol",
+        "ponstelex",
+        "balsem geliga",
+        "fresh care hot",
+        "alofar 100mg",
+        "koyo cabe",
+        "pamol",
+        "sangobion",
+        "ambevan",
+        "dextamin sirup",
+        "alofar 100 mg",
+        "lorotadine",
+        "rifampicin 450 mg",
+        "clindamycin",
+        "decolsin",
+        "santaflam",
+        "andala",
+        "dexanta",
+        "dexaharsen 0,75",
+        "vicee",
+        "biomag",
+        "dulcolax",
+        "biolysin tab",
+        "vicks vaporub",
+        "demacolin",
+        "antimo",
+        "caviplex",
+        "midiamer",
+        "allopurinol",
+        "gentamicin",
+        "counterpain",
+        "alpara",
+        "metformin",
+        "vosiden",
+        "voltaren 50 mg",
+        "vicks formula 44",
+        "salbutamol",
+        "counterpain",
+        "floxifar",
+        "carbidu 0,5",
+        "methylprednisolone 4 mg",
+        "alegri",
+        "omemox",
+        "vicks inhaler",
+        "pamol tab",
+        "ampera",
+        "vice",
+        "sanmol drops tetes",
+        "bye bye fever",
+        "bodrek migra",
+        "spasminal",
+        "renovit gold",
+        "alofar 300 mg",
+        "mixagrip",
+        "alleron",
+        "bodrek migra",
+        "bronsolvan",
+        "minyak kayu putih",
+        "minyak ikan",
+        "dextem",
+        "oskadon nyeri otot",
+        "alletrol salep",
+        "sanmol tab",
+        "alugen 100 mg",
+        "kasa",
+        "kalpana",
+        "utraflu",
+        "oskadon sp",
+        "oskadon",
+        "lasegar anak",
+        "lezin tab",
+        "paramex",
+        "mixlagin",
+        "yusimox",
+        "freshcare",
+        "vit c1000",
+        "paramex flu dan batuk",
+        "tolak linu",
+        "melexcim 15",
+        "allopurinol  100",
+        "amoxcilin",
+        "vicks vaporup",
+        "dextamin",
+        "paracetamol",
+        "nufadol",
+        "supertetra",
+        "loratadine",
+        "dexanta",
+        "detehersen 0,75",
+        "andala laktasi"
+  }
+  {
+        "voltaren",
+        "farsifen",
+        "spasminal",
+        "oskadon sp",
+        "bye bye fever",
+        "mixagrip",
+        "renovit gold",
+        "omperazole",
+        "hufamag plus tab",
+        "kuldon",
+        "lasegar anak",
+        "oskadon nyeri otot",
+        "carbidu",
+        "alugen 100 mg",
+        "nifedipine",
+        "yusimox",
+        "kasa",
+        "piracatem 800mg",
+        "bronsolvan",
+        "furosemide",
+        "winatin",
+        "faxiden 20mg",
+        "oskadon",
+        "mycoral salep",
+        "paramex",
+        "freshcare",
+        "samugor",
+        "arkevit c",
+        "neoudex",
+        "coparcefin",
+        "amoxcilin",
+        "bodrek migra",
+        "paramex flu dan batuk",
+        "utraflu",
+        "vit c1000",
+        "oskadon",
+        "panadol hijau",
+        "antangin",
+        "sanmol tab",
+        "hot cream",
+        "bodrek migra",
+        "mylanta",
+        "melexcim 15",
+        "pamol tab",
+        "kejibeling",
+        "cataflam 25mg",
+        "bodrex extra",
+        "salep 88",
+        "cauiplex",
+        "cataflam 25 mg",
+        "obp",
+        "balsem geliga",
+        "permen tolak angin",
+        "dumin",
+        "counterpain 5gr",
+        "neopachin",
+        "alofar 100mg",
+        "tolak angin",
+        "kejibeling",
+        "hot crem aroma terapi",
+        "ambevan",
+        "baraginol s",
+        "antimo",
+        "ponstelex",
+        "ibuprofen 400mg",
+        "antimo sirup",
+        "alofar 100 mg",
+        "controxin",
+        "rifampicin 450 mg",
+        "meloxcam 15",
+        "grafadom",
+        "clindamycin",
+        "koyo cabe",
+        "flamar",
+        "vicks vaporub",
+        "sangobion",
+        "santaflam",
+        "flocodex sirup",
+        "imbost tab",
+        "gentamicin",
+        "fresh care hot",
+        "ponstan",
+        "biolysin tab",
+        "dexaharsen 0,75",
+        "dexaharsen 0,5",
+        "caviplex",
+        "decolsin",
+        "dextamin sirup",
+        "voltaren 50 mg",
+        "metformin",
+        "salbutamol",
+        "vicks formula 44",
+        "counterpain",
+        "mesol",
+        "alpara",
+        "lorotadine",
+        "alegri",
+        "hufagrip flu",
+        "methylprednisolone",
+        "nellco anak",
+        "obh combi anak",
+        "pamol tab",
+        "sanmaol infus"
+  }
+  {
+        "methypredisolom 4 mg",
+        "voltaren",
+        "farsifen",
+        "alleron",
+        "spasminal",
+        "mycoral salep",
+        "panadol hijau",
+        "teosal",
+        "omperazole",
+        "kasa",
+        "antangin",
+        "winatin",
+        "microgimin",
+        "oskadon nyeri otot",
+        "oskadon",
+        "paramex",
+        "protecid 100mg",
+        "oskadon sp",
+        "lasegar anak",
+        "mixagrip",
+        "bye bye fever",
+        "metilprednisolon",
+        "bodrek migra",
+        "minyak kayu putih",
+        "minyak ikan",
+        "carbidu 0,75 mg",
+        "allopurinol  100",
+        "bodrek migra",
+        "vit c1000",
+        "hot cream",
+        "carbidu",
+        "melexcim 15",
+        "amoxcilin",
+        "paracetamol",
+        "alofar 300 mg",
+        "gralazp",
+        "flocadex sirup",
+        "grafadom",
+        "baraginol s",
+        "obh combi anak",
+        "sabutamol",
+        "fasidol",
+        "salep 88",
+        "cataflam 25 mg",
+        "cauiplex",
+        "ponstelex",
+        "obp",
+        "permen tolak angin",
+        "neopachin",
+        "dumin",
+        "methylprednisolone 4 mg",
+        "bodrex extra",
+        "tolak angin",
+        "kapsida",
+        "kejibeling",
+        "counterpain 5gr",
+        "hot crem aroma terapi",
+        "balsem geliga",
+        "koyo cabe",
+        "clindamycin",
+        "baraginol s",
+        "lorotadine",
+        "antimo sirup",
+        "counterpain",
+        "controxin",
+        "ambevan",
+        "neorheumacy",
+        "grafadom",
+        "pamol",
+        "midiamer",
+        "baraginol s",
+        "dextamin sirup",
+        "flamar",
+        "rifampicin 450 mg",
+        "dulcolax",
+        "vicks vaporub",
+        "biolysin tab",
+        "flocodex sirup",
+        "vicks formula 44",
+        "molacort",
+        "dexaharsen 0,5",
+        "meloxcam 15",
+        "hufagrip flu",
+        "dexaharsen 0,75",
+        "ponstan",
+        "gentamicin",
+        "mesol",
+        "antimo",
+        "fresh care hot",
+        "caviplex",
+        "methylprednisolone",
+        "counterpain",
+        "alegri",
+        "salbutamol",
+        "alofar 100 mg",
+        "imbost tab",
+        "carbidu 0,5",
+        "alpara",
+        "pamol tab",
+        "paramex nyeri otot",
+        "santaflam",
+        "minyak telon lang",
+        "decolsin",
+        "minyak telon lang"
+  }
+  {
+        "carbidu 0,75 mg",
+        "oskadon",
+        "bronsolvan",
+        "alleron",
+        "paracetamol",
+        "mycoral salep",
+        "mylanta",
+        "omperazole",
+        "yusimox",
+        "mixagrip",
+        "renovit gold",
+        "kasa",
+        "bodrek migra",
+        "oskadon nyeri otot",
+        "bye bye fever",
+        "microgimin",
+        "rendinac",
+        "bodrek migra",
+        "lasegar anak",
+        "hufamag plus tab",
+        "antangin",
+        "dextamin",
+        "paramex flu dan batuk",
+        "mesol",
+        "hot cream",
+        "oskadon",
+        "mixlagin",
+        "piracatem 800mg",
+        "paramex",
+        "vit c1000",
+        "procold flu",
+        "omperazole",
+        "alofar 300 mg",
+        "allopurinol  100",
+        "fargetik",
+        "kuldon",
+        "flasicox",
+        "gratheos",
+        "megasonan",
+        "supertetra",
+        "sangabion",
+        "flamar",
+        "kalmethasone 0 5 mg",
+        "vicks vaporub",
+        "silandex",
+        "clindamycin",
+        "salbutamol sirup",
+        "tolak angin",
+        "cauiplex",
+        "fasidol",
+        "salep 88",
+        "cataflam 25 mg",
+        "vicks inhaler",
+        "permen tolak angin",
+        "omemox",
+        "dumin",
+        "hufagrip flu",
+        "dexaharsen 0,75",
+        "grafadom",
+        "caviplex",
+        "koyo cabe",
+        "biolysin tab",
+        "neorheumacy",
+        "biomag",
+        "alegri",
+        "andala",
+        "citieizine",
+        "molacort",
+        "dulcolax",
+        "decolsin",
+        "andalan laktasi",
+        "demacolin",
+        "becomc",
+        "meloxcam 15",
+        "flocodex sirup",
+        "vosiden",
+        "metformin",
+        "genalten",
+        "allopurinol",
+        "antimo",
+        "dextamin sirup",
+        "gentamicin",
+        "alpara",
+        "mesol",
+        "imbost tab",
+        "salbutamol",
+        "voltaren 50 mg",
+        "methylprednisolone 4 mg",
+        "ibuprofen 400mg",
+        "nellco anak",
+        "kaditic",
+        "pamol tab",
+        "obh combi anak",
+        "sanmaol infus"
+  }
+  {
+        "pamol tab",
+        "ponstelex",
+        "salbutamol sirup",
+        "obp",
+        "dexycol",
+        "bodrex extra",
+        "salep 88",
+        "silandex",
+        "fasidol",
+        "permen tolak angin",
+        "tolak angin",
+        "sabutamol",
+        "kapsida",
+        "cataflam 25 mg",
+        "alpara",
+        "kolnicol",
+        "counterpain 5gr",
+        "hot crem aroma terapi",
+        "kaditic",
+        "kejibeling",
+        "koyo cabe",
+        "neorheumacy",
+        "grafadom",
+        "flamar",
+        "citieizine",
+        "controxin",
+        "flocodex sirup",
+        "dexaharsen 0,75",
+        "vosiden",
+        "sangobion",
+        "counterpain",
+        "lorotadine",
+        "dulcolax",
+        "dextamin sirup",
+        "andala",
+        "demacolin",
+        "vicee",
+        "molacort",
+        "antimo",
+        "ibuprofen 400mg",
+        "gentamicin",
+        "fresh care hot",
+        "mesol",
+        "voltadex",
+        "metformin",
+        "methylprednisolone 4 mg",
+        "imbost tab",
+        "omemox",
+        "vicks inhaler",
+        "vicks formula 44",
+        "obh combi anak",
+        "minyak telon lang",
+        "ampera",
+        "genelten",
+        "nifedipine",
+        "yusimox",
+        "mixagrip",
+        "voltaren",
+        "lezin tab",
+        "omperazole",
+        "mefinal 500",
+        "spasminal",
+        "farsifen",
+        "oskadon nyeri otot",
+        "kasa",
+        "bodrek migra",
+        "nufadol",
+        "bronsolvan",
+        "antangin",
+        "sanmol drops tetes",
+        "winatin",
+        "kalpana",
+        "samugor",
+        "arkevit c",
+        "mixlagin",
+        "paramex flu dan batuk",
+        "sanmol tab",
+        "bodrek migra",
+        "omperazole",
+        "oskadon sp",
+        "oskadon",
+        "bye bye fever",
+        "protecid 100mg",
+        "metilprednisolon",
+        "hufamag plus tab",
+        "vit c1000",
+        "cinolon",
+        "minyak kayu putih",
+        "freshcare",
+        "alugen 100 mg",
+        "coparcefin",
+        "oskadon",
+        "fargetik",
+        "allopurinol  100",
+        "lasegar anak",
+        "melexcim 15",
+        "renovit gold",
+        "supertetra",
+        "paramex",
+        "panadol hijau",
+        "amoxcilin",
+        "alofar 300 mg",
+        "gralazp",
+        "neoribon",
+        "omeric",
+        "gratheos",
+        "ematornas",
+        "ponstan"
+  }
+  {
+        "dexsanta",
+        "spasminal",
+        "voltaren",
+        "dextem",
+        "alleron",
+        "mixlagin",
+        "teosal",
+        "minyak kayu putih",
+        "oskadon nyeri otot",
+        "bodrek migra",
+        "lasegar anak",
+        "antangin",
+        "paramex flu dan batuk",
+        "kasa",
+        "vit c1000",
+        "bodrek migra",
+        "bronsolvan",
+        "sanmol tab",
+        "kuldon",
+        "tolak linu",
+        "mycoral salep",
+        "elroid",
+        "protecid 100mg",
+        "minyak ikan",
+        "oskadon",
+        "fargetik",
+        "bye bye fever",
+        "yusimox",
+        "samugor",
+        "omperazole",
+        "paramex",
+        "utraflu",
+        "paracetamol",
+        "panadol hijau",
+        "detahersen 0,5mg",
+        "mylanta",
+        "oskadon",
+        "vicks vaporup",
+        "dextem",
+        "gralazp",
+        "supertetra",
+        "ponsrelax",
+        "obh combi anak",
+        "obp",
+        "cataflam 25 mg",
+        "dexycol",
+        "tolak angin",
+        "dumin",
+        "salep 88",
+        "permen tolak angin",
+        "cauiplex",
+        "omemox",
+        "alpara",
+        "fasidol",
+        "biolysin tab",
+        "bodrex extra",
+        "neopachin",
+        "dexaharsen 0,75",
+        "ambevan",
+        "demacolin",
+        "neurobion",
+        "allopurinol",
+        "controxin",
+        "koyo cabe",
+        "dexanta",
+        "dexaharsen 0,75",
+        "flamar",
+        "rifampicin 450 mg",
+        "dulcolax",
+        "ponstelex",
+        "ponstan",
+        "molacort",
+        "voltaren 50 mg",
+        "genalten",
+        "midiamer",
+        "becomc",
+        "gentamicin",
+        "mesol",
+        "dextamin sirup",
+        "meloxcam 15",
+        "antimo",
+        "vicks formula 44",
+        "salbutamol",
+        "fresh care hot",
+        "nellco anak",
+        "imbost tab",
+        "hufagrip flu",
+        "vicks inhaler",
+        "pamol tab",
+        "minyak telon lang",
+        "ampera"
+  }
+  {
+        "alofar 100mg",
+        "methylprednisolone 4 mg",
+        "obh combi anak",
+        "tolak angin",
+        "permen tolak angin",
+        "kejibeling",
+        "cataflam 25 mg",
+        "obp",
+        "hot crem aroma terapi",
+        "kapsida",
+        "dexycol",
+        "sabutamol",
+        "kaditic",
+        "koyo cabe",
+        "voltadex",
+        "baraginol s",
+        "silandex",
+        "methylprednisolone",
+        "biomag",
+        "demacolin",
+        "ibuprofen 400mg",
+        "antimo sirup",
+        "flamar",
+        "vicks vaporub",
+        "grafadom",
+        "lorotadine",
+        "dexaharsen 0,5",
+        "ponstan",
+        "dexaharsen 0,75",
+        "sangobion",
+        "dexanta",
+        "ponstelex",
+        "decolsin",
+        "becomc",
+        "biolysin tab",
+        "dexaharsen 0,75",
+        "divoltar",
+        "vicks formula 44",
+        "meloxcam 15",
+        "caviplex",
+        "allopurinol",
+        "alpara",
+        "fresh care hot",
+        "vicee",
+        "mesol",
+        "imbost tab",
+        "nellco anak",
+        "alofar 100 mg",
+        "omemox",
+        "pamol tab",
+        "dexaharsen 0,5 mg",
+        "vicks inhaler",
+        "minyak telon lang",
+        "ampera",
+        "rifampicin 450",
+        "voltaren",
+        "procold flu",
+        "bye bye fever",
+        "dextem",
+        "coparcefin",
+        "oskadon",
+        "spasminal",
+        "oskadon nyeri otot",
+        "rendinac",
+        "bronsolvan",
+        "omperazole",
+        "hot cream",
+        "paramex",
+        "mycoral salep",
+        "omperazole",
+        "fargetik",
+        "kasa",
+        "protecid 100mg",
+        "oskadon",
+        "cargesik",
+        "samugor",
+        "lezin tab",
+        "elroid",
+        "alugen 100 mg",
+        "oskadon sp",
+        "minyak kayu putih",
+        "yusimox",
+        "renovit gold",
+        "vit c1000",
+        "sanmol tab",
+        "bodrek migra",
+        "kuldon",
+        "gratazon",
+        "mesol",
+        "nufadol",
+        "melexcim 15",
+        "lasegar anak",
+        "alofar 300 mg",
+        "amoxcilin",
+        "utraflu",
+        "panadol hijau",
+        "allopurinol  100",
+        "copal",
+        "gralazp",
+        "mixagrip",
+        "nifedipine",
+        "voltadex",
+        "flamar",
+        "utraflu",
+        "saridon extara",
+        "methyipred 4mg"
+  }
+  {
+        "prolacta",
+        "alletrol salep",
+        "farsifen",
+        "oskadon sp",
+        "mixagrip",
+        "lasegar anak",
+        "elroid",
+        "omperazole",
+        "bye bye fever",
+        "minyak kayu putih",
+        "paramex",
+        "rendinac",
+        "kasa",
+        "spasminal",
+        "samugor",
+        "tolak linu",
+        "yusimox",
+        "kalpana",
+        "dextamin",
+        "vit c1000",
+        "paracetamol",
+        "teosal",
+        "procold flu",
+        "protecid 100mg",
+        "oskadon",
+        "microgimin",
+        "utraflu",
+        "sanmol drops tetes",
+        "sanmol tab",
+        "hufamag plus tab",
+        "metilprednisolon",
+        "hot cream",
+        "mylanta",
+        "alofar 300 mg",
+        "minyak ikan",
+        "freshcare",
+        "allopurinol  100",
+        "flasicox",
+        "panadol hijau",
+        "winatin",
+        "gralazp",
+        "fargetik",
+        "neopachin",
+        "anastan",
+        "mesola",
+        "genalten",
+        "cintroxin",
+        "koyo cabe",
+        "vicks inhaler",
+        "obp",
+        "permen tolak angin",
+        "fasidol",
+        "omemox",
+        "dexycol",
+        "bodrex extra",
+        "salbutamol sirup",
+        "tolak angin",
+        "salep 88",
+        "dumin",
+        "cataflam 25 mg",
+        "kolnicol",
+        "neopachin",
+        "alofar 100mg",
+        "baraginol s",
+        "alegri",
+        "kejibeling",
+        "salbutamol",
+        "fresh care hot",
+        "rifampicin 450 mg",
+        "dexaharsen 0,75",
+        "vicks vaporub",
+        "mesol",
+        "ponstan",
+        "dexanta",
+        "molacort",
+        "biolysin tab",
+        "midiamer",
+        "antimo sirup",
+        "genalten",
+        "clindamycin",
+        "becomc",
+        "andala",
+        "vosiden",
+        "antimo",
+        "methylprednisolone 4 mg",
+        "demacolin",
+        "vicks formula 44",
+        "alpara",
+        "controxin",
+        "dextamin sirup",
+        "alofar 100 mg",
+        "voltaren 50 mg",
+        "voltadex",
+        "pamol tab",
+        "kaditic",
+        "dexaharsen 0,5 mg",
+        "minyak telon lang",
+        "ampera"
+  }
+  {
+        "vicks inhaler",
+        "cauiplex",
+        "salbutamol sirup",
+        "andala",
+        "obp",
+        "permen tolak angin",
+        "salep 88",
+        "dexycol",
+        "dumin",
+        "fasidol",
+        "koyo cabe",
+        "bodrex extra",
+        "tolak angin",
+        "kolnicol",
+        "metformin",
+        "cataflam 25 mg",
+        "sabutamol",
+        "counterpain 5gr",
+        "kapsida",
+        "vosiden",
+        "santaflam",
+        "flamar",
+        "hot crem aroma terapi",
+        "clindamycin",
+        "lorotadine",
+        "sangobion",
+        "pamol tab",
+        "rifampicin 450 mg",
+        "biomag",
+        "gentamicin",
+        "vicks vaporub",
+        "ponstelex",
+        "grafadom",
+        "demacolin",
+        "divoltar",
+        "controxin",
+        "vicee",
+        "fresh care hot",
+        "dulcolax",
+        "ponstan",
+        "molacort",
+        "alegri",
+        "biolysin tab",
+        "obh combi anak",
+        "neurobion",
+        "minyak telon lang",
+        "ampera",
+        "dumin",
+        "allopurinol  100",
+        "volataren",
+        "oskadon",
+        "renovit gold",
+        "carbidu",
+        "hufamag plus tab",
+        "omperazole",
+        "mycoral salep",
+        "bye bye fever",
+        "alugen 100 mg",
+        "dextamin",
+        "microgimin",
+        "paramex",
+        "rendinac",
+        "yusimox",
+        "bodrek migra",
+        "elroid",
+        "oskadon sp",
+        "bodrek migra",
+        "tolak linu",
+        "lasegar anak",
+        "minyak ikan",
+        "vit c1000",
+        "omperazole",
+        "cargesik",
+        "lezin tab",
+        "winatin",
+        "teosal",
+        "gralazp",
+        "freshcare",
+        "hot cream",
+        "fargetik",
+        "antangin",
+        "kuldon",
+        "gratheos",
+        "counterpaint 5ml",
+        "supertetra",
+        "hot cream aroma terapi",
+        "chindamayan",
+        "mixlagin",
+        "omeric",
+        "proclat"
+  }
+  {
+        "meloxcam 15",
+        "antimo sirup",
+        "fasidol",
+        "silandex",
+        "obp",
+        "cauiplex",
+        "kolnicol",
+        "dexycol",
+        "neurobion",
+        "lorotadine",
+        "permen tolak angin",
+        "clindamycin",
+        "kejibeling",
+        "salep 88",
+        "sangobion",
+        "santaflam",
+        "minyak telon lang",
+        "grafadom",
+        "koyo cabe",
+        "ponstelex",
+        "pamol tab",
+        "obh combi anak",
+        "sabutamol",
+        "vicks inhaler",
+        "biolysin tab",
+        "methylprednisolone 4 mg",
+        "allopurinol",
+        "flamar",
+        "caviplex",
+        "dulcolax",
+        "vicks vaporub",
+        "kaditic",
+        "ibuprofen 400mg",
+        "ponstan",
+        "fresh care hot",
+        "nellco anak",
+        "omemox",
+        "andala",
+        "alpara",
+        "imbost tab",
+        "voltadex",
+        "counterpain",
+        "vicks formula 44",
+        "voltaren 50 mg",
+        "metformin",
+        "carbidu 0,5",
+        "antimo",
+        "dextamin sirup",
+        "gentamicin",
+        "becomc",
+        "molacort",
+        "vosiden",
+        "genalten",
+        "demacolin",
+        "controxin",
+        "flocodex sirup",
+        "methylprednisolone 4 mg",
+        "melofieem 15mg",
+        "cataflam 25 mg",
+        "tolak angin",
+        "bodrex extra",
+        "dumin",
+        "melafieen 15 mg",
+        "gralazp",
+        "oskadon",
+        "allopurinol  100",
+        "amoxcilin",
+        "omperazole",
+        "paracetamol",
+        "vit c1000",
+        "omperazole",
+        "alofar 300 mg",
+        "cargesik",
+        "spasminal",
+        "antangin",
+        "kol metason 0,5",
+        "yusimox",
+        "samugor",
+        "carbidu",
+        "kasa",
+        "paramex",
+        "bodrek migra",
+        "elroid",
+        "fargetik",
+        "lezin tab",
+        "oskadon sp",
+        "microgimin",
+        "orphen",
+        "cooling",
+        "caladine cream",
+        "farsifen",
+        "lasegar anak",
+        "coparcefin",
+        "mesol",
+        "minyak ikan",
+        "kuldon",
+        "oskadon",
+        "sanmol tab",
+        "paramex flu dan batuk",
+        "alleron",
+        "procold flu",
+        "protecid 100mg",
+        "oskadon nyeri otot"
+  }

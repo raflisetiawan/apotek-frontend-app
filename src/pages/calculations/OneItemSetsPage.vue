@@ -68,13 +68,17 @@ const handleCalculate = async () => {
   // setItemsWithSupport(response.data.frequentItemsets)
 
   try {
+    console.log(getTransactionPerDate);
+
     const response = await api.post('frequent/calculate-frequent', { transactions: getTransactionPerDate }, {
 
       headers: {
         Authorization: `Bearer ${qCookies.get('token')}`
       }
     })
-    setItemsWithSupport(response.data.frequentItemsets.itemsets)
+    console.log(response.data);
+
+    setItemsWithSupport(response.data.frequentItemsets)
     router.push({ name: 'OneItemSetsWithMinimumSupportPage' })
 
   } catch (error) {

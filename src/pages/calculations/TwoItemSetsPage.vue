@@ -15,7 +15,7 @@
           <tbody>
             <tr v-for="(item, index) in items" :key="index">
               <td class="text-left">{{ item.items.join(', ') }}</td>
-              <td class="text-center">{{ item.support }} %</td>
+              <td class="text-center">{{ item.support }} </td>
             </tr>
           </tbody>
         </q-markup-table>
